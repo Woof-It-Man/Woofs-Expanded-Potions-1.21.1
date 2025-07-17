@@ -1,7 +1,9 @@
 package net.woof.woofexpandedpotions;
 
+import net.woof.woofexpandedpotions.event.ModEvents;
 import net.woof.woofexpandedpotions.item.ModCreativeModeTabs;
 import net.woof.woofexpandedpotions.item.ModItems;
+import net.woof.woofexpandedpotions.potion.ModPotions;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -52,6 +54,7 @@ public class WoofExpandedPotions {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

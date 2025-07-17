@@ -19,6 +19,8 @@ public class ModCreativeModeTabs {
                         //Enrichers
                         output.accept(ModItems.ALCHEMICAL_ENRICHER);
                         output.accept(ModItems.SUPREME_STABILIZING_ENRICHER);
+                        output.accept(ModItems.DIAMOND_CARROT);
+                        output.accept(ModItems.ENCRUSTED_CARROT);
 
                         //Tonics
                         output.accept(ModItems.VITALITY_TONIC);

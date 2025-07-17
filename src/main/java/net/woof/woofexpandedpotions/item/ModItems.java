@@ -12,10 +12,10 @@ public class ModItems {
     //Enrichers
     public static final DeferredItem<Item> ALCHEMICAL_ENRICHER = ITEMS.register("alchemical_enricher", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SUPREME_STABILIZING_ENRICHER = ITEMS.register("supreme_stabilizing_enricher", () -> new Item(new Item.Properties()));
-
-    //Tonics
     public static final DeferredItem<Item> DIAMOND_CARROT = ITEMS.register("diamond_carrot", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ENCRUSTED_CARROT = ITEMS.register("encrusted_carrot", () -> new Item(new Item.Properties()));
+
+    //Tonics
     public static final DeferredItem<Item> VITALITY_TONIC = ITEMS.register("vitality_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> REJUVENATION_TONIC = ITEMS.register("rejuvenation_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NETHER_FIRE_TONIC = ITEMS.register("nether_fire_tonic", () -> new Item(new Item.Properties()));
