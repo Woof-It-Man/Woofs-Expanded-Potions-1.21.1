@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:alchemical_enricher"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "woofexpandedpotions:mining_powder"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:mining_tonic"
+  }
+}

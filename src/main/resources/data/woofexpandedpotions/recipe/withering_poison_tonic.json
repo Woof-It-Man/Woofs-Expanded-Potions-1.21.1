@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:alchemical_enricher"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:withering_poison_tonic"
+  }
+}

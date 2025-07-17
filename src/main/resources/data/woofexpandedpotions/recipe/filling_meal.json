@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    [
+      {
+        "item": "minecraft:cooked_beef"
+      },
+      {
+        "item": "minecraft:cooked_porkchop"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:cooked_mutton"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:cooked_chicken"
+      },
+      {
+        "item": "minecraft:cooked_rabbit"
+      }
+    ],
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:filling_meal"
+  }
+}

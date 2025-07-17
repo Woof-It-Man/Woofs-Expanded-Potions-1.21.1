@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:alchemical_enricher"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "woofexpandedpotions:flicker_powder"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:invisibility_tonic"
+  }
+}

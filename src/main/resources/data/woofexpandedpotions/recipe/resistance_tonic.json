@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:alchemical_enricher"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "woofexpandedpotions:resistance_powder"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:resistance_tonic"
+  }
+}

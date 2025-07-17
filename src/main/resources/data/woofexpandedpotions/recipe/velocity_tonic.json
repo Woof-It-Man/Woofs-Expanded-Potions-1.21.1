@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:alchemical_enricher"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    {
+      "item": "woofexpandedpotions:flicker_powder"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:velocity_tonic"
+  }
+}

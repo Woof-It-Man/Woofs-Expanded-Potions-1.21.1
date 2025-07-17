@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:duration_mix"
+    },
+    {
+      "item": "woofexpandedpotions:vitality_tonic"
+    },
+    {
+      "item": "minecraft:turtle_egg"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:ultra_duration_mix"
+  }
+}

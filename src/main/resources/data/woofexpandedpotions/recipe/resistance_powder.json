@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:turtle_helmet"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:resistance_powder"
+  }
+}

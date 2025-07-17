@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:vitality_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:velocity_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:rejuvenation_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:resistance_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:health_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:encrusted_carrot"
+    },
+    {
+      "item": "woofexpandedpotions:ultra_duration_mix"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:ultimate_enricher"
+  }
+}

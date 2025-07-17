@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:alchemical_enricher"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:tropical_fish"
+    },
+    {
+      "item": "woofexpandedpotions:breathing_powder"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:breathing_tonic"
+  }
+}

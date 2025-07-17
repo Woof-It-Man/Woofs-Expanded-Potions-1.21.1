@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "D": {
+      "item": "woofexpandedpotions:diamond_carrot"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "EEN",
+    "EDE",
+    "EEE"
+  ],
+  "result": {
+    "item": "woofexpandedpotions:encrusted_carrot"
+  }
+}

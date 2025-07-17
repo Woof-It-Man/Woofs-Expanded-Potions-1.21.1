@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "woofexpandedpotions:filling_meal"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:tropical_fish"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:duration_mix"
+  }
+}

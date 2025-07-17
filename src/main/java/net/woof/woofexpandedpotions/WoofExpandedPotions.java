@@ -1,5 +1,6 @@
 package net.woof.woofexpandedpotions;
 
+import net.woof.woofexpandedpotions.item.ModCreativeModeTabs;
 import net.woof.woofexpandedpotions.item.ModItems;
 import org.slf4j.Logger;
 
@@ -48,6 +49,8 @@ public class WoofExpandedPotions {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -64,44 +67,7 @@ public class WoofExpandedPotions {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            //Enrichers
-            event.accept(ModItems.ALCHEMICAL_ENRICHER);
-            event.accept(ModItems.SUPREME_STABILIZING_ENRICHER);
 
-            //Tonics
-            event.accept(ModItems.VITALITY_TONIC);
-            event.accept(ModItems.REJUVENATION_TONIC);
-            event.accept(ModItems.NETHER_FIRE_TONIC);
-            event.accept(ModItems.VELOCITY_TONIC);
-            event.accept(ModItems.TORPIDITY_TONIC);
-            event.accept(ModItems.MINING_TONIC);
-            event.accept(ModItems.HEALTH_TONIC);
-            event.accept(ModItems.MIDNIGHT_TONIC);
-            event.accept(ModItems.INVISIBILITY_TONIC);
-            event.accept(ModItems.RESISTANCE_TONIC);
-            event.accept(ModItems.LIGHT_FALL_TONIC);
-            event.accept(ModItems.BREATHING_TONIC);
-            event.accept(ModItems.WITHERING_POISON_TONIC);
-
-            //Powders
-            event.accept(ModItems.VITALITY_POWDER);
-            event.accept(ModItems.REGENERATIVE_POWDER);
-            event.accept(ModItems.NETHER_FIRE_POWDER);
-            event.accept(ModItems.FLICKER_POWDER);
-            event.accept(ModItems.MINING_POWDER);
-            event.accept(ModItems.MIDNIGHT_POWDER);
-            event.accept(ModItems.INVISIBILITY_POWDER);
-            event.accept(ModItems.RESISTANCE_POWDER);
-            event.accept(ModItems.LIGHT_FALL_POWDER);
-            event.accept(ModItems.BREATHING_POWDER);
-            event.accept(ModItems.CORRUPTED_POWDER);
-
-            //Duration Mixes
-            event.accept(ModItems.DURATION_MIX);
-            event.accept(ModItems.ULTRA_DURATION_MIX);
-
-            //Food
-            event.accept(ModItems.FILLING_MEAL);
         }
     }
 

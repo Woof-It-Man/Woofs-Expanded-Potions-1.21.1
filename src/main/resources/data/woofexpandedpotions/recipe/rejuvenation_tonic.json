@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:alchemical_enricher"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "woofexpandedpotions:regenerative_powder"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:rejuvenation_tonic"
+  }
+}

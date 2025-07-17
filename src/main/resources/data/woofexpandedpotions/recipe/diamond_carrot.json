@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "woofexpandedpotions:diamond_carrot"
+  }
+}

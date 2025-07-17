@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:light_fall_powder"
+  }
+}

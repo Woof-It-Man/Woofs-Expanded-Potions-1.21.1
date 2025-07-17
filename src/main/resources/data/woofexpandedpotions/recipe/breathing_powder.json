@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bubble_coral"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "item": "minecraft:sponge"
+    },
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:breathing_powder"
+  }
+}
