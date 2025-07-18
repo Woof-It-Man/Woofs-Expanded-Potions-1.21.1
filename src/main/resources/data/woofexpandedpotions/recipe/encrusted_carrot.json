@@ -10,12 +10,15 @@
     },
     "N": {
       "item": "minecraft:netherite_scrap"
+    },
+    "X": {
+      "item": "minecraft:experience_bottle"
     }
   },
   "pattern": [
     "EEN",
     "EDE",
-    "EEE"
+    "XEE"
   ],
   "result": {
     "id": "woofexpandedpotions:encrusted_carrot"
