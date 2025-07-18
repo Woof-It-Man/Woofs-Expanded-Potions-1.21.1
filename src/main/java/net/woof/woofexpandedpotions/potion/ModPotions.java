@@ -35,8 +35,8 @@ public class ModPotions {
     public static final Holder<Potion> EVERLASTING_FIRE_RESISTANCE_POTION = POTIONS.register("everlasting_fire_resistance_potion", () -> new Potion(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 36000, 0)));
 
     public static final Holder<Potion> FULL_SWIFTNESS_POTION = POTIONS.register("full_swiftness_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 1)));
-    public static final Holder<Potion> POTENT_SWIFTNESS_POTION = POTIONS.register("potent_swiftness_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 2)));
-    public static final Holder<Potion> SUPREME_SWIFTNESS_POTION = POTIONS.register("supreme_swiftness_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 3)));
+    public static final Holder<Potion> POTENT_SWIFTNESS_POTION = POTIONS.register("potent_swiftness_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 3)));
+    public static final Holder<Potion> SUPREME_SWIFTNESS_POTION = POTIONS.register("supreme_swiftness_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 7)));
     public static final Holder<Potion> EVERLASTING_SWIFTNESS_POTION = POTIONS.register("everlasting_swiftness_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 36000, 1)));
 
     public static final Holder<Potion> FULL_LEAPING_POTION = POTIONS.register("full_leaping_potion", () -> new Potion(new MobEffectInstance(MobEffects.JUMP, 3600, 1)));
@@ -51,21 +51,21 @@ public class ModPotions {
 
     public static final Holder<Potion> FULL_POISON_POTION = POTIONS.register("full_poison_potion", () -> new Potion(new MobEffectInstance(MobEffects.POISON, 700, 1)));
     public static final Holder<Potion> POTENT_POISON_POTION = POTIONS.register("potent_poison_potion", () -> new Potion(new MobEffectInstance(MobEffects.POISON, 700, 2)));
-    public static final Holder<Potion> SUPREME_POISON_POTION = POTIONS.register("supreme_poison_potion", () -> new Potion(new MobEffectInstance(MobEffects.POISON, 700, 3)));
+    public static final Holder<Potion> SUPREME_POISON_POTION = POTIONS.register("supreme_poison_potion", () -> new Potion(new MobEffectInstance(MobEffects.POISON, 700, 5)));
     public static final Holder<Potion> EVERLASTING_POISON_POTION = POTIONS.register("everlasting_poison_potion", () -> new Potion(new MobEffectInstance(MobEffects.POISON, 9600, 1)));
 
-    public static final Holder<Potion> POTENT_HARMING_POTION = POTIONS.register("potent_harming_potion", () -> new Potion(new MobEffectInstance(MobEffects.HARM, 2, 2)));
+    public static final Holder<Potion> POTENT_HARMING_POTION = POTIONS.register("potent_harming_potion", () -> new Potion(new MobEffectInstance(MobEffects.HARM, 2, 3)));
 
     public static final Holder<Potion> EVERLASTING_WEAKNESS_POTION = POTIONS.register("everlasting_weakness_potion", () -> new Potion(new MobEffectInstance(MobEffects.WEAKNESS, 18000, 0)));
 
     //Same as resistance; no mining potion
-    public static final Holder<Potion> MINING_POTION = POTIONS.register("mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 0)));
-    public static final Holder<Potion> LONG_MINING_POTION = POTIONS.register("long_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 9600, 0)));
-    public static final Holder<Potion> STRONG_MINING_POTION = POTIONS.register("strong_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 1800, 1)));
-    public static final Holder<Potion> FULL_MINING_POTION = POTIONS.register("full_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 1)));
-    public static final Holder<Potion> POTENT_MINING_POTION = POTIONS.register("potent_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 2)));
-    public static final Holder<Potion> SUPREME_MINING_POTION = POTIONS.register("supreme_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 3)));
-    public static final Holder<Potion> EVERLASTING_MINING_POTION = POTIONS.register("everlasting_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 36000, 1)));
+    public static final Holder<Potion> MINING_POTION = POTIONS.register("mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 6000, 0)));
+    public static final Holder<Potion> LONG_MINING_POTION = POTIONS.register("long_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 0)));
+    public static final Holder<Potion> STRONG_MINING_POTION = POTIONS.register("strong_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 1)));
+    public static final Holder<Potion> FULL_MINING_POTION = POTIONS.register("full_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 1)));
+    public static final Holder<Potion> POTENT_MINING_POTION = POTIONS.register("potent_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 2)));
+    public static final Holder<Potion> SUPREME_MINING_POTION = POTIONS.register("supreme_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3)));
+    public static final Holder<Potion> EVERLASTING_MINING_POTION = POTIONS.register("everlasting_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 72000, 1)));
 
     public static final Holder<Potion> EVERLASTING_NIGHT_VISION_POTION = POTIONS.register("everlasting_night_vision_potion", () -> new Potion(new MobEffectInstance(MobEffects.INVISIBILITY, 36000, 0)));
 
@@ -75,13 +75,13 @@ public class ModPotions {
 
     public static final Holder<Potion> EVERLASTING_WATER_BREATHING_POTION = POTIONS.register("everlasting_water_breathing_potion", () -> new Potion(new MobEffectInstance(MobEffects.WATER_BREATHING, 36000, 0)));
 
-    public static final Holder<Potion> POTENT_HEALING_POTION = POTIONS.register("potent_healing_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 2, 2)));
-    public static final Holder<Potion> POTENT_REJUVENATION_POTION = POTIONS.register("potent_rejuvenation_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 2, 2), new MobEffectInstance(MobEffects.REGENERATION, 1200, 2)));
-    public static final Holder<Potion> SUPREME_REJUVENATION_POTION = POTIONS.register("supreme_rejuvenation_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 2, 2), new MobEffectInstance(MobEffects.REGENERATION, 1500, 3)));
+    public static final Holder<Potion> POTENT_HEALING_POTION = POTIONS.register("potent_healing_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 1, 3)));
+    public static final Holder<Potion> POTENT_REJUVENATION_POTION = POTIONS.register("potent_rejuvenation_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 1, 3), new MobEffectInstance(MobEffects.REGENERATION, 1200, 2)));
+    public static final Holder<Potion> SUPREME_REJUVENATION_POTION = POTIONS.register("supreme_rejuvenation_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 1, 3), new MobEffectInstance(MobEffects.REGENERATION, 1500, 3)));
 
-    public static final Holder<Potion> WITHERING_POTION = POTIONS.register("withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 0)));
-    public static final Holder<Potion> POTENT_WITHERING_POTION = POTIONS.register("potent_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 1)));
-    public static final Holder<Potion> SUPREME_WITHERING_POTION = POTIONS.register("supreme_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 2)));
+    public static final Holder<Potion> WITHERING_POTION = POTIONS.register("withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 500, 0)));
+    public static final Holder<Potion> POTENT_WITHERING_POTION = POTIONS.register("potent_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 500, 1)));
+    public static final Holder<Potion> SUPREME_WITHERING_POTION = POTIONS.register("supreme_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 500, 5)));
 
     //Combinations of strength and resistance for combat
     public static final Holder<Potion> COMBAT_POTION = POTIONS.register("combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 3600, 1)));
