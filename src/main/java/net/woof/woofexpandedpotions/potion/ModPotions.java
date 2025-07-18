@@ -67,7 +67,7 @@ public class ModPotions {
     public static final Holder<Potion> SUPREME_MINING_POTION = POTIONS.register("supreme_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3)));
     public static final Holder<Potion> EVERLASTING_MINING_POTION = POTIONS.register("everlasting_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 72000, 1)));
 
-    public static final Holder<Potion> EVERLASTING_NIGHT_VISION_POTION = POTIONS.register("everlasting_night_vision_potion", () -> new Potion(new MobEffectInstance(MobEffects.INVISIBILITY, 36000, 0)));
+    public static final Holder<Potion> EVERLASTING_NIGHT_VISION_POTION = POTIONS.register("everlasting_night_vision_potion", () -> new Potion(new MobEffectInstance(MobEffects.NIGHT_VISION, 36000, 0)));
 
     public static final Holder<Potion> EVERLASTING_INVISIBILITY_POTION = POTIONS.register("everlasting_invisibility_potion", () -> new Potion(new MobEffectInstance(MobEffects.INVISIBILITY, 36000, 0)));
 
