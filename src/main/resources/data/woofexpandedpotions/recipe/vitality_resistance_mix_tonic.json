@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:vitality_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:resistance_tonic"
+    }
+  ],
+  "result": {
+    "item": "woofexpandedpotions:vitality_resistance_mix_tonic"
+  }
+}

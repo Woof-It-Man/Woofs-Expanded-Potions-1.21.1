@@ -40,15 +40,18 @@ public class ModCreativeModeTabs {
                         //Powders
                         output.accept(ModItems.VITALITY_POWDER);
                         output.accept(ModItems.REGENERATIVE_POWDER);
+                        output.accept(ModItems.RESISTANCE_POWDER);
                         output.accept(ModItems.NETHER_FIRE_POWDER);
                         output.accept(ModItems.FLICKER_POWDER);
                         output.accept(ModItems.MINING_POWDER);
                         output.accept(ModItems.MIDNIGHT_POWDER);
                         output.accept(ModItems.INVISIBILITY_POWDER);
-                        output.accept(ModItems.RESISTANCE_POWDER);
                         output.accept(ModItems.LIGHT_FALL_POWDER);
                         output.accept(ModItems.BREATHING_POWDER);
                         output.accept(ModItems.CORRUPTED_POWDER);
+
+                        //Powder mixes
+                        output.accept(ModItems.VITALITY_RESISTANCE_MIX_TONIC);
 
                         //Duration Mixes
                         output.accept(ModItems.DURATION_MIX);
