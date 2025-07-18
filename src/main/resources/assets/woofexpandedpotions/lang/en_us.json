@@ -45,12 +45,8 @@
   "item.minecraft.splash_potion.effect.supreme_strength_potion": "Supreme Splash Potion of Strength",
   "item.minecraft.lingering_potion.effect.supreme_strength_potion": "Supreme Lingering Potion of Strength",
   "item.minecraft.tipped_arrow.effect.supreme_strength_potion": "Arrow of Supreme Strength",
-  "item.minecraft.potion.effect.long_lasting_potion_of_strength": "Long Lasting Potion of Strength",
-  "item.minecraft.splash_potion.effect.long_lasting_potion_of_strength": "Long Lasting Splash Potion of Strength",
-  "item.minecraft.lingering_potion.effect.long_lasting_potion_of_strength": "Long Lasting Lingering Potion of Strength",
-  "item.minecraft.tipped_arrow.effect.long_lasting_potion_of_strength": "Arrow of Long Lasting Strength",
-  "item.minecraft.potion.effect.never_ending_potion_of_strength": "Never Ending Potion of Strength",
-  "item.minecraft.splash_potion.effect.never_ending_potion_of_strength": "Never Ending Splash Potion of Strength",
-  "item.minecraft.lingering_potion.effect.never_ending_potion_of_strength": "Never Ending Lingering Potion of Strength",
-  "item.minecraft.tipped_arrow.effect.never_ending_potion_of_strength": "Arrow of Never Ending Strength"
+  "item.minecraft.potion.effect.everlasting_strength_potion": "Ever Lasting Potion of Strength",
+  "item.minecraft.splash_potion.effect.everlasting_strength_potion": "Ever Lasting Splash Potion of Strength",
+  "item.minecraft.lingering_potion.effect.everlasting_strength_potion": "Ever Lasting Lingering Potion of Strength",
+  "item.minecraft.tipped_arrow.effect.everlasting_strength_potion": "Arrow of Ever Lasting Strength"
 }
