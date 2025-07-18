@@ -52,7 +52,7 @@ public class ModEvents {
         builder.addMix(ModPotions.EVERLASTING_RESISTANCE_POTION, Items.BLAZE_POWDER, ModPotions.EVERLASTING_COMBAT_POTION);
         builder.addMix(ModPotions.COMBAT_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_COMBAT_POTION);
 
-        builder.addMix(Potions.LONG_FIRE_RESISTANCE, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_FIRE_RESISTANCE_POTION);
+        builder.addMix(Potions.LONG_FIRE_RESISTANCE, ModItems.NETHER_FIRE_TONIC.get(), ModPotions.EVERLASTING_FIRE_RESISTANCE_POTION);
 
         builder.addMix(Potions.LONG_SWIFTNESS, Items.GLOWSTONE_DUST, ModPotions.FULL_SWIFTNESS_POTION);
         builder.addMix(Potions.STRONG_SWIFTNESS, Items.REDSTONE, ModPotions.FULL_SWIFTNESS_POTION);
@@ -71,5 +71,48 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_SLOWNESS_POTION, ModItems.TORPIDITY_TONIC.get(), ModPotions.POTENT_SLOWNESS_POTION);
         builder.addMix(ModPotions.FULL_SLOWNESS_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_SLOWNESS_POTION);
         builder.addMix(ModPotions.POTENT_SLOWNESS_POTION, ModItems.SUPREME_STABILIZING_ENRICHER.get(), ModPotions.SUPREME_SLOWNESS_POTION);
+
+        builder.addMix(Potions.LONG_POISON, Items.GLOWSTONE_DUST, ModPotions.FULL_POISON_POTION);
+        builder.addMix(Potions.STRONG_POISON, Items.REDSTONE, ModPotions.FULL_POISON_POTION);
+        builder.addMix(ModPotions.FULL_POISON_POTION, ModItems.TORPIDITY_TONIC.get(), ModPotions.POTENT_POISON_POTION);
+        builder.addMix(ModPotions.FULL_POISON_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_POISON_POTION);
+        builder.addMix(ModPotions.POTENT_POISON_POTION, ModItems.SUPREME_STABILIZING_ENRICHER.get(), ModPotions.SUPREME_POISON_POTION);
+
+        builder.addMix(Potions.STRONG_HARMING, ModItems.TORPIDITY_TONIC.get(), ModPotions.POTENT_HARMING_POTION);
+
+        builder.addMix(Potions.LONG_WEAKNESS, ModItems.TORPIDITY_TONIC.get(), ModPotions.EVERLASTING_WEAKNESS_POTION);
+
+        builder.addMix(Potions.AWKWARD, Items.COAL, ModPotions.MINING_POTION);
+        builder.addMix(ModPotions.MINING_POTION, Items.REDSTONE, ModPotions.LONG_MINING_POTION);
+        builder.addMix(ModPotions.MINING_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_MINING_POTION);
+        builder.addMix(ModPotions.LONG_MINING_POTION, Items.GLOWSTONE_DUST, ModPotions.FULL_MINING_POTION);
+        builder.addMix(ModPotions.STRONG_MINING_POTION, Items.REDSTONE, ModPotions.FULL_MINING_POTION);
+        builder.addMix(ModPotions.FULL_MINING_POTION, ModItems.MINING_TONIC.get(), ModPotions.POTENT_MINING_POTION);
+        builder.addMix(ModPotions.FULL_MINING_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_MINING_POTION);
+        builder.addMix(ModPotions.POTENT_MINING_POTION, ModItems.SUPREME_STABILIZING_ENRICHER.get(), ModPotions.SUPREME_MINING_POTION);
+
+        builder.addMix(Potions.LONG_NIGHT_VISION, ModItems.MIDNIGHT_TONIC.get(), ModPotions.EVERLASTING_NIGHT_VISION_POTION);
+
+        builder.addMix(Potions.LONG_INVISIBILITY, ModItems.INVISIBILITY_TONIC.get(), ModPotions.EVERLASTING_INVISIBILITY_POTION);
+
+        builder.addMix(Potions.LONG_SLOW_FALLING, ModItems.LIGHT_FALL_TONIC.get(), ModPotions.EVERLASTING_SLOW_FALLING_POTION);
+
+        builder.addMix(Potions.LONG_WATER_BREATHING, ModItems.BREATHING_TONIC.get(), ModPotions.EVERLASTING_WATER_BREATHING_POTION);
+
+        builder.addMix(Potions.STRONG_HEALING, ModItems.HEALTH_TONIC.get(), ModPotions.POTENT_HEALING_POTION);
+
+        builder.addMix(ModPotions.POTENT_HEALING_POTION, ModItems.REJUVENATION_TONIC.get(), ModPotions.POTENT_REJUVENATION_POTION);
+        builder.addMix(ModPotions.POTENT_REGENERATION_POTION, ModItems.HEALTH_TONIC.get(), ModPotions.POTENT_REJUVENATION_POTION);
+        builder.addMix(ModPotions.SUPREME_REGENERATION_POTION, ModItems.HEALTH_TONIC.get(), ModPotions.SUPREME_REJUVENATION_POTION);
+        builder.addMix(ModPotions.POTENT_REJUVENATION_POTION, ModItems.SUPREME_STABILIZING_ENRICHER.get(), ModPotions.SUPREME_REJUVENATION_POTION);
+
+        builder.addMix(Potions.AWKWARD, Items.WITHER_ROSE, ModPotions.WITHERING_POTION);
+        builder.addMix(ModPotions.WITHERING_POTION, ModItems.WITHERING_POISON_TONIC.get(), ModPotions.POTENT_WITHERING_POTION);
+        builder.addMix(ModPotions.POTENT_WITHERING_POTION, ModItems.SUPREME_STABILIZING_ENRICHER.get(), ModPotions.SUPREME_WITHERING_POTION);
+
+        builder.addMix(Potions.LONG_TURTLE_MASTER, Items.GLOWSTONE_DUST, ModPotions.FULL_TURTLE_MASTER_POTION);
+        builder.addMix(Potions.STRONG_TURTLE_MASTER, Items.REDSTONE, ModPotions.FULL_TURTLE_MASTER_POTION);
+        builder.addMix(ModPotions.FULL_TURTLE_MASTER_POTION, ModItems.RESISTANCE_TONIC.get(), ModPotions.POTENT_TURTLE_MASTER_POTION);
+        builder.addMix(ModPotions.POTENT_TURTLE_MASTER_POTION, ModItems.SUPREME_STABILIZING_ENRICHER.get(), ModPotions.SUPREME_TURTLE_MASTER_POTION);
     }
 }
