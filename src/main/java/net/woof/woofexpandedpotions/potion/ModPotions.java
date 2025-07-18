@@ -53,6 +53,7 @@ public class ModPotions {
     public static final Holder<Potion> COMBAT_POTION = POTIONS.register("combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 3600, 1)));
     public static final Holder<Potion> POTENT_COMBAT_POTION = POTIONS.register("potent_combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 2), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 3600, 2)));
     public static final Holder<Potion> SUPREME_COMBAT_POTION = POTIONS.register("supreme_combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 3), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 3600, 3)));
+    public static final Holder<Potion> EVERLASTING_COMBAT_POTION = POTIONS.register("everlasting_combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 36000, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 36000, 1)));
 
     public static void register(IEventBus eventBus){
         POTIONS.register(eventBus);

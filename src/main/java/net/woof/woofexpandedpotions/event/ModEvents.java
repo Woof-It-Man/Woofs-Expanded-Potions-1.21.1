@@ -48,6 +48,9 @@ public class ModEvents {
         builder.addMix(ModPotions.POTENT_COMBAT_POTION, ModItems.SUPREME_STABILIZING_ENRICHER.get(), ModPotions.SUPREME_COMBAT_POTION);
         builder.addMix(ModPotions.SUPREME_STRENGTH_POTION, ModItems.RESISTANCE_TONIC.get(), ModPotions.SUPREME_COMBAT_POTION);
         builder.addMix(ModPotions.SUPREME_RESISTANCE_POTION, ModItems.VITALITY_TONIC.get(), ModPotions.SUPREME_COMBAT_POTION);
+        builder.addMix(ModPotions.EVERLASTING_STRENGTH_POTION, Items.COPPER_INGOT, ModPotions.EVERLASTING_COMBAT_POTION);
+        builder.addMix(ModPotions.EVERLASTING_RESISTANCE_POTION, Items.BLAZE_POWDER, ModPotions.EVERLASTING_COMBAT_POTION);
+        builder.addMix(ModPotions.COMBAT_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_COMBAT_POTION);
 
         builder.addMix(Potions.LONG_FIRE_RESISTANCE, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_FIRE_RESISTANCE_POTION);
 
