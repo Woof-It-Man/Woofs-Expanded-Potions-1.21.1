@@ -79,9 +79,9 @@ public class ModPotions {
     public static final Holder<Potion> POTENT_REJUVENATION_POTION = POTIONS.register("potent_rejuvenation_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 2, 2), new MobEffectInstance(MobEffects.REGENERATION, 1200, 2)));
     public static final Holder<Potion> SUPREME_REJUVENATION_POTION = POTIONS.register("supreme_rejuvenation_potion", () -> new Potion(new MobEffectInstance(MobEffects.HEAL, 2, 2), new MobEffectInstance(MobEffects.REGENERATION, 1500, 3)));
 
-    public static final Holder<Potion> WITHERING_POTION = POTIONS.register("wither_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 0)));
-    public static final Holder<Potion> POTENT_WITHERING_POTION = POTIONS.register("potent_wither_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 1)));
-    public static final Holder<Potion> SUPREME_WITHERING_POTION = POTIONS.register("supreme_wither_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 2)));
+    public static final Holder<Potion> WITHERING_POTION = POTIONS.register("withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 0)));
+    public static final Holder<Potion> POTENT_WITHERING_POTION = POTIONS.register("potent_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 1)));
+    public static final Holder<Potion> SUPREME_WITHERING_POTION = POTIONS.register("supreme_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 200, 2)));
 
     //Combinations of strength and resistance for combat
     public static final Holder<Potion> COMBAT_POTION = POTIONS.register("combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 3600, 1)));
