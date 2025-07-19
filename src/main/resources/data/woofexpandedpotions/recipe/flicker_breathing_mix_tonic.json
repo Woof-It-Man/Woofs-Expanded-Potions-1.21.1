@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:flicker_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:breathing_tonic"
+    }
+  ],
+  "result": {
+    "id": "woofexpandedpotions:flicker_breathing_mix_tonic"
+  }
+}

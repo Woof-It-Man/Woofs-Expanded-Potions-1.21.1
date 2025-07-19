@@ -35,6 +35,7 @@ public class ModItems {
 
     //Tonic Combos
     public static final DeferredItem<Item> VITALITY_BULWARK_MIX_TONIC = ITEMS.register("vitality_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FLICKER_BREATHING_MIX_TONIC = ITEMS.register("flicker_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
 
     //Powders
     public static final DeferredItem<Item> VITALITY_POWDER = ITEMS.register("vitality_powder", () -> new Item(new Item.Properties()));
