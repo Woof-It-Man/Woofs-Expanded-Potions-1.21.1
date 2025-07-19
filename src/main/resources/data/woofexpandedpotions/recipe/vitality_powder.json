@@ -6,13 +6,16 @@
       "item": "minecraft:spore_blossom"
     },
     {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:brain_coral"
     },
     {
       "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:glow_berry"
+    },
+    {
+      "item": "minecraft:honeycomb"
     }
   ],
   "result": {

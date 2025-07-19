@@ -3,13 +3,16 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:chorus_flower"
     },
     {
       "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:horn_coral"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
     },
     {
       "item": "minecraft:sugar"

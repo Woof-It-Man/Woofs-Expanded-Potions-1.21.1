@@ -15,10 +15,13 @@ public class ModItems {
     public static final DeferredItem<Item> DIAMOND_CARROT = ITEMS.register("diamond_carrot", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ENCRUSTED_CARROT = ITEMS.register("encrusted_carrot", () -> new Item(new Item.Properties()));
 
+    //Tonic Base
+    public static final DeferredItem<Item> BASE_TONIC = ITEMS.register("base_tonic", () -> new Item(new Item.Properties()));
+
     //Tonics
     public static final DeferredItem<Item> VITALITY_TONIC = ITEMS.register("vitality_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> REJUVENATION_TONIC = ITEMS.register("rejuvenation_tonic", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RESISTANCE_TONIC = ITEMS.register("resistance_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULWARK_TONIC = ITEMS.register("bulwark_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NETHER_FIRE_TONIC = ITEMS.register("nether_fire_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> VELOCITY_TONIC = ITEMS.register("velocity_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TORPIDITY_TONIC = ITEMS.register("torpidity_tonic", () -> new Item(new Item.Properties()));
@@ -31,12 +34,12 @@ public class ModItems {
     public static final DeferredItem<Item> HEALTH_TONIC = ITEMS.register("health_tonic", () -> new Item(new Item.Properties()));
 
     //Tonic Combos
-    public static final DeferredItem<Item> VITALITY_RESISTANCE_MIX_TONIC = ITEMS.register("vitality_resistance_mix_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VITALITY_BULWARK_MIX_TONIC = ITEMS.register("vitality_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
 
     //Powders
     public static final DeferredItem<Item> VITALITY_POWDER = ITEMS.register("vitality_powder", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> REGENERATIVE_POWDER = ITEMS.register("regenerative_powder", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RESISTANCE_POWDER = ITEMS.register("resistance_powder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULWARK_POWDER = ITEMS.register("bulwark_powder", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NETHER_FIRE_POWDER = ITEMS.register("nether_fire_powder", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FLICKER_POWDER = ITEMS.register("flicker_powder", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MINING_POWDER = ITEMS.register("mining_powder", () -> new Item(new Item.Properties()));

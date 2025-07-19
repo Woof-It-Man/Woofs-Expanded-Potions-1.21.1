@@ -9,13 +9,16 @@
       "item": "minecraft:honey_bottle"
     },
     {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "woofexpandedpotions:resistance_powder"
+      "item": "minecraft:blue_orchid"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
     }
   ],
   "result": {
-    "id": "woofexpandedpotions:resistance_tonic"
+    "id": "woofexpandedpotions:base_tonic"
   }
 }

@@ -6,10 +6,10 @@
       "item": "woofexpandedpotions:vitality_tonic"
     },
     {
-      "item": "woofexpandedpotions:resistance_tonic"
+      "item": "woofexpandedpotions:bulwark_tonic"
     }
   ],
   "result": {
-    "id": "woofexpandedpotions:vitality_resistance_mix_tonic"
+    "id": "woofexpandedpotions:vitality_bulwark_mix_tonic"
   }
 }

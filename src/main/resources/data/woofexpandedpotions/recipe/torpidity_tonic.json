@@ -3,13 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "woofexpandedpotions:alchemical_enricher"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    },
-    {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "woofexpandedpotions:base_tonic"
     },
     {
       "item": "woofexpandedpotions:corrupted_powder"

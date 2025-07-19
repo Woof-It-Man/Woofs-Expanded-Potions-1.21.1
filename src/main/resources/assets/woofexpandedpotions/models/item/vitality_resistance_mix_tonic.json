@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "woofexpandedpotions:item/vitality_resistance_mix_tonic"
-  }
-}

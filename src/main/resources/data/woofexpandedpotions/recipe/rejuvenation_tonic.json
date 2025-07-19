@@ -3,13 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "woofexpandedpotions:alchemical_enricher"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    },
-    {
-      "item": "minecraft:beetroot"
+      "item": "woofexpandedpotions:base_tonic"
     },
     {
       "item": "woofexpandedpotions:regenerative_powder"

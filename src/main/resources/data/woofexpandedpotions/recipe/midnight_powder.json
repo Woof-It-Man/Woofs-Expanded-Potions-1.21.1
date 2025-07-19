@@ -2,6 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
+    [
+      {
+        "item": "minecraft:skulk"
+      },
+      {
+        "item": "minecraft:skulk_vein"
+      }
+    ],
     {
       "item": "minecraft:echo_shard"
     },
@@ -9,7 +17,10 @@
       "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:torchflower"
+    },
+    {
+      "item": "minecraft:emerald"
     }
   ],
   "result": {

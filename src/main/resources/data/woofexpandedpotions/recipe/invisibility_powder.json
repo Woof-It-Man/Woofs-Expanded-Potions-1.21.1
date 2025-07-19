@@ -9,7 +9,13 @@
       "item": "minecraft:phantom_membrane"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:lilac"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
     }
   ],
   "result": {

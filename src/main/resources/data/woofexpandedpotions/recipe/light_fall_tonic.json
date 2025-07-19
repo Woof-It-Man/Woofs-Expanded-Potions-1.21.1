@@ -3,13 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "woofexpandedpotions:alchemical_enricher"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    },
-    {
-      "item": "minecraft:feather"
+      "item": "woofexpandedpotions:base_tonic"
     },
     {
       "item": "woofexpandedpotions:light_fall_powder"

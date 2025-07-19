@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENCRUSTED_CARROT);
 
                         //Tonics
+                        output.accept(ModItems.BASE_TONIC);
                         output.accept(ModItems.VITALITY_TONIC);
                         output.accept(ModItems.REJUVENATION_TONIC);
                         output.accept(ModItems.NETHER_FIRE_TONIC);
@@ -32,7 +33,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HEALTH_TONIC);
                         output.accept(ModItems.MIDNIGHT_TONIC);
                         output.accept(ModItems.INVISIBILITY_TONIC);
-                        output.accept(ModItems.RESISTANCE_TONIC);
+                        output.accept(ModItems.BULWARK_TONIC);
                         output.accept(ModItems.LIGHT_FALL_TONIC);
                         output.accept(ModItems.BREATHING_TONIC);
                         output.accept(ModItems.WITHERING_POISON_TONIC);
@@ -40,7 +41,7 @@ public class ModCreativeModeTabs {
                         //Powders
                         output.accept(ModItems.VITALITY_POWDER);
                         output.accept(ModItems.REGENERATIVE_POWDER);
-                        output.accept(ModItems.RESISTANCE_POWDER);
+                        output.accept(ModItems.BULWARK_POWDER);
                         output.accept(ModItems.NETHER_FIRE_POWDER);
                         output.accept(ModItems.FLICKER_POWDER);
                         output.accept(ModItems.MINING_POWDER);
@@ -51,7 +52,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CORRUPTED_POWDER);
 
                         //Powder mixes
-                        output.accept(ModItems.VITALITY_RESISTANCE_MIX_TONIC);
+                        output.accept(ModItems.VITALITY_BULWARK_MIX_TONIC);
 
                         //Duration Mixes
                         output.accept(ModItems.DURATION_MIX);

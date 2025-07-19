@@ -6,10 +6,10 @@
       "item": "woofexpandedpotions:base_tonic"
     },
     {
-      "item": "woofexpandedpotions:invisibility_powder"
+      "item": "woofexpandedpotions:bulwark_powder"
     }
   ],
   "result": {
-    "id": "woofexpandedpotions:invisibility_tonic"
+    "id": "woofexpandedpotions:bulwark_tonic"
   }
 }
