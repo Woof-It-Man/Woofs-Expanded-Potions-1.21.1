@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:base_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:deep_powder"
+    }
+  ],
+  "result": {
+    "id": "woofexpandedpotions:tidal_tonic"
+  }
+}

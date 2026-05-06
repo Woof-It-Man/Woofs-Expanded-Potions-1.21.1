@@ -89,7 +89,9 @@ public class ModPotions {
     public static final Holder<Potion> POTENT_WITHERING_POTION = POTIONS.register("potent_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 800, 1)));
     public static final Holder<Potion> EXTREME_WITHERING_POTION = POTIONS.register("extreme_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 800, 5)));
 
-    public static final Holder<Potion> DOLPHINS_GRACE_POTION = POTIONS.register("dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 9600)));
+    public static final Holder<Potion> DOLPHIN_GRACE_POTION = POTIONS.register("dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 9600)));
+    public static final Holder<Potion> LONGLASTING_DOLPHIN_GRACE_POTION = POTIONS.register("longlasting_dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 36000)));
+    public static final Holder<Potion> PERMANENT_DOLPHIN_GRACE_POTION = POTIONS.register("permanent_dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 180000)));
 
     //Combinations of strength and resistance for combat. Slightly boosted duration to encourage mixing
     //Combination potions has no 'potent' version. The reasoning being powders aren't stable enough, but tonics are
@@ -97,9 +99,21 @@ public class ModPotions {
     public static final Holder<Potion> EXTREME_COMBAT_POTION = POTIONS.register("extreme_combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 2), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000, 2)));
     public static final Holder<Potion> EVERLASTING_COMBAT_POTION = POTIONS.register("everlasting_combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40000, 0), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40000, 0)));
 
+    public static final Holder<Potion> SWIFT_GUARD_POTION = POTIONS.register("swift_guard_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 4000, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 4000, 1)));
+    public static final Holder<Potion> EXTREME_SWIFT_GUARD_POTION = POTIONS.register("extreme_swift_guard_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 6000, 2), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000, 2)));
+    public static final Holder<Potion> EVERLASTING_SWIFT_GUARD_POTION = POTIONS.register("everlasting_swift_guard_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40000, 0), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40000, 0)));
+
+    public static final Holder<Potion> JUGGERNAUT_POTION = POTIONS.register("juggernaut_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 4800, 1), new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 4800, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 4800, 1)));
+    public static final Holder<Potion> EXTREME_JUGGERNAUT_POTION = POTIONS.register("extreme_juggernaut_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 7200, 2), new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 7200, 2), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 7200, 2)));
+    public static final Holder<Potion> EVERLASTING_JUGGERNAUT_POTION = POTIONS.register("everlasting_juggernaut_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 43200, 0), new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 43200, 0), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 43200, 0)));
+
+    public static final Holder<Potion> NEPTUNES_DELIGHT_POTION = POTIONS.register("neptunes_delight_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 40000), new MobEffectInstance(MobEffects.WATER_BREATHING, 40000)));
+    public static final Holder<Potion> EXTREME_NEPTUNES_DELIGHT_POTION = POTIONS.register("extreme_neptunes_delight_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 200000), new MobEffectInstance(MobEffects.WATER_BREATHING, 200000)));
+
     public static final Holder<Potion> FULL_TURTLE_MASTER_POTION = POTIONS.register("full_turtle_master_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 5), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500, 3)));
     public static final Holder<Potion> POTENT_TURTLE_MASTER_POTION = POTIONS.register("potent_turtle_master_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 5), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500, 4)));
     public static final Holder<Potion> EXTREME_TURTLE_MASTER_POTION = POTIONS.register("extreme_turtle_master_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 5), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500, 5)));
+
 
 
     public static void register(IEventBus eventBus){

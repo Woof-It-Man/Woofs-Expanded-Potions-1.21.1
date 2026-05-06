@@ -32,10 +32,12 @@ public class ModItems {
     public static final DeferredItem<Item> BREATHING_TONIC = ITEMS.register("breathing_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WITHERING_POISON_TONIC = ITEMS.register("withering_poison_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> HEALTH_TONIC = ITEMS.register("health_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TIDAL_TONIC = ITEMS.register("tidal_tonic", () -> new Item(new Item.Properties()));
 
     //Tonic Combos
     public static final DeferredItem<Item> VITALITY_BULWARK_MIX_TONIC = ITEMS.register("vitality_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FLICKER_BREATHING_MIX_TONIC = ITEMS.register("flicker_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JUGGERNAUT_TONIC = ITEMS.register("juggernaut_tonic", () -> new Item(new Item.Properties()));
 
     //Powders
     public static final DeferredItem<Item> VITALITY_POWDER = ITEMS.register("vitality_powder", () -> new Item(new Item.Properties()));
@@ -49,6 +51,7 @@ public class ModItems {
     public static final DeferredItem<Item> LIGHT_FALL_POWDER = ITEMS.register("light_fall_powder", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BREATHING_POWDER = ITEMS.register("breathing_powder", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CORRUPTED_POWDER = ITEMS.register("corrupted_powder", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DEEP_POWDER = ITEMS.register("deep_powder", () -> new Item(new Item.Properties()));
 
     //Duration Mixes
     public static final DeferredItem<Item> DURATION_MIX = ITEMS.register("duration_mix", () -> new Item(new Item.Properties()));

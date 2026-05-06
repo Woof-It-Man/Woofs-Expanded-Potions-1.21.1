@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:velocity_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:bulwark_tonic"
+    }
+  ],
+  "result": {
+    "id": "woofexpandedpotions:flicker_bulwark_mix_tonic"
+  }
+}

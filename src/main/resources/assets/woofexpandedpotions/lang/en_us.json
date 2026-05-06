@@ -309,5 +309,65 @@
   "item.minecraft.potion.effect.extreme_turtle_master_potion": "Potion of Extreme the Turtle Master",
   "item.minecraft.splash_potion.effect.extreme_turtle_master_potion": "Splash Potion of Extreme the Turtle Master",
   "item.minecraft.lingering_potion.effect.extreme_turtle_master_potion": "Lingering Potion of Extreme the Turtle Master",
-  "item.minecraft.tipped_arrow.effect.extreme_turtle_master_potion": "Arrow of Extreme the Turtle Master"
+  "item.minecraft.tipped_arrow.effect.extreme_turtle_master_potion": "Arrow of Extreme the Turtle Master",
+
+  "item.woofexpandedpotions.deep_powder": "Dust of the Deep",
+  "item.woofexpandedpotions.tidal_tonic": "Tidal Tonic",
+  "item.woofexpandedpotions.juggernaut_tonic": "Juggernaut Tonic",
+  "item.woofexpandedpotions.flicker_bulwark_mix_tonic": "Flickering and Bulwark Tonic",
+
+  "item.minecraft.potion.effect.dolphin_grace_potion": "Potion of Dolphin's Grace",
+  "item.minecraft.splash_potion.effect.dolphin_grace_potion": "Splash Potion of Dolphin's Grace",
+  "item.minecraft.lingering_potion.effect.dolphin_grace_potion": "Lingering Potion of Dolphin's Grace",
+  "item.minecraft.tipped_arrow.effect.dolphin_grace_potion": "Arrow of Dolphin's Grace",
+
+  "item.minecraft.potion.effect.longlasting_dolphin_grace_potion": "Long Lasting Potion of Dolphin's Grace",
+  "item.minecraft.splash_potion.effect.longlasting_dolphin_grace_potion": "Long Lasting Splash Potion of Dolphin's Grace",
+  "item.minecraft.lingering_potion.effect.longlasting_dolphin_grace_potion": "Long Lasting Lingering Potion of Dolphin's Grace",
+  "item.minecraft.tipped_arrow.effect.longlasting_dolphin_grace_potion": "Arrow of Long Lasting Dolphin's Grace",
+
+  "item.minecraft.potion.effect.permanent_dolphin_grace_potion": "Permanent Potion of Dolphin's Grace",
+  "item.minecraft.splash_potion.effect.permanent_dolphin_grace_potion": "Permanent Splash Potion of Dolphin's Grace",
+  "item.minecraft.lingering_potion.effect.permanent_dolphin_grace_potion": "Permanent Lingering Potion of Dolphin's Grace",
+  "item.minecraft.tipped_arrow.effect.permanent_dolphin_grace_potion": "Arrow of Permanent Dolphin's Grace",
+
+  "item.minecraft.potion.effect.neptunes_delight_potion": "Potion of Neptune's Delight",
+  "item.minecraft.splash_potion.effect.neptunes_delight_potion": "Splash Potion of Neptune's Delight",
+  "item.minecraft.lingering_potion.effect.neptunes_delight_potion": "Lingering Potion of Neptune's Delight",
+  "item.minecraft.tipped_arrow.effect.neptunes_delight_potion": "Arrow of Neptune's Delight",
+
+  "item.minecraft.potion.effect.extreme_neptunes_delight_potion": "Extreme Potion of Neptune's Delight",
+  "item.minecraft.splash_potion.effect.extreme_neptunes_delight_potion": "Extreme Splash Potion of Neptune's Delight",
+  "item.minecraft.lingering_potion.effect.extreme_neptunes_delight_potion": "Extreme Lingering Potion of Neptune's Delight",
+  "item.minecraft.tipped_arrow.effect.extreme_neptunes_delight_potion": "Arrow of Extreme Neptune's Delight",
+
+  "item.minecraft.potion.effect.swift_guard_potion": "Potion of Swift Guard",
+  "item.minecraft.splash_potion.effect.swift_guard_potion": "Splash Potion of Swift Guard",
+  "item.minecraft.lingering_potion.effect.swift_guard_potion": "Lingering Potion of Swift Guard",
+  "item.minecraft.tipped_arrow.effect.swift_guard_potion": "Arrow of Swift Guard",
+
+  "item.minecraft.potion.effect.extreme_swift_guard_potion": "Extreme Potion of Swift Guard",
+  "item.minecraft.splash_potion.effect.extreme_swift_guard_potion": "Extreme Splash Potion of Swift Guard",
+  "item.minecraft.lingering_potion.effect.extreme_swift_guard_potion": "Extreme Lingering Potion of Swift Guard",
+  "item.minecraft.tipped_arrow.effect.extreme_swift_guard_potion": "Arrow of Extreme Swift Guard",
+
+  "item.minecraft.potion.effect.everlasting_swift_guard_potion": "Potion of Ever Lasting Swift Guard",
+  "item.minecraft.splash_potion.effect.everlasting_swift_guard_potion": "Splash Potion of Ever Lasting Swift Guard",
+  "item.minecraft.lingering_potion.effect.everlasting_swift_guard_potion": "Lingering Potion of Ever Lasting Swift Guard",
+  "item.minecraft.tipped_arrow.effect.everlasting_swift_guard_potion": "Arrow of Ever Lasting Swift Guard",
+
+  "item.minecraft.potion.effect.juggernaut_potion": "Potion of the Juggernaut",
+  "item.minecraft.splash_potion.effect.juggernaut_potion": "Splash Potion of the Juggernaut",
+  "item.minecraft.lingering_potion.effect.juggernaut_potion": "Lingering Potion of the Juggernaut",
+  "item.minecraft.tipped_arrow.effect.juggernaut_potion": "Arrow of the Juggernaut",
+
+  "item.minecraft.potion.effect.extreme_juggernaut_potion": "Extreme Potion of the Juggernaut",
+  "item.minecraft.splash_potion.effect.extreme_juggernaut_potion": "Extreme Splash Potion of the Juggernaut",
+  "item.minecraft.lingering_potion.effect.extreme_juggernaut_potion": "Extreme Lingering Potion of the Juggernaut",
+  "item.minecraft.tipped_arrow.effect.extreme_juggernaut_potion": "Arrow of Extreme Juggernaut",
+
+  "item.minecraft.potion.effect.everlasting_juggernaut_potion": "Potion of the Ever Lasting Juggernaut",
+  "item.minecraft.splash_potion.effect.everlasting_juggernaut_potion": "Splash Potion of the Ever Lasting Juggernaut",
+  "item.minecraft.lingering_potion.effect.everlasting_juggernaut_potion": "Lingering Potion of the Ever Lasting Juggernaut",
+  "item.minecraft.tipped_arrow.effect.everlasting_juggernaut_potion": "Arrow of the Ever Lasting Juggernaut"
 }
