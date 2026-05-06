@@ -274,16 +274,16 @@ Three-effect combo. Duration is boosted further to reward the extra complexity.
 | Dust | Ingredients |
 |---|---|
 | Dust of Vitality | Spore Blossom, Brain Coral, Golden Carrot, Glow Berries, Honeycomb |
-| Dust of Regeneration | *(see recipe JSON)* |
+| Dust of Regeneration | Tube Coral, Lily Pad, Golden Apple, Cocoa Beans, Beetroot |
 | Dust of Bulwark | Pitcher Plant, Pufferfish, Shulker Shell, Turtle Egg, Iron Nugget |
 | Dust of Netherflame | Shroomlight, Blaze Powder, Quartz, Magma Block, Magma Cream |
 | Dust of Flickering | Chorus Flower, Ender Pearl, Horn Coral, Rabbit's Foot, Sugar |
-| Dust of Mining | *(see recipe JSON)* |
+| Dust of Mining | Hanging Roots, Coal (or Charcoal), Crying Obsidian, Cactus, Ink Sac |
 | Dust of Midnight | Sculk (or Sculk Vein), Echo Shard, Brown Mushroom, Torchflower, Emerald |
-| Dust of Invisibility | *(see recipe JSON)* |
-| Dust of Featherfall | *(see recipe JSON)* |
+| Dust of Invisibility | Ender Pearl, Phantom Membrane, Lilac, Glow Lichen, Amethyst Shard |
+| Dust of Featherfall | any Leaves, Feather, Paper, End Stone, Firework Rocket |
 | Dust of Breathing | Bubble Coral, Nautilus Shell, Tropical Fish, Prismarine Crystals, any Leaves |
-| Dust of Corruption | *(see recipe JSON)* |
+| Dust of Corruption | Crimson Roots, Warped Roots, Soul Sand, Ink Sac, Wither Rose |
 | Dust of the Deep | Heart of the Sea, Prismarine Shard, Cod, Bubble Coral Fan, Lapis Lazuli |
 
 ### Tonic Recipes (Crafting Table, Shapeless)
