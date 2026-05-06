@@ -88,7 +88,7 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_MINING_POTION, ModItems.MINING_TONIC.get(), ModPotions.EXTREME_MINING_POTION);
         builder.addMix(ModPotions.FULL_MINING_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_MINING_POTION);
 
-        builder.addMix(Potions.LONG_NIGHT_VISION, ModItems.MIDNIGHT_TONIC.get(), ModPotions.LONGLASTING_NIGHT_VISION_POTION);
+        builder.addMix(Potions.LONG_NIGHT_VISION, ModItems.MIDNIGHT_POWDER.get(), ModPotions.LONGLASTING_NIGHT_VISION_POTION);
         builder.addMix(Potions.LONG_NIGHT_VISION, ModItems.MIDNIGHT_TONIC.get(), ModPotions.PERMANENT_NIGHT_VISION_POTION);
 
         builder.addMix(Potions.LONG_INVISIBILITY, ModItems.INVISIBILITY_POWDER.get(), ModPotions.LONGLASTINGG_INVISIBILITY_POTION);
