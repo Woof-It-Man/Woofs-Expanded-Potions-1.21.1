@@ -31,13 +31,18 @@ public class ModItems {
     public static final DeferredItem<Item> LIGHT_FALL_TONIC = ITEMS.register("light_fall_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BREATHING_TONIC = ITEMS.register("breathing_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WITHERING_POISON_TONIC = ITEMS.register("withering_poison_tonic", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> HEALTH_TONIC = ITEMS.register("health_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TIDAL_TONIC = ITEMS.register("tidal_tonic", () -> new Item(new Item.Properties()));
 
     //Tonic Combos
     public static final DeferredItem<Item> VITALITY_BULWARK_MIX_TONIC = ITEMS.register("vitality_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FLICKER_BREATHING_MIX_TONIC = ITEMS.register("flicker_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VITALITY_VELOCITY_MIX_TONIC = ITEMS.register("vitality_velocity_mix_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> REJUVENATION_VELOCITY_MIX_TONIC = ITEMS.register("rejuvenation_velocity_mix_tonic", () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> JUGGERNAUT_TONIC = ITEMS.register("juggernaut_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BERSERKER_TONIC = ITEMS.register("berserker_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PHANTOM_TONIC = ITEMS.register("phantom_tonic", () -> new Item(new Item.Properties()));
+
 
     //Powders
     public static final DeferredItem<Item> VITALITY_POWDER = ITEMS.register("vitality_powder", () -> new Item(new Item.Properties()));

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "woofexpandedpotions:item/rejuvenation_velocity_mix_tonic"
+  }
+}

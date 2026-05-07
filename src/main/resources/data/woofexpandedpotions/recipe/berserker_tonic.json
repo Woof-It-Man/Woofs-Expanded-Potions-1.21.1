@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:vitality_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:velocity_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:rejuvenation_tonic"
+    }
+  ],
+  "result": {
+    "id": "woofexpandedpotions:berserker_tonic"
+  }
+}

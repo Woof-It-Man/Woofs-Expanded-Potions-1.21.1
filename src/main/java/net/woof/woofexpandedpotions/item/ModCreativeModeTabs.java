@@ -30,7 +30,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VELOCITY_TONIC);
                         output.accept(ModItems.TORPIDITY_TONIC);
                         output.accept(ModItems.MINING_TONIC);
-                        output.accept(ModItems.HEALTH_TONIC);
                         output.accept(ModItems.MIDNIGHT_TONIC);
                         output.accept(ModItems.INVISIBILITY_TONIC);
                         output.accept(ModItems.BULWARK_TONIC);
@@ -53,10 +52,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CORRUPTED_POWDER);
                         output.accept(ModItems.DEEP_POWDER);
 
-                        //Powder mixes
+                        //Combos
                         output.accept(ModItems.VITALITY_BULWARK_MIX_TONIC);
                         output.accept(ModItems.FLICKER_BREATHING_MIX_TONIC);
+                        output.accept(ModItems.VITALITY_VELOCITY_MIX_TONIC);
+                        output.accept(ModItems.REJUVENATION_VELOCITY_MIX_TONIC);
                         output.accept(ModItems.JUGGERNAUT_TONIC);
+                        output.accept(ModItems.BERSERKER_TONIC);
+                        output.accept(ModItems.PHANTOM_TONIC);
 
                         //Duration Mixes
                         output.accept(ModItems.DURATION_MIX);

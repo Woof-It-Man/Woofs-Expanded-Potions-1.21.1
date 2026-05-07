@@ -12,7 +12,6 @@
   "item.woofexpandedpotions.velocity_tonic": "Velocity Tonic",
   "item.woofexpandedpotions.torpidity_tonic": "Torpidity Tonic",
   "item.woofexpandedpotions.mining_tonic": "Miner's Tonic",
-  "item.woofexpandedpotions.health_tonic": "Health Tonic",
   "item.woofexpandedpotions.midnight_tonic": "Midnight Tonic",
   "item.woofexpandedpotions.invisibility_tonic": "Invisibility Tonic",
   "item.woofexpandedpotions.bulwark_tonic": "Bulwark Tonic",
@@ -369,5 +368,116 @@
   "item.minecraft.potion.effect.everlasting_juggernaut_potion": "Potion of the Ever Lasting Juggernaut",
   "item.minecraft.splash_potion.effect.everlasting_juggernaut_potion": "Splash Potion of the Ever Lasting Juggernaut",
   "item.minecraft.lingering_potion.effect.everlasting_juggernaut_potion": "Lingering Potion of the Ever Lasting Juggernaut",
-  "item.minecraft.tipped_arrow.effect.everlasting_juggernaut_potion": "Arrow of the Ever Lasting Juggernaut"
+  "item.minecraft.tipped_arrow.effect.everlasting_juggernaut_potion": "Arrow of the Ever Lasting Juggernaut",
+
+  "item.woofexpandedpotions.berserker_tonic": "Berserker Tonic",
+  "item.woofexpandedpotions.phantom_tonic": "Phantom Tonic",
+
+  "item.minecraft.potion.effect.acrobat_potion": "Potion of Acrobat",
+  "item.minecraft.splash_potion.effect.acrobat_potion": "Splash Potion of Acrobat",
+  "item.minecraft.lingering_potion.effect.acrobat_potion": "Lingering Potion of Acrobat",
+  "item.minecraft.tipped_arrow.effect.acrobat_potion": "Arrow of Acrobat",
+
+  "item.minecraft.potion.effect.potent_acrobat_potion": "Potent Potion of Acrobat",
+  "item.minecraft.splash_potion.effect.potent_acrobat_potion": "Potent Splash Potion of Acrobat",
+  "item.minecraft.lingering_potion.effect.potent_acrobat_potion": "Potent Lingering Potion of Acrobat",
+  "item.minecraft.tipped_arrow.effect.potent_acrobat_potion": "Arrow of Potent Acrobat",
+
+  "item.minecraft.potion.effect.extreme_acrobat_potion": "Extreme Potion of Acrobat",
+  "item.minecraft.splash_potion.effect.extreme_acrobat_potion": "Extreme Splash Potion of Acrobat",
+  "item.minecraft.lingering_potion.effect.extreme_acrobat_potion": "Extreme Lingering Potion of Acrobat",
+  "item.minecraft.tipped_arrow.effect.extreme_acrobat_potion": "Arrow of Extreme Acrobat",
+
+  "item.minecraft.potion.effect.everlasting_acrobat_potion": "Potion of Ever Lasting Acrobat",
+  "item.minecraft.splash_potion.effect.everlasting_acrobat_potion": "Splash Potion of Ever Lasting Acrobat",
+  "item.minecraft.lingering_potion.effect.everlasting_acrobat_potion": "Lingering Potion of Ever Lasting Acrobat",
+  "item.minecraft.tipped_arrow.effect.everlasting_acrobat_potion": "Arrow of Ever Lasting Acrobat",
+
+  "item.minecraft.potion.effect.decay_potion": "Potion of Decay",
+  "item.minecraft.splash_potion.effect.decay_potion": "Splash Potion of Decay",
+  "item.minecraft.lingering_potion.effect.decay_potion": "Lingering Potion of Decay",
+  "item.minecraft.tipped_arrow.effect.decay_potion": "Arrow of Decay",
+
+  "item.minecraft.potion.effect.potent_decay_potion": "Potent Potion of Decay",
+  "item.minecraft.splash_potion.effect.potent_decay_potion": "Potent Splash Potion of Decay",
+  "item.minecraft.lingering_potion.effect.potent_decay_potion": "Potent Lingering Potion of Decay",
+  "item.minecraft.tipped_arrow.effect.potent_decay_potion": "Arrow of Potent Decay",
+
+  "item.minecraft.potion.effect.extreme_decay_potion": "Extreme Potion of Decay",
+  "item.minecraft.splash_potion.effect.extreme_decay_potion": "Extreme Splash Potion of Decay",
+  "item.minecraft.lingering_potion.effect.extreme_decay_potion": "Extreme Lingering Potion of Decay",
+  "item.minecraft.tipped_arrow.effect.extreme_decay_potion": "Arrow of Extreme Decay",
+
+  "item.minecraft.potion.effect.everlasting_decay_potion": "Potion of Ever Lasting Decay",
+  "item.minecraft.splash_potion.effect.everlasting_decay_potion": "Splash Potion of Ever Lasting Decay",
+  "item.minecraft.lingering_potion.effect.everlasting_decay_potion": "Lingering Potion of Ever Lasting Decay",
+  "item.minecraft.tipped_arrow.effect.everlasting_decay_potion": "Arrow of Ever Lasting Decay",
+
+  "item.minecraft.potion.effect.buffer_potion": "Potion of Buffer",
+  "item.minecraft.splash_potion.effect.buffer_potion": "Splash Potion of Buffer",
+  "item.minecraft.lingering_potion.effect.buffer_potion": "Lingering Potion of Buffer",
+  "item.minecraft.tipped_arrow.effect.buffer_potion": "Arrow of Buffer",
+
+  "item.minecraft.potion.effect.potent_buffer_potion": "Potent Potion of Buffer",
+  "item.minecraft.splash_potion.effect.potent_buffer_potion": "Potent Splash Potion of Buffer",
+  "item.minecraft.lingering_potion.effect.potent_buffer_potion": "Potent Lingering Potion of Buffer",
+  "item.minecraft.tipped_arrow.effect.potent_buffer_potion": "Arrow of Potent Buffer",
+
+  "item.minecraft.potion.effect.extreme_buffer_potion": "Extreme Potion of Buffer",
+  "item.minecraft.splash_potion.effect.extreme_buffer_potion": "Extreme Splash Potion of Buffer",
+  "item.minecraft.lingering_potion.effect.extreme_buffer_potion": "Extreme Lingering Potion of Buffer",
+  "item.minecraft.tipped_arrow.effect.extreme_buffer_potion": "Arrow of Extreme Buffer",
+
+  "item.minecraft.potion.effect.everlasting_buffer_potion": "Potion of Ever Lasting Buffer",
+  "item.minecraft.splash_potion.effect.everlasting_buffer_potion": "Splash Potion of Ever Lasting Buffer",
+  "item.minecraft.lingering_potion.effect.everlasting_buffer_potion": "Lingering Potion of Ever Lasting Buffer",
+  "item.minecraft.tipped_arrow.effect.everlasting_buffer_potion": "Arrow of Ever Lasting Buffer",
+
+  "item.minecraft.potion.effect.berserker_potion": "Potion of the Berserker",
+  "item.minecraft.splash_potion.effect.berserker_potion": "Splash Potion of the Berserker",
+  "item.minecraft.lingering_potion.effect.berserker_potion": "Lingering Potion of the Berserker",
+  "item.minecraft.tipped_arrow.effect.berserker_potion": "Arrow of the Berserker",
+
+  "item.minecraft.potion.effect.extreme_berserker_potion": "Extreme Potion of the Berserker",
+  "item.minecraft.splash_potion.effect.extreme_berserker_potion": "Extreme Splash Potion of the Berserker",
+  "item.minecraft.lingering_potion.effect.extreme_berserker_potion": "Extreme Lingering Potion of the Berserker",
+  "item.minecraft.tipped_arrow.effect.extreme_berserker_potion": "Arrow of Extreme Berserker",
+
+  "item.minecraft.potion.effect.everlasting_berserker_potion": "Potion of the Ever Lasting Berserker",
+  "item.minecraft.splash_potion.effect.everlasting_berserker_potion": "Splash Potion of the Ever Lasting Berserker",
+  "item.minecraft.lingering_potion.effect.everlasting_berserker_potion": "Lingering Potion of the Ever Lasting Berserker",
+  "item.minecraft.tipped_arrow.effect.everlasting_berserker_potion": "Arrow of the Ever Lasting Berserker",
+
+  "item.minecraft.potion.effect.phantom_potion": "Potion of the Phantom",
+  "item.minecraft.splash_potion.effect.phantom_potion": "Splash Potion of the Phantom",
+  "item.minecraft.lingering_potion.effect.phantom_potion": "Lingering Potion of the Phantom",
+  "item.minecraft.tipped_arrow.effect.phantom_potion": "Arrow of the Phantom",
+
+  "item.minecraft.potion.effect.extreme_phantom_potion": "Extreme Potion of the Phantom",
+  "item.minecraft.splash_potion.effect.extreme_phantom_potion": "Extreme Splash Potion of the Phantom",
+  "item.minecraft.lingering_potion.effect.extreme_phantom_potion": "Extreme Lingering Potion of the Phantom",
+  "item.minecraft.tipped_arrow.effect.extreme_phantom_potion": "Arrow of Extreme Phantom",
+
+  "item.minecraft.potion.effect.everlasting_phantom_potion": "Potion of the Ever Lasting Phantom",
+  "item.minecraft.splash_potion.effect.everlasting_phantom_potion": "Splash Potion of the Ever Lasting Phantom",
+  "item.minecraft.lingering_potion.effect.everlasting_phantom_potion": "Lingering Potion of the Ever Lasting Phantom",
+  "item.minecraft.tipped_arrow.effect.everlasting_phantom_potion": "Arrow of the Ever Lasting Phantom",
+
+  "item.woofexpandedpotions.vitality_velocity_mix_tonic": "Vitality and Velocity Tonic",
+  "item.woofexpandedpotions.rejuvenation_velocity_mix_tonic": "Rejuvenation and Velocity Tonic",
+
+  "item.minecraft.potion.effect.blitz_potion": "Full Potion of Blitz",
+  "item.minecraft.splash_potion.effect.blitz_potion": "Full Splash Potion of Blitz",
+  "item.minecraft.lingering_potion.effect.blitz_potion": "Full Lingering Potion of Blitz",
+  "item.minecraft.tipped_arrow.effect.blitz_potion": "Arrow of Full Blitz",
+
+  "item.minecraft.potion.effect.extreme_blitz_potion": "Extreme Potion of Blitz",
+  "item.minecraft.splash_potion.effect.extreme_blitz_potion": "Extreme Splash Potion of Blitz",
+  "item.minecraft.lingering_potion.effect.extreme_blitz_potion": "Extreme Lingering Potion of Blitz",
+  "item.minecraft.tipped_arrow.effect.extreme_blitz_potion": "Arrow of Extreme Blitz",
+
+  "item.minecraft.potion.effect.everlasting_blitz_potion": "Potion of Ever Lasting Blitz",
+  "item.minecraft.splash_potion.effect.everlasting_blitz_potion": "Splash Potion of Ever Lasting Blitz",
+  "item.minecraft.lingering_potion.effect.everlasting_blitz_potion": "Lingering Potion of Ever Lasting Blitz",
+  "item.minecraft.tipped_arrow.effect.everlasting_blitz_potion": "Arrow of Ever Lasting Blitz"
 }

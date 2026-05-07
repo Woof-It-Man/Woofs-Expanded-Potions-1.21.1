@@ -1,6 +1,6 @@
 # Woof Expanded Potions
 A Minecraft mod that expands the vanilla potion system with stronger, longer-lasting, and entirely new potion variants. This includes resistance and haste potions missing from the base game, combo potions, and permanent-duration utility brews.
-Potions are crafted in the brewing stand using a tiered ingredient system: Dusts unlock Potent-tier upgrades, Tonics unlock Extreme-tier upgrades, and Duration Mixes extend any Full-tier potion to Everlasting. Combination potions always last longer than their components to reward the effort of mixing.
+Potions are crafted in the brewing stand using a tiered ingredient system: Dusts unlock Potent-tier upgrades, Tonics unlock Extreme-tier upgrades, and Duration Mixes extend any potion to Ever Lasting. Combination potions encourage mixing by offering convenience over duration at base tier, with duration bonuses kicking in at Extreme tier and beyond.
 
 ## Table of Contents
 - [Dusts](#-dusts)
@@ -24,7 +24,7 @@ Dusts are crafted at a crafting table and added to a Full-tier potion in the bre
 | Dust of Midnight | `midnight_powder` | Long Lasting Night Vision |
 | Dust of Invisibility | `invisibility_powder` | Long Lasting Invisibility |
 | Dust of Featherfall | `light_fall_powder` | Long Lasting Slow Falling |
-| Dust of Breathing | `breathing_powder` | Long Lasting Water Breathing |
+| Dust of Breathing | `breathing_powder` | Long Lasting Water Breathing, Neptune's Delight |
 | Dust of Corruption | `corrupted_powder` | Potent Slowness, Potent Poison, Potent Harming, Potent Wither, Long Lasting Weakness |
 | Dust of the Deep | `deep_powder` | Long Lasting Dolphin's Grace, Neptune's Delight |
 
@@ -34,20 +34,19 @@ Tonics are crafted from a Tonic Base combined with their matching dust. Added to
 | In-Game Name | Internal ID | Used To Brew |
 |---|---|---|
 | Tonic Base | `base_tonic` | Crafting ingredient for all tonics |
-| Vitality Tonic | `vitality_tonic` | Extreme Strength |
-| Rejuvenation Tonic | `rejuvenation_tonic` | Extreme Regeneration, Extreme Healing |
-| Bulwark Tonic | `bulwark_tonic` | Extreme Resistance, Extreme Combat, Extreme Turtle Master |
+| Vitality Tonic | `vitality_tonic` | Extreme Strength, Extreme Blitz, Extreme Berserker (via Blitz) |
+| Rejuvenation Tonic | `rejuvenation_tonic` | Extreme Regeneration, Extreme Healing, Extreme Berserker, Potent Buffer |
+| Bulwark Tonic | `bulwark_tonic` | Extreme Resistance, Extreme Combat, Extreme Swift Guard, Extreme Juggernaut (via Blitz), Extreme Turtle Master |
 | Netherfire Tonic | `nether_fire_tonic` | Permanent Fire Resistance |
-| Velocity Tonic | `velocity_tonic` | Extreme Swiftness, Extreme Leaping |
-| Torpidity Tonic | `torpidity_tonic` | Extreme Slowness, Extreme Poison, Extreme Harming, Extreme Wither, Ever Lasting Weakness |
+| Velocity Tonic | `velocity_tonic` | Extreme Swiftness, Extreme Leaping, Extreme Blitz, Extreme Swift Guard, Extreme Juggernaut (via Combat), Extreme Phantom |
+| Torpidity Tonic | `torpidity_tonic` | Extreme Slowness, Extreme Poison, Extreme Harming, Extreme Wither, Extreme Decay, Ever Lasting Weakness |
 | Miner's Tonic | `mining_tonic` | Extreme Mining |
 | Midnight Tonic | `midnight_tonic` | Permanent Night Vision |
-| Invisibility Tonic | `invisibility_tonic` | Permanent Invisibility |
+| Invisibility Tonic | `invisibility_tonic` | Permanent Invisibility, Extreme Phantom |
 | Light Fall Tonic | `light_fall_tonic` | Permanent Slow Falling |
-| Breathing Tonic | `breathing_tonic` | Permanent Water Breathing |
+| Breathing Tonic | `breathing_tonic` | Permanent Water Breathing, Extreme Neptune's Delight |
 | Tidal Tonic | `tidal_tonic` | Permanent Dolphin's Grace, Extreme Neptune's Delight |
-| Health Tonic | `health_tonic` | Crafting ingredient |
-| Withering Poison Tonic | `withering_poison_tonic` | Crafting ingredient |
+| Withering Poison Tonic | `withering_poison_tonic` | Potent Decay |
 
 ## 🔀 Tonic Mixes
 Combo tonics are crafted by combining two or three tonics together. They are used to produce Extreme combination potions in a single brewing step.
@@ -56,7 +55,11 @@ Combo tonics are crafted by combining two or three tonics together. They are use
 |---|---|---|---|
 | Vitality and Bulwark Tonic | `vitality_bulwark_mix_tonic` | Vitality Tonic + Bulwark Tonic | Extreme Combat |
 | Flickering and Bulwark Tonic | `flicker_bulwark_mix_tonic` | Velocity Tonic + Bulwark Tonic | Extreme Swift Guard |
-| Juggernaut Tonic | `juggernaut_tonic` | Vitality Tonic + Bulwark Tonic + Velocity Tonic, or Vitality and Bulwark Tonic + Velocity Tonic, or Flickering and Bulwark Tonic + Vitality Tonic | Extreme Juggernaut |
+| Vitality and Velocity Tonic | `vitality_velocity_mix_tonic` | Vitality Tonic + Velocity Tonic | Extreme Blitz |
+| Rejuvenation and Velocity Tonic | `rejuvenation_velocity_mix_tonic` | Rejuvenation Tonic + Velocity Tonic | Crafting ingredient |
+| Juggernaut Tonic | `juggernaut_tonic` | Vitality Tonic + Bulwark Tonic + Velocity Tonic, or Vitality and Bulwark Tonic + Velocity Tonic, or Flickering and Bulwark Tonic + Vitality Tonic, or Vitality and Velocity Tonic + Bulwark Tonic | Extreme Juggernaut |
+| Berserker Tonic | `berserker_tonic` | Vitality Tonic + Velocity Tonic + Rejuvenation Tonic, or Vitality and Velocity Tonic + Rejuvenation Tonic, or Rejuvenation and Velocity Tonic + Vitality Tonic | Extreme Berserker |
+| Phantom Tonic | `phantom_tonic` | Invisibility Tonic + Velocity Tonic | Extreme Phantom |
 
 ## 🔧 Other Ingredients
 
@@ -64,7 +67,7 @@ Combo tonics are crafted by combining two or three tonics together. They are use
 |---|---|---|
 | Alchemical Enricher | `alchemical_enricher` | Core crafting component |
 | Supreme Stabilizing Enricher | `supreme_stabilizing_enricher` | Higher-tier crafting component |
-| Fertile Ingredient Mix | `duration_mix` | Extends any Full potion to Ever Lasting |
+| Fertile Ingredient Mix | `duration_mix` | Extends any potion to Ever Lasting |
 | Enchanted Fertile Ingredient Mix | `ultra_duration_mix` | Enhanced duration ingredient |
 | Diamond Carrot | `diamond_carrot` | Crafting ingredient |
 | Encrusted Carrot | `encrusted_carrot` | Crafting ingredient |
@@ -225,7 +228,7 @@ Vanilla has no standalone Haste potion. These fill that gap.
 | Long Lasting Potion of Dolphin's Grace | 30m |
 | Permanent Potion of Dolphin's Grace | 2h 30m |
 
-### 🌊🐬 Neptune's Delight — Dolphin's Grace + Water Breathing
+### 🌊🐬 Neptune's Delight — Dolphin's Grace + Conduit Power
 Combo duration is longer than either component to reward mixing.
 
 | Potion | Duration (each effect) |
@@ -234,11 +237,11 @@ Combo duration is longer than either component to reward mixing.
 | Extreme Potion of Neptune's Delight | 3h |
 
 ### ⚔️🛡️ Combat — Strength + Resistance
-No Potent variant. Powders aren't stable enough for combination brews, but tonics are.
+No Potent variant. Powders aren't stable enough for combination brews, but tonics are. Base duration is shorter than components — the reward is convenience.
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
-| Full Potion of Combat | 3m 20s | II |
+| Full Potion of Combat | 1m 45s | II |
 | Extreme Potion of Combat | 5m | III |
 | Potion of Ever Lasting Combat | 33m 20s | I |
 
@@ -246,18 +249,67 @@ No Potent variant. Powders aren't stable enough for combination brews, but tonic
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
-| Potion of Swift Guard | 3m 20s | II |
+| Potion of Swift Guard | 1m 45s | II |
 | Extreme Potion of Swift Guard | 5m | III |
 | Potion of Ever Lasting Swift Guard | 33m 20s | I |
+
+### ⚔️💨 Blitz — Strength + Speed
+
+| Potion | Duration (each effect) | Level |
+|---|---|---|
+| Full Potion of Blitz | 1m 45s | II |
+| Extreme Potion of Blitz | 5m | III |
+| Potion of Ever Lasting Blitz | 33m 20s | I |
+
+### ☠️🖤 Decay — Poison + Wither
+
+| Potion | Duration (each effect) | Level |
+|---|---|---|
+| Potion of Decay | 1m 45s | II |
+| Potent Potion of Decay | 1m | III |
+| Extreme Potion of Decay | 5m | III |
+| Potion of Ever Lasting Decay | 33m 20s | I |
+
+### ❤️💚 Buffer — Regeneration + Absorption
+
+| Potion | Duration (each effect) | Level |
+|---|---|---|
+| Potion of Buffer | 1m 45s | II |
+| Extreme Potion of Buffer | 5m | III |
+| Potion of Ever Lasting Buffer | 33m 20s | I |
+
+### 🐇💨 Acrobat — Speed + Jump Boost
+
+| Potion | Duration (each effect) | Level |
+|---|---|---|
+| Potion of Acrobat | 1m 45s | II |
+| Extreme Potion of Acrobat | 5m | III |
+| Potion of Ever Lasting Acrobat | 33m 20s | I |
 
 ### ⚔️💨🛡️ Juggernaut — Strength + Speed + Resistance
 Three-effect combo. Duration is boosted further to reward the extra complexity.
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
-| Potion of the Juggernaut | 4m | II |
+| Potion of the Juggernaut | 1m | II |
 | Extreme Potion of the Juggernaut | 6m | III |
 | Potion of the Ever Lasting Juggernaut | 36m | I |
+
+### ⚔️💨💚 Berserker — Strength + Speed + Regeneration
+
+| Potion | Duration (each effect) | Level |
+|---|---|---|
+| Potion of the Berserker | 1m | II |
+| Extreme Potion of the Berserker | 6m | III |
+| Potion of the Ever Lasting Berserker | 36m | I |
+
+### 👻💨😴 Phantom — Invisibility + Speed + Weakness
+
+| Potion | Duration (each effect) | Level |
+|---|---|---|
+| Potion of the Phantom | 1m | II / I (Weakness) |
+| Extreme Potion of the Phantom | 6m | III / II (Weakness) |
+| Potion of the Ever Lasting Phantom | 36m | I |
 
 ### 🐢 Turtle Master (Extended)
 
@@ -303,6 +355,7 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Light Fall Tonic | Tonic Base + Dust of Featherfall |
 | Breathing Tonic | Tonic Base + Dust of Breathing |
 | Tidal Tonic | Tonic Base + Dust of the Deep |
+| Withering Poison Tonic | Torpidity Tonic + Wither Rose |
 
 ### Tonic Mix Recipes (Crafting Table, Shapeless)
 
@@ -310,9 +363,16 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 |---|---|
 | Vitality and Bulwark Tonic | Vitality Tonic + Bulwark Tonic |
 | Flickering and Bulwark Tonic | Velocity Tonic + Bulwark Tonic |
+| Vitality and Velocity Tonic | Vitality Tonic + Velocity Tonic |
+| Rejuvenation and Velocity Tonic | Rejuvenation Tonic + Velocity Tonic |
 | Juggernaut Tonic | Vitality Tonic + Bulwark Tonic + Velocity Tonic |
 | Juggernaut Tonic (alt) | Vitality and Bulwark Tonic + Velocity Tonic |
 | Juggernaut Tonic (alt) | Flickering and Bulwark Tonic + Vitality Tonic |
+| Juggernaut Tonic (alt) | Vitality and Velocity Tonic + Bulwark Tonic |
+| Berserker Tonic | Vitality Tonic + Velocity Tonic + Rejuvenation Tonic |
+| Berserker Tonic (alt) | Vitality and Velocity Tonic + Rejuvenation Tonic |
+| Berserker Tonic (alt) | Rejuvenation and Velocity Tonic + Vitality Tonic |
+| Phantom Tonic | Invisibility Tonic + Velocity Tonic |
 
 ### Brewing Recipes (Brewing Stand)
 
@@ -470,21 +530,73 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Input | Ingredient | Output |
 |---|---|---|
 | Potion of Full Swiftness | Copper Ingot | Potion of Swift Guard |
-| Full Potion of Resistance | Dust of Flickering | Potion of Swift Guard |
+| Full Potion of Resistance | Sugar | Potion of Swift Guard |
 | Potion of Extreme Swiftness | Bulwark Tonic | Extreme Potion of Swift Guard |
 | Potion of Extreme Resistance | Velocity Tonic | Extreme Potion of Swift Guard |
 | Potion of Swift Guard | Flickering and Bulwark Tonic | Extreme Potion of Swift Guard |
 | Potion of Swift Guard | Fertile Ingredient Mix | Potion of Ever Lasting Swift Guard |
 
+#### Blitz
+| Input | Ingredient | Output |
+|---|---|---|
+| Full Potion of Strength | Sugar | Full Potion of Blitz |
+| Potion of Full Swiftness | Blaze Powder | Full Potion of Blitz |
+| Potion of Extreme Strength | Velocity Tonic | Extreme Potion of Blitz |
+| Potion of Extreme Swiftness | Vitality Tonic | Extreme Potion of Blitz |
+| Full Potion of Blitz | Vitality and Velocity Tonic | Extreme Potion of Blitz |
+| Full Potion of Blitz | Fertile Ingredient Mix | Potion of Ever Lasting Blitz |
+
+#### Decay
+| Input | Ingredient | Output |
+|---|---|---|
+| Potion of Full Poison | Wither Rose | Potion of Decay |
+| Potion of Decay | Withering Poison Tonic | Potent Potion of Decay |
+| Potion of Decay | Torpidity Tonic | Extreme Potion of Decay |
+| Potion of Decay | Fertile Ingredient Mix | Potion of Ever Lasting Decay |
+
+#### Buffer
+| Input | Ingredient | Output |
+|---|---|---|
+| Full Potion of Regeneration | Golden Apple | Potion of Buffer |
+| Potion of Buffer | Rejuvenation Tonic | Extreme Potion of Buffer |
+| Potion of Buffer | Fertile Ingredient Mix | Potion of Ever Lasting Buffer |
+
+#### Acrobat
+| Input | Ingredient | Output |
+|---|---|---|
+| Potion of Full Swiftness | Rabbit's Foot | Potion of Acrobat |
+| Potion of Full Leaping | Sugar | Potion of Acrobat |
+| Potion of Acrobat | Velocity Tonic | Extreme Potion of Acrobat |
+| Potion of Acrobat | Fertile Ingredient Mix | Potion of Ever Lasting Acrobat |
+
 #### Juggernaut
 | Input | Ingredient | Output |
 |---|---|---|
-| Full Potion of Combat | Dust of Flickering | Potion of the Juggernaut |
+| Full Potion of Combat | Sugar | Potion of the Juggernaut |
 | Potion of Swift Guard | Blaze Powder | Potion of the Juggernaut |
+| Full Potion of Blitz | Copper Ingot | Potion of the Juggernaut |
 | Extreme Potion of Combat | Velocity Tonic | Extreme Potion of the Juggernaut |
 | Extreme Potion of Swift Guard | Vitality Tonic | Extreme Potion of the Juggernaut |
-| Full Potion of Combat | Juggernaut Tonic | Extreme Potion of the Juggernaut |
+| Extreme Potion of Blitz | Bulwark Tonic | Extreme Potion of the Juggernaut |
+| Potion of the Juggernaut | Juggernaut Tonic | Extreme Potion of the Juggernaut |
 | Potion of the Juggernaut | Fertile Ingredient Mix | Potion of the Ever Lasting Juggernaut |
+
+#### Berserker
+| Input | Ingredient | Output |
+|---|---|---|
+| Full Potion of Blitz | Ghast Tear | Potion of the Berserker |
+| Extreme Potion of Blitz | Rejuvenation Tonic | Extreme Potion of the Berserker |
+| Potion of the Berserker | Berserker Tonic | Extreme Potion of the Berserker |
+| Potion of the Berserker | Fertile Ingredient Mix | Potion of the Ever Lasting Berserker |
+
+#### Phantom
+| Input | Ingredient | Output |
+|---|---|---|
+| Long Invisibility | Sugar | Potion of the Phantom |
+| Potion of Full Swiftness | Fermented Spider Eye | Potion of the Phantom |
+| Potion of Extreme Swiftness | Invisibility Tonic | Extreme Potion of the Phantom |
+| Potion of the Phantom | Phantom Tonic | Extreme Potion of the Phantom |
+| Potion of the Phantom | Fertile Ingredient Mix | Potion of the Ever Lasting Phantom |
 
 #### Turtle Master
 | Input | Ingredient | Output |

@@ -117,22 +117,55 @@ public class ModEvents {
         builder.addMix(ModPotions.PERMANENT_WATER_BREATHING_POTION, ModItems.TIDAL_TONIC.get(), ModPotions.EXTREME_NEPTUNES_DELIGHT_POTION);
 
         builder.addMix(ModPotions.FULL_SWIFTNESS_POTION, Items.COPPER_INGOT, ModPotions.SWIFT_GUARD_POTION);
-        builder.addMix(ModPotions.FULL_RESISTANCE_POTION, ModItems.FLICKER_POWDER.get(), ModPotions.SWIFT_GUARD_POTION);
+        builder.addMix(ModPotions.FULL_RESISTANCE_POTION, Items.SUGAR, ModPotions.SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.EXTREME_SWIFTNESS_POTION, ModItems.BULWARK_TONIC.get(), ModPotions.EXTREME_SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.EXTREME_RESISTANCE_POTION, ModItems.VELOCITY_TONIC.get(), ModPotions.EXTREME_SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.SWIFT_GUARD_POTION, ModItems.FLICKER_BREATHING_MIX_TONIC.get(), ModPotions.EXTREME_SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.SWIFT_GUARD_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_SWIFT_GUARD_POTION);
 
-        builder.addMix(ModPotions.COMBAT_POTION, ModItems.FLICKER_POWDER.get(), ModPotions.JUGGERNAUT_POTION);
+        builder.addMix(ModPotions.COMBAT_POTION, Items.SUGAR, ModPotions.JUGGERNAUT_POTION);
         builder.addMix(ModPotions.SWIFT_GUARD_POTION, Items.BLAZE_POWDER, ModPotions.JUGGERNAUT_POTION);
+        builder.addMix(ModPotions.BLITZ_POTION, Items.COPPER_INGOT, ModPotions.JUGGERNAUT_POTION);
         builder.addMix(ModPotions.EXTREME_COMBAT_POTION, ModItems.VELOCITY_TONIC.get(), ModPotions.EXTREME_JUGGERNAUT_POTION);
         builder.addMix(ModPotions.EXTREME_SWIFT_GUARD_POTION, ModItems.VITALITY_TONIC.get(), ModPotions.EXTREME_JUGGERNAUT_POTION);
-        builder.addMix(ModPotions.COMBAT_POTION, ModItems.JUGGERNAUT_TONIC.get(), ModPotions.EXTREME_JUGGERNAUT_POTION);
+        builder.addMix(ModPotions.EXTREME_BLITZ_POTION, ModItems.BULWARK_TONIC.get(), ModPotions.EXTREME_JUGGERNAUT_POTION);
+        builder.addMix(ModPotions.JUGGERNAUT_POTION, ModItems.JUGGERNAUT_TONIC.get(), ModPotions.EXTREME_JUGGERNAUT_POTION);
         builder.addMix(ModPotions.JUGGERNAUT_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_JUGGERNAUT_POTION);
+        builder.addMix(ModPotions.BLITZ_POTION, Items.GHAST_TEAR, ModPotions.BERSERKER_POTION);
+        builder.addMix(ModPotions.EXTREME_BLITZ_POTION, ModItems.REJUVENATION_TONIC.get(), ModPotions.EXTREME_BERSERKER_POTION);
+        builder.addMix(ModPotions.BERSERKER_POTION, ModItems.BERSERKER_TONIC.get(), ModPotions.EXTREME_BERSERKER_POTION);
+        builder.addMix(ModPotions.BERSERKER_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_BERSERKER_POTION);
+
+        builder.addMix(ModPotions.FULL_STRENGTH_POTION, Items.SUGAR, ModPotions.BLITZ_POTION);
+        builder.addMix(ModPotions.FULL_SWIFTNESS_POTION, Items.BLAZE_POWDER, ModPotions.BLITZ_POTION);
+        builder.addMix(ModPotions.EXTREME_STRENGTH_POTION, ModItems.VELOCITY_TONIC.get(), ModPotions.EXTREME_BLITZ_POTION);
+        builder.addMix(ModPotions.EXTREME_SWIFTNESS_POTION, ModItems.VITALITY_TONIC.get(), ModPotions.EXTREME_BLITZ_POTION);
+        builder.addMix(ModPotions.BLITZ_POTION, ModItems.VITALITY_VELOCITY_MIX_TONIC.get(), ModPotions.EXTREME_BLITZ_POTION);
+        builder.addMix(ModPotions.BLITZ_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_BLITZ_POTION);
 
         builder.addMix(Potions.LONG_TURTLE_MASTER, Items.GLOWSTONE_DUST, ModPotions.FULL_TURTLE_MASTER_POTION);
         builder.addMix(Potions.STRONG_TURTLE_MASTER, Items.REDSTONE, ModPotions.FULL_TURTLE_MASTER_POTION);
         builder.addMix(ModPotions.FULL_TURTLE_MASTER_POTION, ModItems.BULWARK_POWDER.get(), ModPotions.POTENT_TURTLE_MASTER_POTION);
         builder.addMix(ModPotions.FULL_TURTLE_MASTER_POTION, ModItems.BULWARK_TONIC.get(), ModPotions.EXTREME_TURTLE_MASTER_POTION);
+
+        builder.addMix(ModPotions.FULL_SWIFTNESS_POTION, Items.RABBIT_FOOT, ModPotions.ACROBAT_POTION);
+        builder.addMix(ModPotions.FULL_LEAPING_POTION, Items.SUGAR, ModPotions.ACROBAT_POTION);
+        builder.addMix(ModPotions.ACROBAT_POTION, ModItems.VELOCITY_TONIC.get(), ModPotions.EXTREME_ACROBAT_POTION);
+        builder.addMix(ModPotions.ACROBAT_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_ACROBAT_POTION);
+
+        builder.addMix(ModPotions.FULL_POISON_POTION, Items.WITHER_ROSE, ModPotions.DECAY_POTION);
+        builder.addMix(ModPotions.DECAY_POTION, ModItems.WITHERING_POISON_TONIC.get(), ModPotions.POTENT_DECAY_POTION);
+        builder.addMix(ModPotions.DECAY_POTION, ModItems.TORPIDITY_TONIC.get(), ModPotions.EXTREME_DECAY_POTION);
+        builder.addMix(ModPotions.DECAY_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_DECAY_POTION);
+
+        builder.addMix(ModPotions.FULL_REGENERATION_POTION, Items.GOLDEN_APPLE, ModPotions.BUFFER_POTION);
+        builder.addMix(ModPotions.BUFFER_POTION, ModItems.REJUVENATION_TONIC.get(), ModPotions.EXTREME_BUFFER_POTION);
+        builder.addMix(ModPotions.BUFFER_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_BUFFER_POTION);
+
+        builder.addMix(Potions.LONG_INVISIBILITY, Items.SUGAR, ModPotions.PHANTOM_POTION);
+        builder.addMix(ModPotions.FULL_SWIFTNESS_POTION, Items.FERMENTED_SPIDER_EYE, ModPotions.PHANTOM_POTION);
+        builder.addMix(ModPotions.EXTREME_SWIFTNESS_POTION, ModItems.INVISIBILITY_TONIC.get(), ModPotions.EXTREME_PHANTOM_POTION);
+        builder.addMix(ModPotions.PHANTOM_POTION, ModItems.PHANTOM_TONIC.get(), ModPotions.EXTREME_PHANTOM_POTION);
+        builder.addMix(ModPotions.PHANTOM_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_PHANTOM_POTION);
     }
 }
