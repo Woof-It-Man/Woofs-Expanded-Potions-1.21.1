@@ -229,7 +229,7 @@ Vanilla has no standalone Haste potion. These fill that gap.
 | Long Lasting Potion of Dolphin's Grace | 30m |
 | Permanent Potion of Dolphin's Grace | 2h 30m |
 
-### 🌊🐬 Neptune's Delight, Dolphin's Grace and Conduit Power
+### 🌊🐬 Neptune's Delight: Dolphin's Grace + Conduit Power
 Combo duration is longer than either component to reward mixing.
 
 | Potion | Duration (each effect) |
@@ -237,7 +237,7 @@ Combo duration is longer than either component to reward mixing.
 | Potion of Neptune's Delight | 36m |
 | Potion of Ever Lasting Neptune's Delight | 3h |
 
-### ⚔️🛡️ Combat Strength + Resistance
+### ⚔️🛡️ Combat: Strength + Resistance
 No Potent variant. Base duration is shorter than components the reward is convenience.
 
 | Potion | Duration (each effect) | Level |
@@ -246,7 +246,7 @@ No Potent variant. Base duration is shorter than components the reward is conven
 | Extreme Potion of Combat | 5m | III |
 | Potion of Ever Lasting Combat | 33m 20s | I |
 
-### 💨🛡️ Swift Guard Speed + Resistance
+### 💨🛡️ Swift Guard: Speed + Resistance
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
@@ -254,7 +254,7 @@ No Potent variant. Base duration is shorter than components the reward is conven
 | Extreme Potion of Swift Guard | 5m | III |
 | Potion of Ever Lasting Swift Guard | 33m 20s | I |
 
-### ⚔️💨 Blitz Strength + Speed
+### ⚔️💨 Blitz: Strength + Speed
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
@@ -262,7 +262,7 @@ No Potent variant. Base duration is shorter than components the reward is conven
 | Extreme Potion of Blitz | 5m | III |
 | Potion of Ever Lasting Blitz | 33m 20s | I |
 
-### 🐇💨 Acrobat Speed + Jump Boost
+### 🐇💨 Acrobat: Speed + Jump Boost
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
@@ -270,7 +270,7 @@ No Potent variant. Base duration is shorter than components the reward is conven
 | Extreme Potion of Acrobat | 5m | III |
 | Potion of Ever Lasting Acrobat | 33m 20s | I |
 
-### ☠️🖤 Decay Poison + Wither
+### ☠️🖤 Decay: Poison + Wither
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
@@ -279,7 +279,7 @@ No Potent variant. Base duration is shorter than components the reward is conven
 | Extreme Potion of Decay | 5m | III |
 | Potion of Ever Lasting Decay | 33m 20s | I |
 
-### ❤️💚 Buffer Regeneration + Absorption
+### ❤️💚 Buffer: Regeneration + Absorption
 
 | Potion | Regeneration | Absorption |
 |---|---|---|
@@ -287,7 +287,7 @@ No Potent variant. Base duration is shorter than components the reward is conven
 | Extreme Potion of Buffer | III (1m 30s) | VII (5m) |
 | Potion of Ever Lasting Buffer | I (6m) | II (33m 20s) |
 
-### ⚔️💨🛡️ Gladiator Strength + Speed + Resistance
+### ⚔️💨🛡️ Gladiator: Strength + Speed + Resistance
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
@@ -295,7 +295,7 @@ No Potent variant. Base duration is shorter than components the reward is conven
 | Extreme Potion of the Gladiator | 6m | III |
 | Potion of the Ever Lasting Gladiator | 36m | I |
 
-### 🛡️❤️💚 Juggernaut Resistance + Absorption + Regeneration
+### 🛡️❤️💚 Juggernaut: Resistance + Absorption + Regeneration
 Absorption and Regeneration have independent durations to allow for custom tuning.
 
 | Potion | Resistance | Absorption | Regeneration |
@@ -304,7 +304,7 @@ Absorption and Regeneration have independent durations to allow for custom tunin
 | Extreme Potion of the Juggernaut | III (6m) | VII (6m) | III (2m) |
 | Potion of the Ever Lasting Juggernaut | I (36m) | II (36m) | I (8m) |
 
-### ⚔️💨💚 Berserker Strength + Speed + Regeneration
+### ⚔️💨💚 Berserker: Strength + Speed + Regeneration
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
@@ -312,7 +312,7 @@ Absorption and Regeneration have independent durations to allow for custom tunin
 | Extreme Potion of the Berserker | 6m | III |
 | Potion of the Ever Lasting Berserker | 36m | I |
 
-### 👻💨😴 Phantom Invisibility + Speed + Weakness
+### 👻💨😴 Phantom: Invisibility + Speed + Weakness
 
 | Potion | Duration | Invisibility | Speed | Weakness |
 |---|---|---|---|---|
