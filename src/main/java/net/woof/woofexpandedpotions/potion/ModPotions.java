@@ -107,7 +107,7 @@ public class ModPotions {
     public static final Holder<Potion> EVERLASTING_BLITZ_POTION = POTIONS.register("everlasting_blitz_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40000, 0), new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40000, 0)));
 
     public static final Holder<Potion> NEPTUNES_DELIGHT_POTION = POTIONS.register("neptunes_delight_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 43200), new MobEffectInstance(MobEffects.CONDUIT_POWER, 43200)));
-    public static final Holder<Potion> EXTREME_NEPTUNES_DELIGHT_POTION = POTIONS.register("extreme_neptunes_delight_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 216000), new MobEffectInstance(MobEffects.CONDUIT_POWER, 216000)));
+    public static final Holder<Potion> EVERLASTING_NEPTUNES_DELIGHT_POTION = POTIONS.register("everlasting_neptunes_delight_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 216000), new MobEffectInstance(MobEffects.CONDUIT_POWER, 216000)));
 
     public static final Holder<Potion> FULL_TURTLE_MASTER_POTION = POTIONS.register("full_turtle_master_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 5), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500, 3)));
     public static final Holder<Potion> POTENT_TURTLE_MASTER_POTION = POTIONS.register("potent_turtle_master_potion", () -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 5), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500, 4)));

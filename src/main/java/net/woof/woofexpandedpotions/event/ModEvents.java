@@ -113,8 +113,8 @@ public class ModEvents {
 
         builder.addMix(ModPotions.LONGLASTING_DOLPHIN_GRACE_POTION, ModItems.BREATHING_POWDER.get(), ModPotions.NEPTUNES_DELIGHT_POTION);
         builder.addMix(ModPotions.LONGLASTING_WATER_BREATHING_POTION, ModItems.DEEP_POWDER.get(), ModPotions.NEPTUNES_DELIGHT_POTION);
-        builder.addMix(ModPotions.PERMANENT_DOLPHIN_GRACE_POTION, ModItems.BREATHING_TONIC.get(), ModPotions.EXTREME_NEPTUNES_DELIGHT_POTION);
-        builder.addMix(ModPotions.PERMANENT_WATER_BREATHING_POTION, ModItems.TIDAL_TONIC.get(), ModPotions.EXTREME_NEPTUNES_DELIGHT_POTION);
+        builder.addMix(ModPotions.PERMANENT_DOLPHIN_GRACE_POTION, ModItems.BREATHING_TONIC.get(), ModPotions.EVERLASTING_NEPTUNES_DELIGHT_POTION);
+        builder.addMix(ModPotions.PERMANENT_WATER_BREATHING_POTION, ModItems.TIDAL_TONIC.get(), ModPotions.EVERLASTING_NEPTUNES_DELIGHT_POTION);
 
         builder.addMix(ModPotions.FULL_SWIFTNESS_POTION, Items.COPPER_INGOT, ModPotions.SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.FULL_RESISTANCE_POTION, Items.SUGAR, ModPotions.SWIFT_GUARD_POTION);
