@@ -3,13 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "woofexpandedpotions:vitality_tonic"
+      "item": "woofexpandedpotions:rejuvenation_tonic"
     },
     {
       "item": "woofexpandedpotions:bulwark_tonic"
-    },
-    {
-      "item": "woofexpandedpotions:velocity_tonic"
     }
   ],
   "result": {

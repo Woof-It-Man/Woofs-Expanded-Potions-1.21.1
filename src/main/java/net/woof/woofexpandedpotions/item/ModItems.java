@@ -39,6 +39,7 @@ public class ModItems {
     public static final DeferredItem<Item> VITALITY_VELOCITY_MIX_TONIC = ITEMS.register("vitality_velocity_mix_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> REJUVENATION_VELOCITY_MIX_TONIC = ITEMS.register("rejuvenation_velocity_mix_tonic", () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> GLADIATOR_TONIC = ITEMS.register("gladiator_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> JUGGERNAUT_TONIC = ITEMS.register("juggernaut_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BERSERKER_TONIC = ITEMS.register("berserker_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PHANTOM_TONIC = ITEMS.register("phantom_tonic", () -> new Item(new Item.Properties()));

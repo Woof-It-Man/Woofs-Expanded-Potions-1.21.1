@@ -312,7 +312,7 @@
 
   "item.woofexpandedpotions.deep_powder": "Dust of the Deep",
   "item.woofexpandedpotions.tidal_tonic": "Tidal Tonic",
-  "item.woofexpandedpotions.juggernaut_tonic": "Juggernaut Tonic",
+  "item.woofexpandedpotions.gladiator_tonic": "Gladiator Tonic",
   "item.woofexpandedpotions.flicker_bulwark_mix_tonic": "Flickering and Bulwark Tonic",
 
   "item.minecraft.potion.effect.dolphin_grace_potion": "Potion of Dolphin's Grace",
@@ -355,20 +355,20 @@
   "item.minecraft.lingering_potion.effect.everlasting_swift_guard_potion": "Lingering Potion of Ever Lasting Swift Guard",
   "item.minecraft.tipped_arrow.effect.everlasting_swift_guard_potion": "Arrow of Ever Lasting Swift Guard",
 
-  "item.minecraft.potion.effect.juggernaut_potion": "Potion of the Juggernaut",
-  "item.minecraft.splash_potion.effect.juggernaut_potion": "Splash Potion of the Juggernaut",
-  "item.minecraft.lingering_potion.effect.juggernaut_potion": "Lingering Potion of the Juggernaut",
-  "item.minecraft.tipped_arrow.effect.juggernaut_potion": "Arrow of the Juggernaut",
+  "item.minecraft.potion.effect.gladiator_potion": "Potion of the Gladiator",
+  "item.minecraft.splash_potion.effect.gladiator_potion": "Splash Potion of the Gladiator",
+  "item.minecraft.lingering_potion.effect.gladiator_potion": "Lingering Potion of the Gladiator",
+  "item.minecraft.tipped_arrow.effect.gladiator_potion": "Arrow of the Gladiator",
 
-  "item.minecraft.potion.effect.extreme_juggernaut_potion": "Extreme Potion of the Juggernaut",
-  "item.minecraft.splash_potion.effect.extreme_juggernaut_potion": "Extreme Splash Potion of the Juggernaut",
-  "item.minecraft.lingering_potion.effect.extreme_juggernaut_potion": "Extreme Lingering Potion of the Juggernaut",
-  "item.minecraft.tipped_arrow.effect.extreme_juggernaut_potion": "Arrow of Extreme Juggernaut",
+  "item.minecraft.potion.effect.extreme_gladiator_potion": "Extreme Potion of the Gladiator",
+  "item.minecraft.splash_potion.effect.extreme_gladiator_potion": "Extreme Splash Potion of the Gladiator",
+  "item.minecraft.lingering_potion.effect.extreme_gladiator_potion": "Extreme Lingering Potion of the Gladiator",
+  "item.minecraft.tipped_arrow.effect.extreme_gladiator_potion": "Arrow of Extreme Gladiator",
 
-  "item.minecraft.potion.effect.everlasting_juggernaut_potion": "Potion of the Ever Lasting Juggernaut",
-  "item.minecraft.splash_potion.effect.everlasting_juggernaut_potion": "Splash Potion of the Ever Lasting Juggernaut",
-  "item.minecraft.lingering_potion.effect.everlasting_juggernaut_potion": "Lingering Potion of the Ever Lasting Juggernaut",
-  "item.minecraft.tipped_arrow.effect.everlasting_juggernaut_potion": "Arrow of the Ever Lasting Juggernaut",
+  "item.minecraft.potion.effect.everlasting_gladiator_potion": "Potion of the Ever Lasting Gladiator",
+  "item.minecraft.splash_potion.effect.everlasting_gladiator_potion": "Splash Potion of the Ever Lasting Gladiator",
+  "item.minecraft.lingering_potion.effect.everlasting_gladiator_potion": "Lingering Potion of the Ever Lasting Gladiator",
+  "item.minecraft.tipped_arrow.effect.everlasting_gladiator_potion": "Arrow of the Ever Lasting Gladiator",
 
   "item.woofexpandedpotions.berserker_tonic": "Berserker Tonic",
   "item.woofexpandedpotions.phantom_tonic": "Phantom Tonic",
@@ -479,5 +479,30 @@
   "item.minecraft.potion.effect.everlasting_blitz_potion": "Potion of Ever Lasting Blitz",
   "item.minecraft.splash_potion.effect.everlasting_blitz_potion": "Splash Potion of Ever Lasting Blitz",
   "item.minecraft.lingering_potion.effect.everlasting_blitz_potion": "Lingering Potion of Ever Lasting Blitz",
-  "item.minecraft.tipped_arrow.effect.everlasting_blitz_potion": "Arrow of Ever Lasting Blitz"
+  "item.minecraft.tipped_arrow.effect.everlasting_blitz_potion": "Arrow of Ever Lasting Blitz",
+
+  "item.woofexpandedpotions.juggernaut_tonic": "Juggernaut Tonic",
+  "item.minecraft.potion.effect.juggernaut_potion": "Potion of the Juggernaut",
+  "item.minecraft.splash_potion.effect.juggernaut_potion": "Splash Potion of the Juggernaut",
+  "item.minecraft.lingering_potion.effect.juggernaut_potion": "Lingering Potion of the Juggernaut",
+  "item.minecraft.tipped_arrow.effect.juggernaut_potion": "Arrow of the Juggernaut",
+
+  "item.minecraft.potion.effect.extreme_juggernaut_potion": "Extreme Potion of the Juggernaut",
+  "item.minecraft.splash_potion.effect.extreme_juggernaut_potion": "Extreme Splash Potion of the Juggernaut",
+  "item.minecraft.lingering_potion.effect.extreme_juggernaut_potion": "Extreme Lingering Potion of the Juggernaut",
+  "item.minecraft.tipped_arrow.effect.extreme_juggernaut_potion": "Arrow of Extreme Juggernaut",
+
+  "item.minecraft.potion.effect.everlasting_juggernaut_potion": "Potion of the Ever Lasting Juggernaut",
+  "item.minecraft.splash_potion.effect.everlasting_juggernaut_potion": "Splash Potion of the Ever Lasting Juggernaut",
+  "item.minecraft.lingering_potion.effect.everlasting_juggernaut_potion": "Lingering Potion of the Ever Lasting Juggernaut",
+  "item.minecraft.tipped_arrow.effect.everlasting_juggernaut_potion": "Arrow of the Ever Lasting Juggernaut",
+
+
+
+
+  "potion.potency.6": "VI",
+  "potion.potency.7": "VII",
+  "potion.potency.8": "VIII",
+  "potion.potency.9": "IX",
+  "potion.potency.10": "X"
 }

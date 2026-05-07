@@ -3,13 +3,16 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "woofexpandedpotions:vitality_bulwark_mix_tonic"
+      "item": "woofexpandedpotions:vitality_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:bulwark_tonic"
     },
     {
       "item": "woofexpandedpotions:velocity_tonic"
     }
   ],
   "result": {
-    "id": "woofexpandedpotions:juggernaut_tonic"
+    "id": "woofexpandedpotions:gladiator_tonic"
   }
 }

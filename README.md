@@ -35,10 +35,10 @@ Tonics are crafted from a Tonic Base combined with their matching dust. Added to
 |---|---|---|
 | Tonic Base | `base_tonic` | Crafting ingredient for all tonics |
 | Vitality Tonic | `vitality_tonic` | Extreme Strength, Extreme Blitz, Extreme Berserker (via Blitz) |
-| Rejuvenation Tonic | `rejuvenation_tonic` | Extreme Regeneration, Extreme Healing, Extreme Berserker, Potent Buffer |
-| Bulwark Tonic | `bulwark_tonic` | Extreme Resistance, Extreme Combat, Extreme Swift Guard, Extreme Juggernaut (via Blitz), Extreme Turtle Master |
+| Rejuvenation Tonic | `rejuvenation_tonic` | Extreme Regeneration, Extreme Healing, Extreme Berserker, Extreme Buffer |
+| Bulwark Tonic | `bulwark_tonic` | Extreme Resistance, Extreme Combat, Extreme Swift Guard, Extreme Juggernaut (via Buffer), Extreme Turtle Master |
 | Netherfire Tonic | `nether_fire_tonic` | Permanent Fire Resistance |
-| Velocity Tonic | `velocity_tonic` | Extreme Swiftness, Extreme Leaping, Extreme Blitz, Extreme Swift Guard, Extreme Juggernaut (via Combat), Extreme Phantom |
+| Velocity Tonic | `velocity_tonic` | Extreme Swiftness, Extreme Leaping, Extreme Blitz, Extreme Swift Guard, Extreme Gladiator (via Combat), Extreme Phantom |
 | Torpidity Tonic | `torpidity_tonic` | Extreme Slowness, Extreme Poison, Extreme Harming, Extreme Wither, Extreme Decay, Ever Lasting Weakness |
 | Miner's Tonic | `mining_tonic` | Extreme Mining |
 | Midnight Tonic | `midnight_tonic` | Permanent Night Vision |
@@ -57,7 +57,8 @@ Combo tonics are crafted by combining two or three tonics together. They are use
 | Flickering and Bulwark Tonic | `flicker_bulwark_mix_tonic` | Velocity Tonic + Bulwark Tonic | Extreme Swift Guard |
 | Vitality and Velocity Tonic | `vitality_velocity_mix_tonic` | Vitality Tonic + Velocity Tonic | Extreme Blitz |
 | Rejuvenation and Velocity Tonic | `rejuvenation_velocity_mix_tonic` | Rejuvenation Tonic + Velocity Tonic | Crafting ingredient |
-| Juggernaut Tonic | `juggernaut_tonic` | Vitality Tonic + Bulwark Tonic + Velocity Tonic, or Vitality and Bulwark Tonic + Velocity Tonic, or Flickering and Bulwark Tonic + Vitality Tonic, or Vitality and Velocity Tonic + Bulwark Tonic | Extreme Juggernaut |
+| Gladiator Tonic | `gladiator_tonic` | Vitality Tonic + Bulwark Tonic + Velocity Tonic, or Vitality and Bulwark Tonic + Velocity Tonic, or Flickering and Bulwark Tonic + Vitality Tonic, or Vitality and Velocity Tonic + Bulwark Tonic | Extreme Gladiator |
+| Juggernaut Tonic | `juggernaut_tonic` | Rejuvenation Tonic + Bulwark Tonic | Extreme Juggernaut |
 | Berserker Tonic | `berserker_tonic` | Vitality Tonic + Velocity Tonic + Rejuvenation Tonic, or Vitality and Velocity Tonic + Rejuvenation Tonic, or Rejuvenation and Velocity Tonic + Vitality Tonic | Extreme Berserker |
 | Phantom Tonic | `phantom_tonic` | Invisibility Tonic + Velocity Tonic | Extreme Phantom |
 
@@ -74,7 +75,7 @@ Combo tonics are crafted by combining two or three tonics together. They are use
 | Filling Meal | `filling_meal` | Consumable food item |
 
 ## 🧴 Potions
-All durations are exact. Level is shown as the in-game amplifier level (I, II, III...).
+All durations and levels are exact from the potion registrations.
 
 ### ⚔️ Strength
 
@@ -237,7 +238,7 @@ Combo duration is longer than either component to reward mixing.
 | Extreme Potion of Neptune's Delight | 3h |
 
 ### ⚔️🛡️ Combat — Strength + Resistance
-No Potent variant. Powders aren't stable enough for combination brews, but tonics are. Base duration is shorter than components — the reward is convenience.
+No Potent variant. Base duration is shorter than components — the reward is convenience.
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
@@ -261,39 +262,47 @@ No Potent variant. Powders aren't stable enough for combination brews, but tonic
 | Extreme Potion of Blitz | 5m | III |
 | Potion of Ever Lasting Blitz | 33m 20s | I |
 
+### 🐇💨 Acrobat — Speed + Jump Boost
+
+| Potion | Duration (each effect) | Level |
+|---|---|---|
+| Potion of Acrobat | 3m 20s | II |
+| Extreme Potion of Acrobat | 5m | III |
+| Potion of Ever Lasting Acrobat | 33m 20s | I |
+
 ### ☠️🖤 Decay — Poison + Wither
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
-| Potion of Decay | 1m 45s | II |
-| Potent Potion of Decay | 1m | III |
+| Potion of Decay | 3m 20s | II |
+| Potent Potion of Decay | 2m | III |
 | Extreme Potion of Decay | 5m | III |
 | Potion of Ever Lasting Decay | 33m 20s | I |
 
 ### ❤️💚 Buffer — Regeneration + Absorption
 
-| Potion | Duration (each effect) | Level |
+| Potion | Regeneration | Absorption |
 |---|---|---|
-| Potion of Buffer | 1m 45s | II |
-| Extreme Potion of Buffer | 5m | III |
-| Potion of Ever Lasting Buffer | 33m 20s | I |
+| Potion of Buffer | II (45s) | III (3m 20s) |
+| Extreme Potion of Buffer | III (1m 30s) | VII (5m) |
+| Potion of Ever Lasting Buffer | I (6m) | II (33m 20s) |
 
-### 🐇💨 Acrobat — Speed + Jump Boost
-
-| Potion | Duration (each effect) | Level |
-|---|---|---|
-| Potion of Acrobat | 1m 45s | II |
-| Extreme Potion of Acrobat | 5m | III |
-| Potion of Ever Lasting Acrobat | 33m 20s | I |
-
-### ⚔️💨🛡️ Juggernaut — Strength + Speed + Resistance
-Three-effect combo. Duration is boosted further to reward the extra complexity.
+### ⚔️💨🛡️ Gladiator — Strength + Speed + Resistance
 
 | Potion | Duration (each effect) | Level |
 |---|---|---|
-| Potion of the Juggernaut | 1m | II |
-| Extreme Potion of the Juggernaut | 6m | III |
-| Potion of the Ever Lasting Juggernaut | 36m | I |
+| Potion of the Gladiator | 1m | II |
+| Extreme Potion of the Gladiator | 6m | III |
+| Potion of the Ever Lasting Gladiator | 36m | I |
+
+### 🛡️❤️💚 Juggernaut — Resistance + Absorption + Regeneration
+Absorption and Regeneration have independent durations to allow for custom tuning.
+
+| Potion | Resistance | Absorption | Regeneration |
+|---|---|---|---|
+| Potion of the Juggernaut | II (1m) | III (3m 20s) | II (50s) |
+| Extreme Potion of the Juggernaut | III (6m) | VII (6m) | III (2m) |
+| Potion of the Ever Lasting Juggernaut | I (36m) | II (36m) | I (8m) |
 
 ### ⚔️💨💚 Berserker — Strength + Speed + Regeneration
 
@@ -305,19 +314,19 @@ Three-effect combo. Duration is boosted further to reward the extra complexity.
 
 ### 👻💨😴 Phantom — Invisibility + Speed + Weakness
 
-| Potion | Duration (each effect) | Level |
-|---|---|---|
-| Potion of the Phantom | 1m | II / I (Weakness) |
-| Extreme Potion of the Phantom | 6m | III / II (Weakness) |
-| Potion of the Ever Lasting Phantom | 36m | I |
+| Potion | Duration | Invisibility | Speed | Weakness |
+|---|---|---|---|---|
+| Potion of the Phantom | 1m | I | II | I |
+| Extreme Potion of the Phantom | 6m | I | III | II |
+| Potion of the Ever Lasting Phantom | 36m | I | I | I |
 
 ### 🐢 Turtle Master (Extended)
 
-| Potion | Effects | Levels |
-|---|---|---|
-| Potion of Full the Turtle Master | Slowness + Resistance | VI / IV |
-| Potion of Potent the Turtle Master | Slowness + Resistance | VI / V |
-| Potion of Extreme the Turtle Master | Slowness + Resistance | VI / VI |
+| Potion | Duration | Slowness | Resistance |
+|---|---|---|---|
+| Potion of Full the Turtle Master | 25s | VI | IV |
+| Potion of Potent the Turtle Master | 25s | VI | V |
+| Potion of Extreme the Turtle Master | 25s | VI | VI |
 
 ## 🍺 Crafting Recipes
 
@@ -365,10 +374,11 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Flickering and Bulwark Tonic | Velocity Tonic + Bulwark Tonic |
 | Vitality and Velocity Tonic | Vitality Tonic + Velocity Tonic |
 | Rejuvenation and Velocity Tonic | Rejuvenation Tonic + Velocity Tonic |
-| Juggernaut Tonic | Vitality Tonic + Bulwark Tonic + Velocity Tonic |
-| Juggernaut Tonic (alt) | Vitality and Bulwark Tonic + Velocity Tonic |
-| Juggernaut Tonic (alt) | Flickering and Bulwark Tonic + Vitality Tonic |
-| Juggernaut Tonic (alt) | Vitality and Velocity Tonic + Bulwark Tonic |
+| Gladiator Tonic | Vitality Tonic + Bulwark Tonic + Velocity Tonic |
+| Gladiator Tonic (alt) | Vitality and Bulwark Tonic + Velocity Tonic |
+| Gladiator Tonic (alt) | Flickering and Bulwark Tonic + Vitality Tonic |
+| Gladiator Tonic (alt) | Vitality and Velocity Tonic + Bulwark Tonic |
+| Juggernaut Tonic | Rejuvenation Tonic + Bulwark Tonic |
 | Berserker Tonic | Vitality Tonic + Velocity Tonic + Rejuvenation Tonic |
 | Berserker Tonic (alt) | Vitality and Velocity Tonic + Rejuvenation Tonic |
 | Berserker Tonic (alt) | Rejuvenation and Velocity Tonic + Vitality Tonic |
@@ -546,6 +556,14 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Full Potion of Blitz | Vitality and Velocity Tonic | Extreme Potion of Blitz |
 | Full Potion of Blitz | Fertile Ingredient Mix | Potion of Ever Lasting Blitz |
 
+#### Acrobat
+| Input | Ingredient | Output |
+|---|---|---|
+| Potion of Full Swiftness | Rabbit's Foot | Potion of Acrobat |
+| Potion of Full Leaping | Sugar | Potion of Acrobat |
+| Potion of Acrobat | Velocity Tonic | Extreme Potion of Acrobat |
+| Potion of Acrobat | Fertile Ingredient Mix | Potion of Ever Lasting Acrobat |
+
 #### Decay
 | Input | Ingredient | Output |
 |---|---|---|
@@ -561,23 +579,23 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Potion of Buffer | Rejuvenation Tonic | Extreme Potion of Buffer |
 | Potion of Buffer | Fertile Ingredient Mix | Potion of Ever Lasting Buffer |
 
-#### Acrobat
+#### Gladiator
 | Input | Ingredient | Output |
 |---|---|---|
-| Potion of Full Swiftness | Rabbit's Foot | Potion of Acrobat |
-| Potion of Full Leaping | Sugar | Potion of Acrobat |
-| Potion of Acrobat | Velocity Tonic | Extreme Potion of Acrobat |
-| Potion of Acrobat | Fertile Ingredient Mix | Potion of Ever Lasting Acrobat |
+| Full Potion of Combat | Sugar | Potion of the Gladiator |
+| Potion of Swift Guard | Blaze Powder | Potion of the Gladiator |
+| Full Potion of Blitz | Copper Ingot | Potion of the Gladiator |
+| Extreme Potion of Combat | Velocity Tonic | Extreme Potion of the Gladiator |
+| Extreme Potion of Swift Guard | Vitality Tonic | Extreme Potion of the Gladiator |
+| Extreme Potion of Blitz | Bulwark Tonic | Extreme Potion of the Gladiator |
+| Potion of the Gladiator | Gladiator Tonic | Extreme Potion of the Gladiator |
+| Potion of the Gladiator | Fertile Ingredient Mix | Potion of the Ever Lasting Gladiator |
 
 #### Juggernaut
 | Input | Ingredient | Output |
 |---|---|---|
-| Full Potion of Combat | Sugar | Potion of the Juggernaut |
-| Potion of Swift Guard | Blaze Powder | Potion of the Juggernaut |
-| Full Potion of Blitz | Copper Ingot | Potion of the Juggernaut |
-| Extreme Potion of Combat | Velocity Tonic | Extreme Potion of the Juggernaut |
-| Extreme Potion of Swift Guard | Vitality Tonic | Extreme Potion of the Juggernaut |
-| Extreme Potion of Blitz | Bulwark Tonic | Extreme Potion of the Juggernaut |
+| Potion of Buffer | Copper Ingot | Potion of the Juggernaut |
+| Extreme Potion of Buffer | Bulwark Tonic | Extreme Potion of the Juggernaut |
 | Potion of the Juggernaut | Juggernaut Tonic | Extreme Potion of the Juggernaut |
 | Potion of the Juggernaut | Fertile Ingredient Mix | Potion of the Ever Lasting Juggernaut |
 
