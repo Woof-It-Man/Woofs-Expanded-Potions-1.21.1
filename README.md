@@ -47,6 +47,8 @@ Tonics are crafted from a Tonic Base combined with their matching dust. Added to
 | Breathing Tonic | `breathing_tonic` | Permanent Water Breathing, Everlasting Neptune's Delight |
 | Tidal Tonic | `tidal_tonic` | Permanent Dolphin's Grace, Everlasting Neptune's Delight |
 | Withering Poison Tonic | `withering_poison_tonic` | Potent Decay |
+| Overload Tonic | `overload_tonic` | Potion of Supreme Overload |
+| Prosperity Tonic | `prosperity_tonic` | Potion of Supreme Prosperity |
 
 ## 🔀 Tonic Mixes
 Combo tonics are crafted by combining two or three tonics together. They are used to produce Extreme combination potions in a single brewing step.
@@ -319,6 +321,20 @@ Absorption and Regeneration have independent durations to allow for custom tunin
 | Potion of the Phantom | 1m | I | II | I |
 | Potion of the Extreme Phantom | 6m | I | III | II |
 | Potion of the Everlasting Phantom | 36m | I | I | I |
+
+### ⚔️🛡️💨❤️🌟 Supreme Overload: Strength + Resistance + Speed + Absorption + Saturation + Regeneration
+A supreme combination potion requiring any full combat, speed or utility potion with the Overload Tonic. No Everlasting variant.
+
+| Potion | Duration | Levels |
+|---|---|---|
+| Potion of Supreme Overload | Strength IV (10m), Resistance IV (10m), Speed IV (10m), Absorption VIII (10m), Saturation IV (10m), Regeneration III (2m) | IV / IV / IV / VIII / IV / III |
+
+### ⛏️🍀🌑🌟💨🐇❤️ Supreme Prosperity: Haste + Luck + Night Vision + Saturation + Speed + Jump Boost + Regeneration
+A supreme combination potion requiring any full mining, speed, leaping or utility potion with the Prosperity Tonic. No Everlasting variant.
+
+| Potion | Duration | Levels |
+|---|---|---|
+| Potion of Supreme Prosperity | Haste IV (10m), Luck IV (10m), Night Vision (10m), Saturation III (10m), Speed IV (10m), Jump Boost IV (10m), Regeneration III (2m) | IV / IV / I / III / IV / IV / III |
 
 ### 🐢 Turtle Master (Extended)
 
@@ -615,6 +631,22 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Potion of Extreme Swiftness | Invisibility Tonic | Potion of the Extreme Phantom |
 | Potion of the Phantom | Phantom Tonic | Potion of the Extreme Phantom |
 | Potion of the Phantom | Fertile Ingredient Mix | Potion of the Everlasting Phantom |
+
+#### Supreme Overload
+| Input | Ingredient | Output |
+|---|---|---|
+| Full Potion of Strength | Overload Tonic | Potion of Supreme Overload |
+| Potion of Full Swiftness | Overload Tonic | Potion of Supreme Overload |
+| Full Potion of Regeneration | Overload Tonic | Potion of Supreme Overload |
+| Full Potion of Resistance | Overload Tonic | Potion of Supreme Overload |
+
+#### Supreme Prosperity
+| Input | Ingredient | Output |
+|---|---|---|
+| Potion of Full Mining | Prosperity Tonic | Potion of Supreme Prosperity |
+| Potion of Full Swiftness | Prosperity Tonic | Potion of Supreme Prosperity |
+| Potion of Full Leaping | Prosperity Tonic | Potion of Supreme Prosperity |
+| Full Potion of Regeneration | Prosperity Tonic | Potion of Supreme Prosperity |
 
 #### Turtle Master
 | Input | Ingredient | Output |
