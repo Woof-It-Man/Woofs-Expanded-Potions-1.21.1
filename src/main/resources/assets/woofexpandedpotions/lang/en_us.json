@@ -506,10 +506,10 @@
   "item.minecraft.lingering_potion.effect.supreme_overload_potion": "Lingering Potion of Supreme Overload",
   "item.minecraft.tipped_arrow.effect.supreme_overload_potion": "Arrow of Supreme Overload",
 
-  "item.minecraft.potion.effect.supreme_bounty_potion": "Potion of Supreme Bounty",
-  "item.minecraft.splash_potion.effect.supreme_bounty_potion": "Splash Potion of Supreme Bounty",
-  "item.minecraft.lingering_potion.effect.supreme_bounty_potion": "Lingering Potion of Supreme Bounty",
-  "item.minecraft.tipped_arrow.effect.supreme_bounty_potion": "Arrow of Supreme Bounty",
+  "item.minecraft.potion.effect.supreme_prosperity_potion": "Potion of Supreme Prosperity",
+  "item.minecraft.splash_potion.effect.supreme_prosperity_potion": "Splash Potion of Supreme Prosperity",
+  "item.minecraft.lingering_potion.effect.supreme_prosperity_potion": "Lingering Potion of Supreme Prosperity",
+  "item.minecraft.tipped_arrow.effect.supreme_prosperity_potion": "Arrow of Supreme Prosperity",
 
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",

@@ -153,7 +153,7 @@ public class ModPotions {
             new MobEffectInstance(MobEffects.REGENERATION, 2400, 2)
     ));
 
-    public static final Holder<Potion> SUPREME_BOUNTY_POTION = POTIONS.register("supreme_bounty_potion", () -> new Potion(
+    public static final Holder<Potion> SUPREME_PROSPERITY_POTION = POTIONS.register("supreme_prosperity_potion", () -> new Potion(
             new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3),
             new MobEffectInstance(MobEffects.LUCK, 12000, 3),
             new MobEffectInstance(MobEffects.NIGHT_VISION, 12000, 0),
