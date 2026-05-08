@@ -160,7 +160,7 @@ public class ModPotions {
             new MobEffectInstance(MobEffects.SATURATION, 12000, 2),
             new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 12000, 3),
             new MobEffectInstance(MobEffects.JUMP, 12000, 3),
-            new MobEffectInstance(MobEffects.REGENERATION, 12000, 3)
+            new MobEffectInstance(MobEffects.REGENERATION, 2400, 2)
     ));
 
 
