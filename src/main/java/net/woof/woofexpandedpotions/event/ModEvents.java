@@ -174,10 +174,15 @@ public class ModEvents {
         builder.addMix(ModPotions.PHANTOM_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_PHANTOM_POTION);
 
         //Supremes
-        builder.addMix(ModPotions.EXTREME_GLADIATOR_POTION, ModItems.OVERLOAD_TONIC.get(), ModPotions.SUPREME_OVERLOAD_POTION);
-        builder.addMix(ModPotions.EXTREME_MINING_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_BOUNTY_POTION);
+        builder.addMix(ModPotions.FULL_STRENGTH_POTION, ModItems.OVERLOAD_TONIC.get(), ModPotions.SUPREME_OVERLOAD_POTION);
+        builder.addMix(ModPotions.FULL_SWIFTNESS_POTION, ModItems.OVERLOAD_TONIC.get(), ModPotions.SUPREME_OVERLOAD_POTION);
+        builder.addMix(ModPotions.FULL_REGENERATION_POTION, ModItems.OVERLOAD_TONIC.get(), ModPotions.SUPREME_OVERLOAD_POTION);
+        builder.addMix(ModPotions.FULL_RESISTANCE_POTION, ModItems.OVERLOAD_TONIC.get(), ModPotions.SUPREME_OVERLOAD_POTION);
 
-
-
+        builder.addMix(ModPotions.FULL_MINING_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_BOUNTY_POTION);
+        builder.addMix(ModPotions.FULL_SWIFTNESS_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_BOUNTY_POTION);
+        builder.addMix(ModPotions.FULL_LEAPING_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_BOUNTY_POTION);
+        builder.addMix(ModPotions.FULL_REGENERATION_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_BOUNTY_POTION);
+        
     }
 }

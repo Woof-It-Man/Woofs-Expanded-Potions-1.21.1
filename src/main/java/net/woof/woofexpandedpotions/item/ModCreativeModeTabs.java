@@ -62,6 +62,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BERSERKER_TONIC);
                         output.accept(ModItems.PHANTOM_TONIC);
 
+                        //Super Tonics
+                        output.accept(ModItems.OVERLOAD_TONIC);
+                        output.accept(ModItems.PROSPERITY_TONIC);
+
                         //Duration Mixes
                         output.accept(ModItems.DURATION_MIX);
                         output.accept(ModItems.ULTRA_DURATION_MIX);
