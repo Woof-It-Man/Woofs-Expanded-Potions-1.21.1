@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:mining_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:midnight_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:tidal_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:deep_powder"
+    },
+    {
+      "item": "woofexpandedpotions:supreme_stabilizing_enricher"
+    },
+    {
+      "item": "woofexpandedpotions:ultra_duration_mix"
+    }
+  ],
+  "result": {
+    "id": "woofexpandedpotions:prosperity_tonic"
+  }
+}

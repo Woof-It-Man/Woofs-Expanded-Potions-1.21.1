@@ -44,6 +44,9 @@ public class ModItems {
     public static final DeferredItem<Item> BERSERKER_TONIC = ITEMS.register("berserker_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PHANTOM_TONIC = ITEMS.register("phantom_tonic", () -> new Item(new Item.Properties()));
 
+    //Super Tonics
+    public static final DeferredItem<Item> OVERLOAD_TONIC = ITEMS.register("overload_tonic", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PROSPERITY_TONIC = ITEMS.register("prosperity_tonic", () -> new Item(new Item.Properties()));
 
     //Powders
     public static final DeferredItem<Item> VITALITY_POWDER = ITEMS.register("vitality_powder", () -> new Item(new Item.Properties()));

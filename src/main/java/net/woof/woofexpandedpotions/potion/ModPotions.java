@@ -143,6 +143,28 @@ public class ModPotions {
     public static final Holder<Potion> EXTREME_PHANTOM_POTION = POTIONS.register("extreme_phantom_potion", () -> new Potion(new MobEffectInstance(MobEffects.INVISIBILITY, 7200, 0), new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 7200, 2), new MobEffectInstance(MobEffects.WEAKNESS, 7200, 1)));
     public static final Holder<Potion> EVERLASTING_PHANTOM_POTION = POTIONS.register("everlasting_phantom_potion", () -> new Potion(new MobEffectInstance(MobEffects.INVISIBILITY, 43200, 0), new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 43200, 0), new MobEffectInstance(MobEffects.WEAKNESS, 43200, 0)));
 
+    //Supreme Potions - Should also probably start writing them like this
+    public static final Holder<Potion> SUPREME_OVERLOAD_POTION = POTIONS.register("supreme_overload_potion", () -> new Potion(
+            new MobEffectInstance(MobEffects.DAMAGE_BOOST, 12000, 3),
+            new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 12000, 3),
+            new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 12000, 3),
+            new MobEffectInstance(MobEffects.ABSORPTION, 12000, 7),
+            new MobEffectInstance(MobEffects.SATURATION, 12000, 3),
+            new MobEffectInstance(MobEffects.REGENERATION, 2400, 2)
+    ));
+
+    public static final Holder<Potion> SUPREME_BOUNTY_POTION = POTIONS.register("supreme_bounty_potion", () -> new Potion(
+            new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3),
+            new MobEffectInstance(MobEffects.LUCK, 12000, 3),
+            new MobEffectInstance(MobEffects.NIGHT_VISION, 12000, 0),
+            new MobEffectInstance(MobEffects.SATURATION, 12000, 2)
+    ));
+
+
+
+
+
+
     public static void register(IEventBus eventBus){
         POTIONS.register(eventBus);
     }

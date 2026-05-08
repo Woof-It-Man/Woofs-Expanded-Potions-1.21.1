@@ -172,5 +172,12 @@ public class ModEvents {
         builder.addMix(ModPotions.EXTREME_SWIFTNESS_POTION, ModItems.INVISIBILITY_TONIC.get(), ModPotions.EXTREME_PHANTOM_POTION);
         builder.addMix(ModPotions.PHANTOM_POTION, ModItems.PHANTOM_TONIC.get(), ModPotions.EXTREME_PHANTOM_POTION);
         builder.addMix(ModPotions.PHANTOM_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_PHANTOM_POTION);
+
+        //Supremes
+        builder.addMix(ModPotions.EXTREME_GLADIATOR_POTION, ModItems.OVERLOAD_TONIC.get(), ModPotions.SUPREME_OVERLOAD_POTION);
+        builder.addMix(ModPotions.EXTREME_MINING_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_BOUNTY_POTION);
+
+
+
     }
 }

@@ -498,6 +498,19 @@
   "item.minecraft.lingering_potion.effect.everlasting_juggernaut_potion": "Lingering Potion of the Everlasting Juggernaut",
   "item.minecraft.tipped_arrow.effect.everlasting_juggernaut_potion": "Arrow of the Everlasting Juggernaut",
 
+  "item.woofexpandedpotions.overload_tonic": "Overload Tonic",
+  "item.woofexpandedpotions.prosperity_tonic": "Prosperity Tonic",
+
+  "item.minecraft.potion.effect.supreme_overload_potion": "Potion of Supreme Overload",
+  "item.minecraft.splash_potion.effect.supreme_overload_potion": "Splash Potion of Supreme Overload",
+  "item.minecraft.lingering_potion.effect.supreme_overload_potion": "Lingering Potion of Supreme Overload",
+  "item.minecraft.tipped_arrow.effect.supreme_overload_potion": "Arrow of Supreme Overload",
+
+  "item.minecraft.potion.effect.supreme_bounty_potion": "Potion of Supreme Bounty",
+  "item.minecraft.splash_potion.effect.supreme_bounty_potion": "Splash Potion of Supreme Bounty",
+  "item.minecraft.lingering_potion.effect.supreme_bounty_potion": "Lingering Potion of Supreme Bounty",
+  "item.minecraft.tipped_arrow.effect.supreme_bounty_potion": "Arrow of Supreme Bounty",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",
