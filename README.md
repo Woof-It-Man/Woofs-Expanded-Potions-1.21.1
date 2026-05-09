@@ -230,8 +230,7 @@ Vanilla has no standalone Haste potion. These fill that gap.
 
 | Potion | Duration |
 |---|---|
-| Potion of Dolphin's Grace | 8m |
-| Potion of Long Lasting Dolphin's Grace | 30m |
+| Potion of Dolphin's Grace | 30m |
 | Permanent Potion of Dolphin's Grace | 2h 30m |
 
 ### 🌊🐬 Neptune's Delight: Dolphin's Grace + Conduit Power
@@ -544,14 +543,13 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 #### Dolphin's Grace
 | Input | Ingredient | Output |
 |---|---|---|
-| Awkward Potion | Pufferfish | Potion of Dolphin's Grace |
-| Potion of Dolphin's Grace | Dust of the Deep | Potion of Long Lasting Dolphin's Grace |
+| Long Water Breathing | Dust of the Deep | Potion of Dolphin's Grace |
 | Potion of Dolphin's Grace | Tidal Tonic | Permanent Potion of Dolphin's Grace |
 
 #### Neptune's Delight
 | Input | Ingredient | Output |
 |---|---|---|
-| Potion of Long Lasting Dolphin's Grace | Dust of Breathing | Potion of Neptune's Delight |
+| Potion of Dolphin's Grace | Dust of Breathing | Potion of Neptune's Delight |
 | Potion of Long Lasting Water Breathing | Dust of the Deep | Potion of Neptune's Delight |
 | Permanent Potion of Dolphin's Grace | Breathing Tonic | Potion of Everlasting Neptune's Delight |
 | Permanent Potion of Water Breathing | Tidal Tonic | Potion of Everlasting Neptune's Delight |
