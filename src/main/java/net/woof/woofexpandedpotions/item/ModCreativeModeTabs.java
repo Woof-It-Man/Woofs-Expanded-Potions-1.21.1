@@ -17,6 +17,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALCHEMICAL_ENRICHER.get())).title(Component.translatable("creativetab.woofexpandedpotions.woofexpandedpotions_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Enrichers
+                        output.accept(ModItems.ENRICHED_POWDER);
                         output.accept(ModItems.ALCHEMICAL_ENRICHER);
                         output.accept(ModItems.SUPREME_STABILIZING_ENRICHER);
                         output.accept(ModItems.DIAMOND_CARROT);

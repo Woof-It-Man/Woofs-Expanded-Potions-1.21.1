@@ -14,9 +14,9 @@ public class ModPotions {
     public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(BuiltInRegistries.POTION, WoofExpandedPotions.MODID);
 
     //Customs
-    public static final Holder<Potion> SPELUNKING_POTION = POTIONS.register("spelunking_potion", () -> new Potion(new MobEffectInstance(ModEffects.SPELUNKING, 3600, 0)));
-    public static final Holder<Potion> STRONG_SPELUNKING_POTION = POTIONS.register("strong_spelunking_potion", () -> new Potion(new MobEffectInstance(ModEffects.SPELUNKING, 1800, 1)));
-    public static final Holder<Potion> LONG_SPELUNKING_POTION = POTIONS.register("long_spelunking_potion", () -> new Potion(new MobEffectInstance(ModEffects.SPELUNKING, 9600, 0)));
+    public static final Holder<Potion> SPELUNKING_POTION = POTIONS.register("spelunking_potion", () -> new Potion(new MobEffectInstance(ModEffects.SPELUNKING, 600, 0)));
+    public static final Holder<Potion> STRONG_SPELUNKING_POTION = POTIONS.register("strong_spelunking_potion", () -> new Potion(new MobEffectInstance(ModEffects.SPELUNKING, 200, 1)));
+    public static final Holder<Potion> LONG_SPELUNKING_POTION = POTIONS.register("long_spelunking_potion", () -> new Potion(new MobEffectInstance(ModEffects.SPELUNKING, 1800, 0)));
 
     public static final Holder<Potion> FULL_STRENGTH_POTION = POTIONS.register("full_strength_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 1)));
     public static final Holder<Potion> POTENT_STRENGTH_POTION = POTIONS.register("potent_strength_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1800, 2)));

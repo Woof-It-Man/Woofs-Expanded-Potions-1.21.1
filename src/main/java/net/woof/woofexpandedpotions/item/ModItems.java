@@ -10,6 +10,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WoofExpandedPotions.MODID);
 
     //Enrichers
+    public static final DeferredItem<Item> ENRICHED_POWDER = ITEMS.register("enriched_powder", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ALCHEMICAL_ENRICHER = ITEMS.register("alchemical_enricher", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SUPREME_STABILIZING_ENRICHER = ITEMS.register("supreme_stabilizing_enricher", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DIAMOND_CARROT = ITEMS.register("diamond_carrot", () -> new Item(new Item.Properties()));

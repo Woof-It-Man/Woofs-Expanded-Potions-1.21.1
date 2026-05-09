@@ -6,6 +6,7 @@ import net.minecraft.world.item.alchemy.PotionBrewing;
 import net.minecraft.world.item.alchemy.Potions;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
 import net.woof.woofexpandedpotions.WoofExpandedPotions;
 import net.woof.woofexpandedpotions.item.ModItems;
@@ -19,7 +20,7 @@ public class ModEvents {
         PotionBrewing.Builder builder = event.getBuilder();
 
         // Customs
-        builder.addMix(Potions.AWKWARD, Items.DIAMOND, ModPotions.SPELUNKING_POTION);
+        builder.addMix(ModPotions.MINING_POTION, ModItems.ENRICHED_POWDER.get(), ModPotions.SPELUNKING_POTION);
         builder.addMix(ModPotions.SPELUNKING_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_SPELUNKING_POTION);
         builder.addMix(ModPotions.SPELUNKING_POTION, Items.REDSTONE, ModPotions.LONG_SPELUNKING_POTION);
 
