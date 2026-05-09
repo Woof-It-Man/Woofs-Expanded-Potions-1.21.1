@@ -31,8 +31,8 @@ public class SpelunkingEffect extends MobEffect {
         // Only run server-side, once per second
         if (!entity.level().isClientSide() && entity.tickCount % 20 == 0) {
             if (entity instanceof ServerPlayer player) {
-                // Radius scales with amplifier. Atm it's 15 per level
-                int radius = (amplifier + 1) * 15;
+                // Radius scales with amplifier. Atm it's 10 per level
+                int radius = (amplifier + 1) * 10;
                 List<BlockPos> orePositions = new ArrayList<>();
                 BlockPos center = player.blockPosition();
 
