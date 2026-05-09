@@ -26,7 +26,7 @@ Dusts are crafted at a crafting table and added to a Full-tier potion in the bre
 | Dust of Featherfall | `light_fall_powder` | Long Lasting Slow Falling |
 | Dust of Breathing | `breathing_powder` | Long Lasting Water Breathing, Neptune's Delight |
 | Dust of Corruption | `corrupted_powder` | Potent Slowness, Potent Poison, Potent Harming, Potent Wither, Long Lasting Weakness |
-| Dust of the Deep | `deep_powder` | Long Lasting Dolphin's Grace, Neptune's Delight |
+| Dust of the Deep | `deep_powder` | Dolphin's Grace, Neptune's Delight |
 
 ## 🧪 Tonics
 Tonics are crafted from a Tonic Base combined with their matching dust. Added to a Full-tier potion in the brewing stand to produce the Extreme variant, with the highest amplifier and longer duration than Potent.
@@ -335,9 +335,9 @@ A supreme combination potion requiring any full combat, speed or utility potion 
 ### ⛏️🍀🌑🌟💨🐇❤️ Supreme Prosperity: Haste + Luck + Conduit Power + Dolphin's Grace + Saturation + Speed + Jump Boost + Regeneration
 A supreme combination potion requiring any full mining, speed, leaping or utility potion with the Prosperity Tonic. No Everlasting variant.
 
-| Potion | Duration                                                                                                                                                    | Levels |
-|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
-| Potion of Supreme Prosperity | Haste IV (10m), Luck IV (10m), Conduit Power (10m), Dolphin's Grace (10m), Saturation III (10m), Speed IV (10m), Jump Boost IV (10m), Regeneration III (2m) | IV / IV / I / III / IV / IV / III |
+| Potion | Duration | Levels |
+|---|---|---|
+| Potion of Supreme Prosperity | Haste IV (10m), Luck IV (10m), Conduit Power (10m), Dolphin's Grace (10m), Saturation III (10m), Speed IV (10m), Jump Boost IV (10m), Regeneration III (2m) | IV / IV / I / I / III / IV / IV / III |
 
 ### 🔦 Spelunking
 Highlights all ores within a radius through walls. Radius scales with amplifier: Level I = 15 blocks, II = 30 blocks, III = 45 blocks, etc. Brewed from a Mining Potion rather than Awkward, requiring underground exploration to craft.
