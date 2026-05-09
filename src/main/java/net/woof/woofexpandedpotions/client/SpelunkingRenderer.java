@@ -24,7 +24,6 @@ import java.util.OptionalDouble;
 @EventBusSubscriber(modid = WoofExpandedPotions.MODID, value = Dist.CLIENT)
 public class SpelunkingRenderer {
 
-    // Custom RenderType that draws lines with depth test disabled — renders through walls
     private static final RenderType LINES_NO_DEPTH = RenderType.create(
             "spelunking_lines",
             DefaultVertexFormat.POSITION_COLOR_NORMAL,
@@ -40,7 +39,7 @@ public class SpelunkingRenderer {
                     .setOutputState(RenderStateShard.ITEM_ENTITY_TARGET)
                     .setWriteMaskState(RenderStateShard.COLOR_DEPTH_WRITE)
                     .setCullState(RenderStateShard.NO_CULL)
-                    .setDepthTestState(RenderStateShard.NO_DEPTH_TEST) // this is the key line
+                    .setDepthTestState(RenderStateShard.NO_DEPTH_TEST)
                     .createCompositeState(false)
     );
 
@@ -70,7 +69,7 @@ public class SpelunkingRenderer {
             LevelRenderer.renderLineBox(poseStack, buffer,
                     pos.getX() - 0.002, pos.getY() - 0.002, pos.getZ() - 0.002,
                     pos.getX() + 1.002, pos.getY() + 1.002, pos.getZ() + 1.002,
-                    0.0f, 0.75f, 1.0f, 1.0f);
+                    0.4f, 0.4f, 0.4f, 0.3f);
         }
 
         poseStack.popPose();
