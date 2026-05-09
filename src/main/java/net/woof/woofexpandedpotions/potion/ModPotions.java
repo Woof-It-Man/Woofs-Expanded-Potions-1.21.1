@@ -162,7 +162,8 @@ public class ModPotions {
     public static final Holder<Potion> SUPREME_PROSPERITY_POTION = POTIONS.register("supreme_prosperity_potion", () -> new Potion(
             new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3),
             new MobEffectInstance(MobEffects.LUCK, 12000, 3),
-            new MobEffectInstance(MobEffects.NIGHT_VISION, 12000, 0),
+            new MobEffectInstance(MobEffects.CONDUIT_POWER, 12000, 0),
+            new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 12000, 0),
             new MobEffectInstance(MobEffects.SATURATION, 12000, 2),
             new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 12000, 3),
             new MobEffectInstance(MobEffects.JUMP, 12000, 3),
