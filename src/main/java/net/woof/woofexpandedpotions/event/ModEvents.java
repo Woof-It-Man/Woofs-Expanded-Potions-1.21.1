@@ -18,6 +18,12 @@ public class ModEvents {
     public static void onBrewingRecipeRegister(RegisterBrewingRecipesEvent event) {
         PotionBrewing.Builder builder = event.getBuilder();
 
+        // Customs
+        builder.addMix(Potions.AWKWARD, Items.DIAMOND, ModPotions.SPELUNKING_POTION);
+        builder.addMix(ModPotions.SPELUNKING_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_SPELUNKING_POTION);
+        builder.addMix(ModPotions.SPELUNKING_POTION, Items.REDSTONE, ModPotions.LONG_SPELUNKING_POTION);
+
+        // Normals
         builder.addMix(Potions.LONG_STRENGTH, Items.GLOWSTONE_DUST, ModPotions.FULL_STRENGTH_POTION);
         builder.addMix(Potions.STRONG_STRENGTH, Items.REDSTONE, ModPotions.FULL_STRENGTH_POTION);
         builder.addMix(ModPotions.FULL_STRENGTH_POTION, ModItems.VITALITY_POWDER.get(), ModPotions.POTENT_STRENGTH_POTION);

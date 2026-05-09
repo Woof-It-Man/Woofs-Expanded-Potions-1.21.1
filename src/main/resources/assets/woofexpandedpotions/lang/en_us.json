@@ -511,6 +511,23 @@
   "item.minecraft.lingering_potion.effect.supreme_prosperity_potion": "Lingering Potion of Supreme Prosperity",
   "item.minecraft.tipped_arrow.effect.supreme_prosperity_potion": "Arrow of Supreme Prosperity",
 
+  "effect.woofexpandedpotions.spelunking": "Spelunking",
+
+  "item.minecraft.potion.effect.spelunking_potion": "Potion of Spelunking",
+  "item.minecraft.splash_potion.effect.spelunking_potion": "Splash Potion of Spelunking",
+  "item.minecraft.lingering_potion.effect.spelunking_potion": "Lingering Potion of Spelunking",
+  "item.minecraft.tipped_arrow.effect.spelunking_potion": "Arrow of Spelunking",
+
+  "item.minecraft.potion.effect.strong_spelunking_potion": "Potion of Spelunking II",
+  "item.minecraft.splash_potion.effect.strong_spelunking_potion": "Splash Potion of Spelunking II",
+  "item.minecraft.lingering_potion.effect.strong_spelunking_potion": "Lingering Potion of Spelunking II",
+  "item.minecraft.tipped_arrow.effect.strong_spelunking_potion": "Arrow of Spelunking II",
+
+  "item.minecraft.potion.effect.long_spelunking_potion": "Potion of Spelunking +",
+  "item.minecraft.splash_potion.effect.long_spelunking_potion": "Splash Potion of Spelunking +",
+  "item.minecraft.lingering_potion.effect.long_spelunking_potion": "Lingering Potion of Spelunking +",
+  "item.minecraft.tipped_arrow.effect.long_spelunking_potion": "Arrow of Spelunking +",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",
