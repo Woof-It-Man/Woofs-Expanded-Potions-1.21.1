@@ -40,13 +40,15 @@ Tonics are crafted from a Tonic Base combined with their matching dust. Added to
 | Netherfire Tonic | `nether_fire_tonic` | Permanent Fire Resistance |
 | Velocity Tonic | `velocity_tonic` | Extreme Swiftness, Extreme Leaping, Extreme Blitz, Extreme Swift Guard, Extreme Gladiator (via Combat), Extreme Phantom |
 | Torpidity Tonic | `torpidity_tonic` | Extreme Slowness, Extreme Poison, Extreme Harming, Extreme Wither, Extreme Decay, Everlasting Weakness |
-| Miner's Tonic | `mining_tonic` | Extreme Mining |
+| Miner's Tonic | `mining_tonic` | Extreme Mining, Extreme Spelunking |
 | Midnight Tonic | `midnight_tonic` | Permanent Night Vision |
 | Invisibility Tonic | `invisibility_tonic` | Permanent Invisibility, Extreme Phantom |
 | Light Fall Tonic | `light_fall_tonic` | Permanent Slow Falling |
 | Breathing Tonic | `breathing_tonic` | Permanent Water Breathing, Everlasting Neptune's Delight |
 | Tidal Tonic | `tidal_tonic` | Permanent Dolphin's Grace, Everlasting Neptune's Delight |
 | Withering Poison Tonic | `withering_poison_tonic` | Potent Decay |
+| Overload Tonic | `overload_tonic` | Potion of Supreme Overload |
+| Prosperity Tonic | `prosperity_tonic` | Potion of Supreme Prosperity |
 | Overload Tonic | `overload_tonic` | Potion of Supreme Overload |
 | Prosperity Tonic | `prosperity_tonic` | Potion of Supreme Prosperity |
 
@@ -68,6 +70,7 @@ Combo tonics are crafted by combining two or three tonics together. They are use
 
 | In-Game Name | Internal ID | Description |
 |---|---|---|
+| Enriched Powder | `enriched_powder` | Spelunking Potion ingredient, Alchemical Enricher ingredient |
 | Alchemical Enricher | `alchemical_enricher` | Core crafting component |
 | Supreme Stabilizing Enricher | `supreme_stabilizing_enricher` | Higher-tier crafting component |
 | Fertile Ingredient Mix | `duration_mix` | Extends any potion to Everlasting |
@@ -329,12 +332,22 @@ A supreme combination potion requiring any full combat, speed or utility potion 
 |---|---|---|
 | Potion of Supreme Overload | Strength IV (10m), Resistance IV (10m), Speed IV (10m), Absorption VIII (10m), Saturation IV (10m), Regeneration III (2m) | IV / IV / IV / VIII / IV / III |
 
-### ⛏️🍀🌑🌟💨🐇❤️ Supreme Prosperity: Haste + Luck + Night Vision + Saturation + Speed + Jump Boost + Regeneration
+### ⛏️🍀🌑🌟💨🐇❤️ Supreme Prosperity: Haste + Luck + Conduit Power + Dolphin's Grace + Saturation + Speed + Jump Boost + Regeneration
 A supreme combination potion requiring any full mining, speed, leaping or utility potion with the Prosperity Tonic. No Everlasting variant.
 
-| Potion | Duration | Levels |
-|---|---|---|
-| Potion of Supreme Prosperity | Haste IV (10m), Luck IV (10m), Night Vision (10m), Saturation III (10m), Speed IV (10m), Jump Boost IV (10m), Regeneration III (2m) | IV / IV / I / III / IV / IV / III |
+| Potion | Duration                                                                                                                                                    | Levels |
+|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| Potion of Supreme Prosperity | Haste IV (10m), Luck IV (10m), Conduit Power (10m), Dolphin's Grace (10m), Saturation III (10m), Speed IV (10m), Jump Boost IV (10m), Regeneration III (2m) | IV / IV / I / III / IV / IV / III |
+
+### 🔦 Spelunking
+Highlights all ores within a radius through walls. Radius scales with amplifier: Level I = 15 blocks, II = 30 blocks, III = 45 blocks, etc. Brewed from a Mining Potion rather than Awkward, requiring underground exploration to craft.
+
+| Potion | Duration | Level | Radius |
+|---|---|---|---|
+| Potion of Spelunking | 30s | I | 15 blocks |
+| Potion of Potent Spelunking | 10s | II | 30 blocks |
+| Potion of Extreme Spelunking | 1m 30s | III | 45 blocks |
+| Potion of Everlasting Spelunking | 30m | I | 15 blocks |
 
 ### 🐢 Turtle Master (Extended)
 
@@ -362,6 +375,7 @@ A supreme combination potion requiring any full mining, speed, leaping or utilit
 | Dust of Breathing | Bubble Coral, Nautilus Shell, Tropical Fish, Prismarine Crystals, any Leaves |
 | Dust of Corruption | Crimson Roots, Warped Roots, Soul Sand, Ink Sac, Wither Rose |
 | Dust of the Deep | Heart of the Sea, Prismarine Shard, Cod, Bubble Coral Fan, Lapis Lazuli |
+| Enriched Powder | Lapis Lazuli, Amethyst Shard, Redstone Dust, Glowstone Dust |
 
 ### Tonic Recipes (Crafting Table, Shapeless)
 All standard tonics are crafted the same way: Tonic Base + matching Dust.
@@ -643,10 +657,18 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 #### Supreme Prosperity
 | Input | Ingredient | Output |
 |---|---|---|
-| Potion of Full Mining | Prosperity Tonic | Potion of Supreme Prosperity |
-| Potion of Full Swiftness | Prosperity Tonic | Potion of Supreme Prosperity |
-| Potion of Full Leaping | Prosperity Tonic | Potion of Supreme Prosperity |
-| Full Potion of Regeneration | Prosperity Tonic | Potion of Supreme Prosperity |
+| Potion of Full Mining | Prosperity Tonic + Tidal Tonic | Potion of Supreme Prosperity |
+| Potion of Full Swiftness | Prosperity Tonic + Tidal Tonic | Potion of Supreme Prosperity |
+| Potion of Full Leaping | Prosperity Tonic + Tidal Tonic | Potion of Supreme Prosperity |
+| Full Potion of Regeneration | Prosperity Tonic + Tidal Tonic | Potion of Supreme Prosperity |
+
+#### Spelunking
+| Input | Ingredient | Output |
+|---|---|---|
+| Potion of Mining | Enriched Powder | Potion of Spelunking |
+| Potion of Spelunking | Dust of Mining | Potion of Potent Spelunking |
+| Potion of Spelunking | Miner's Tonic | Potion of Extreme Spelunking |
+| Potion of Spelunking | Fertile Ingredient Mix | Potion of Everlasting Spelunking |
 
 #### Turtle Master
 | Input | Ingredient | Output |
