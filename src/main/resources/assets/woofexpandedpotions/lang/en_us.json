@@ -518,15 +518,20 @@
   "item.minecraft.lingering_potion.effect.spelunking_potion": "Lingering Potion of Spelunking",
   "item.minecraft.tipped_arrow.effect.spelunking_potion": "Arrow of Spelunking",
 
-  "item.minecraft.potion.effect.strong_spelunking_potion": "Potion of Spelunking II",
-  "item.minecraft.splash_potion.effect.strong_spelunking_potion": "Splash Potion of Spelunking II",
-  "item.minecraft.lingering_potion.effect.strong_spelunking_potion": "Lingering Potion of Spelunking II",
-  "item.minecraft.tipped_arrow.effect.strong_spelunking_potion": "Arrow of Spelunking II",
+  "item.minecraft.potion.effect.potent_spelunking_potion": "Potion of Potent Spelunking",
+  "item.minecraft.splash_potion.effect.potent_spelunking_potion": "Splash Potion of Potent Spelunking",
+  "item.minecraft.lingering_potion.effect.potent_spelunking_potion": "Lingering Potion of Potent Spelunking",
+  "item.minecraft.tipped_arrow.effect.potent_spelunking_potion": "Arrow of Potent Spelunking",
 
-  "item.minecraft.potion.effect.long_spelunking_potion": "Potion of Spelunking +",
-  "item.minecraft.splash_potion.effect.long_spelunking_potion": "Splash Potion of Spelunking +",
-  "item.minecraft.lingering_potion.effect.long_spelunking_potion": "Lingering Potion of Spelunking +",
-  "item.minecraft.tipped_arrow.effect.long_spelunking_potion": "Arrow of Spelunking +",
+  "item.minecraft.potion.effect.extreme_spelunking_potion": "Potion of Extreme Spelunking",
+  "item.minecraft.splash_potion.effect.extreme_spelunking_potion": "Splash Potion of Extreme Spelunking",
+  "item.minecraft.lingering_potion.effect.extreme_spelunking_potion": "Lingering Potion of Extreme Spelunking",
+  "item.minecraft.tipped_arrow.effect.extreme_spelunking_potion": "Arrow of Extreme Spelunking",
+
+  "item.minecraft.potion.effect.everlasting_spelunking_potion": "Potion of Everlasting Spelunking",
+  "item.minecraft.splash_potion.effect.everlasting_spelunking_potion": "Splash Potion of Everlasting Spelunking",
+  "item.minecraft.lingering_potion.effect.everlasting_spelunking_potion": "Lingering Potion of Everlasting Spelunking",
+  "item.minecraft.tipped_arrow.effect.everlasting_spelunking_potion": "Arrow of Everlasting Spelunking",
 
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
