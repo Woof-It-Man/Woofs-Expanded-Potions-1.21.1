@@ -170,11 +170,6 @@ public class ModPotions {
             new MobEffectInstance(MobEffects.REGENERATION, 2400, 2)
     ));
 
-
-
-
-
-
     public static void register(IEventBus eventBus){
         POTIONS.register(eventBus);
     }
