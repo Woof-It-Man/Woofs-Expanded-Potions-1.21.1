@@ -55,7 +55,7 @@ public class ModCreativeModeTabs {
 
                         //Combos
                         output.accept(ModItems.VITALITY_BULWARK_MIX_TONIC);
-                        output.accept(ModItems.FLICKER_BREATHING_MIX_TONIC);
+                        output.accept(ModItems.FLICKER_BULWARK_MIX_TONIC);
                         output.accept(ModItems.VITALITY_VELOCITY_MIX_TONIC);
                         output.accept(ModItems.REJUVENATION_VELOCITY_MIX_TONIC);
                         output.accept(ModItems.GLADIATOR_TONIC);

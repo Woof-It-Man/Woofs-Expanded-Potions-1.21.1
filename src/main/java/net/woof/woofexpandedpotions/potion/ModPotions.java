@@ -95,8 +95,7 @@ public class ModPotions {
     public static final Holder<Potion> POTENT_WITHERING_POTION = POTIONS.register("potent_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 800, 1)));
     public static final Holder<Potion> EXTREME_WITHERING_POTION = POTIONS.register("extreme_withering_potion", () -> new Potion(new MobEffectInstance(MobEffects.WITHER, 800, 5)));
 
-    public static final Holder<Potion> DOLPHIN_GRACE_POTION = POTIONS.register("dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 9600)));
-    public static final Holder<Potion> LONGLASTING_DOLPHIN_GRACE_POTION = POTIONS.register("longlasting_dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 36000)));
+    public static final Holder<Potion> DOLPHIN_GRACE_POTION = POTIONS.register("dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 36000)));
     public static final Holder<Potion> PERMANENT_DOLPHIN_GRACE_POTION = POTIONS.register("permanent_dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 180000)));
 
     //2 Combo Potions

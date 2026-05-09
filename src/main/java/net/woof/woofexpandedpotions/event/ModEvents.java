@@ -114,11 +114,10 @@ public class ModEvents {
         builder.addMix(ModPotions.WITHERING_POTION, ModItems.CORRUPTED_POWDER.get(), ModPotions.POTENT_WITHERING_POTION);
         builder.addMix(ModPotions.WITHERING_POTION, ModItems.TORPIDITY_TONIC.get(), ModPotions.EXTREME_WITHERING_POTION);
 
-        builder.addMix(Potions.AWKWARD, Items.PUFFERFISH, ModPotions.DOLPHIN_GRACE_POTION);
-        builder.addMix(ModPotions.DOLPHIN_GRACE_POTION, ModItems.DEEP_POWDER.get(), ModPotions.LONGLASTING_DOLPHIN_GRACE_POTION);
+        builder.addMix(Potions.LONG_WATER_BREATHING, ModItems.DEEP_POWDER.get(), ModPotions.DOLPHIN_GRACE_POTION);
         builder.addMix(ModPotions.DOLPHIN_GRACE_POTION, ModItems.TIDAL_TONIC.get(), ModPotions.PERMANENT_DOLPHIN_GRACE_POTION);
 
-        builder.addMix(ModPotions.LONGLASTING_DOLPHIN_GRACE_POTION, ModItems.BREATHING_POWDER.get(), ModPotions.NEPTUNES_DELIGHT_POTION);
+        builder.addMix(ModPotions.DOLPHIN_GRACE_POTION, ModItems.BREATHING_POWDER.get(), ModPotions.NEPTUNES_DELIGHT_POTION);
         builder.addMix(ModPotions.LONGLASTING_WATER_BREATHING_POTION, ModItems.DEEP_POWDER.get(), ModPotions.NEPTUNES_DELIGHT_POTION);
         builder.addMix(ModPotions.PERMANENT_DOLPHIN_GRACE_POTION, ModItems.BREATHING_TONIC.get(), ModPotions.EVERLASTING_NEPTUNES_DELIGHT_POTION);
         builder.addMix(ModPotions.PERMANENT_WATER_BREATHING_POTION, ModItems.TIDAL_TONIC.get(), ModPotions.EVERLASTING_NEPTUNES_DELIGHT_POTION);
@@ -127,7 +126,7 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_RESISTANCE_POTION, Items.SUGAR, ModPotions.SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.EXTREME_SWIFTNESS_POTION, ModItems.BULWARK_TONIC.get(), ModPotions.EXTREME_SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.EXTREME_RESISTANCE_POTION, ModItems.VELOCITY_TONIC.get(), ModPotions.EXTREME_SWIFT_GUARD_POTION);
-        builder.addMix(ModPotions.SWIFT_GUARD_POTION, ModItems.FLICKER_BREATHING_MIX_TONIC.get(), ModPotions.EXTREME_SWIFT_GUARD_POTION);
+        builder.addMix(ModPotions.SWIFT_GUARD_POTION, ModItems.FLICKER_BULWARK_MIX_TONIC.get(), ModPotions.EXTREME_SWIFT_GUARD_POTION);
         builder.addMix(ModPotions.SWIFT_GUARD_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_SWIFT_GUARD_POTION);
 
         builder.addMix(ModPotions.COMBAT_POTION, Items.SUGAR, ModPotions.GLADIATOR_POTION);
