@@ -11,6 +11,7 @@ import net.woof.woofexpandedpotions.WoofExpandedPotions;
 import net.woof.woofexpandedpotions.item.ModItems;
 import net.woof.woofexpandedpotions.potion.ModPotions;
 
+
 @EventBusSubscriber(modid = WoofExpandedPotions.MODID)
 public class ModEvents {
 
@@ -32,6 +33,14 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_STABILITY_POTION, ModItems.BULWARK_POWDER.get(), ModPotions.POTENT_STABILITY_POTION);
         builder.addMix(ModPotions.FULL_STABILITY_POTION, ModItems.BULWARK_TONIC.get(), ModPotions.EXTREME_STABILITY_POTION);
         builder.addMix(ModPotions.FULL_STABILITY_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_STABILITY_POTION);
+
+        builder.addMix(Potions.AWKWARD, Items.FEATHER, ModPotions.FLIGHT_POTION);
+        builder.addMix(ModPotions.FLIGHT_POTION, Items.REDSTONE, ModPotions.LONG_FLIGHT_POTION);
+        builder.addMix(ModPotions.FLIGHT_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_FLIGHT_POTION);
+        builder.addMix(ModPotions.LONG_FLIGHT_POTION, Items.GLOWSTONE_DUST, ModPotions.FULL_FLIGHT_POTION);
+        builder.addMix(ModPotions.STRONG_FLIGHT_POTION, Items.REDSTONE, ModPotions.FULL_FLIGHT_POTION);
+        builder.addMix(ModPotions.FULL_FLIGHT_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_FLIGHT_POTION);
+        builder.addMix(ModPotions.FULL_FLIGHT_POTION, ModItems.SOARING_TONIC.get(), ModPotions.EXTREME_FLIGHT_POTION);
 
         // Normals
         builder.addMix(Potions.LONG_STRENGTH, Items.GLOWSTONE_DUST, ModPotions.FULL_STRENGTH_POTION);

@@ -565,6 +565,40 @@
   "item.minecraft.lingering_potion.effect.everlasting_stability_potion": "Lingering Potion of Everlasting Stability",
   "item.minecraft.tipped_arrow.effect.everlasting_stability_potion": "Arrow of Everlasting Stability",
 
+  "effect.woofexpandedpotions.flight": "Flight",
+
+  "item.woofexpandedpotions.soaring_tonic": "Soaring Tonic",
+
+  "item.minecraft.potion.effect.flight_potion": "Potion of Flight",
+  "item.minecraft.splash_potion.effect.flight_potion": "Splash Potion of Flight",
+  "item.minecraft.lingering_potion.effect.flight_potion": "Lingering Potion of Flight",
+  "item.minecraft.tipped_arrow.effect.flight_potion": "Arrow of Flight",
+
+  "item.minecraft.potion.effect.long_flight_potion": "Potion of Flight +",
+  "item.minecraft.splash_potion.effect.long_flight_potion": "Splash Potion of Flight +",
+  "item.minecraft.lingering_potion.effect.long_flight_potion": "Lingering Potion of Flight +",
+  "item.minecraft.tipped_arrow.effect.long_flight_potion": "Arrow of Flight +",
+
+  "item.minecraft.potion.effect.strong_flight_potion": "Potion of Flight II",
+  "item.minecraft.splash_potion.effect.strong_flight_potion": "Splash Potion of Flight II",
+  "item.minecraft.lingering_potion.effect.strong_flight_potion": "Lingering Potion of Flight II",
+  "item.minecraft.tipped_arrow.effect.strong_flight_potion": "Arrow of Flight II",
+
+  "item.minecraft.potion.effect.full_flight_potion": "Full Potion of Flight",
+  "item.minecraft.splash_potion.effect.full_flight_potion": "Full Splash Potion of Flight",
+  "item.minecraft.lingering_potion.effect.full_flight_potion": "Full Lingering Potion of Flight",
+  "item.minecraft.tipped_arrow.effect.full_flight_potion": "Arrow of Full Flight",
+
+  "item.minecraft.potion.effect.everlasting_flight_potion": "Potion of Everlasting Flight",
+  "item.minecraft.splash_potion.effect.everlasting_flight_potion": "Splash Potion of Everlasting Flight",
+  "item.minecraft.lingering_potion.effect.everlasting_flight_potion": "Lingering Potion of Everlasting Flight",
+  "item.minecraft.tipped_arrow.effect.everlasting_flight_potion": "Arrow of Everlasting Flight",
+
+  "item.minecraft.potion.effect.extreme_flight_potion": "Extreme Potion of Flight",
+  "item.minecraft.splash_potion.effect.extreme_flight_potion": "Extreme Splash Potion of Flight",
+  "item.minecraft.lingering_potion.effect.extreme_flight_potion": "Extreme Lingering Potion of Flight",
+  "item.minecraft.tipped_arrow.effect.extreme_flight_potion": "Arrow of Extreme Flight",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",

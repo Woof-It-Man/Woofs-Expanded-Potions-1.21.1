@@ -16,6 +16,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> DIAMOND_CARROT = ITEMS.register("diamond_carrot", () -> new Item(new Item.Properties().food(ModFoods.DIAMOND_CARROT)));
     public static final DeferredItem<Item> ENCRUSTED_CARROT = ITEMS.register("encrusted_carrot", () -> new Item(new Item.Properties().food(ModFoods.ENCRUSTED_CARROT)));
+
     //Tonic Base
     public static final DeferredItem<Item> BASE_TONIC = ITEMS.register("base_tonic", () -> new Item(new Item.Properties()));
 
@@ -39,7 +40,7 @@ public class ModItems {
     public static final DeferredItem<Item> FLICKER_BULWARK_MIX_TONIC = ITEMS.register("flicker_bulwark_mix_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> VITALITY_VELOCITY_MIX_TONIC = ITEMS.register("vitality_velocity_mix_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> REJUVENATION_VELOCITY_MIX_TONIC = ITEMS.register("rejuvenation_velocity_mix_tonic", () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> SOARING_TONIC = ITEMS.register("soaring_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> GLADIATOR_TONIC = ITEMS.register("gladiator_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> JUGGERNAUT_TONIC = ITEMS.register("juggernaut_tonic", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BERSERKER_TONIC = ITEMS.register("berserker_tonic", () -> new Item(new Item.Properties()));

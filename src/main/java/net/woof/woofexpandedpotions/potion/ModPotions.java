@@ -106,6 +106,13 @@ public class ModPotions {
     public static final Holder<Potion> EXTREME_STABILITY_POTION = POTIONS.register("extreme_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 5200, 3)));
     public static final Holder<Potion> EVERLASTING_STABILITY_POTION = POTIONS.register("everlasting_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 36000, 0)));
 
+    public static final Holder<Potion> FLIGHT_POTION = POTIONS.register("flight_potion", () -> new Potion(new MobEffectInstance(ModEffects.FLIGHT, 60, 0)));
+    public static final Holder<Potion> LONG_FLIGHT_POTION = POTIONS.register("long_flight_potion", () -> new Potion(new MobEffectInstance(ModEffects.FLIGHT, 160, 0)));
+    public static final Holder<Potion> STRONG_FLIGHT_POTION = POTIONS.register("strong_flight_potion", () -> new Potion(new MobEffectInstance(ModEffects.FLIGHT, 40, 1)));
+    public static final Holder<Potion> FULL_FLIGHT_POTION = POTIONS.register("full_flight_potion", () -> new Potion(new MobEffectInstance(ModEffects.FLIGHT, 60, 1)));
+    public static final Holder<Potion> EVERLASTING_FLIGHT_POTION = POTIONS.register("everlasting_flight_potion", () -> new Potion(new MobEffectInstance(ModEffects.FLIGHT, 800, 0)));
+    public static final Holder<Potion> EXTREME_FLIGHT_POTION = POTIONS.register("extreme_flight_potion", () -> new Potion(new MobEffectInstance(ModEffects.FLIGHT, 240, 2)));
+
     //2 Combo Potions
     public static final Holder<Potion> COMBAT_POTION = POTIONS.register("combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2100, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 2100, 1)));
     public static final Holder<Potion> EXTREME_COMBAT_POTION = POTIONS.register("extreme_combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 2), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000, 2)));

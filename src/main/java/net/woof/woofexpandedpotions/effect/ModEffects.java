@@ -15,6 +15,8 @@ public class ModEffects {
 
     public static final Holder<MobEffect> STABILITY = MOB_EFFECTS.register("stability", KnockbackResistanceEffect::new);
 
+    public static final Holder<MobEffect> FLIGHT = MOB_EFFECTS.register("flight", FlightEffect::new);
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }
