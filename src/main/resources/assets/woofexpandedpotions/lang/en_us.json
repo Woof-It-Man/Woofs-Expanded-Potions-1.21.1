@@ -528,6 +528,43 @@
   "item.minecraft.lingering_potion.effect.everlasting_spelunking_potion": "Lingering Potion of Everlasting Spelunking",
   "item.minecraft.tipped_arrow.effect.everlasting_spelunking_potion": "Arrow of Everlasting Spelunking",
 
+  "effect.woofexpandedpotions.stability": "Knockback Resistance",
+
+  "item.minecraft.potion.effect.stability_potion": "Potion of Stability",
+  "item.minecraft.splash_potion.effect.stability_potion": "Splash Potion of Stability",
+  "item.minecraft.lingering_potion.effect.stability_potion": "Lingering Potion of Stability",
+  "item.minecraft.tipped_arrow.effect.stability_potion": "Arrow of Stability",
+
+  "item.minecraft.potion.effect.long_stability_potion": "Potion of Stability +",
+  "item.minecraft.splash_potion.effect.long_stability_potion": "Splash Potion of Stability +",
+  "item.minecraft.lingering_potion.effect.long_stability_potion": "Lingering Potion of Stability +",
+  "item.minecraft.tipped_arrow.effect.long_stability_potion": "Arrow of Stability +",
+
+  "item.minecraft.potion.effect.strong_stability_potion": "Potion of Stability II",
+  "item.minecraft.splash_potion.effect.strong_stability_potion": "Splash Potion of Stability II",
+  "item.minecraft.lingering_potion.effect.strong_stability_potion": "Lingering Potion of Stability II",
+  "item.minecraft.tipped_arrow.effect.strong_stability_potion": "Arrow of Stability II",
+
+  "item.minecraft.potion.effect.full_stability_potion": "Full Potion of Stability",
+  "item.minecraft.splash_potion.effect.full_stability_potion": "Full Splash Potion of Stability",
+  "item.minecraft.lingering_potion.effect.full_stability_potion": "Full Lingering Potion of Stability",
+  "item.minecraft.tipped_arrow.effect.full_stability_potion": "Arrow of Full Stability",
+
+  "item.minecraft.potion.effect.potent_stability_potion": "Potion of Potent Stability",
+  "item.minecraft.splash_potion.effect.potent_stability_potion": "Splash Potion of Potent Stability",
+  "item.minecraft.lingering_potion.effect.potent_stability_potion": "Lingering Potion of Potent Stability",
+  "item.minecraft.tipped_arrow.effect.potent_stability_potion": "Arrow of Potent Stability",
+
+  "item.minecraft.potion.effect.extreme_stability_potion": "Potion of Extreme Stability",
+  "item.minecraft.splash_potion.effect.extreme_stability_potion": "Splash Potion of Extreme Stability",
+  "item.minecraft.lingering_potion.effect.extreme_stability_potion": "Lingering Potion of Extreme Stability",
+  "item.minecraft.tipped_arrow.effect.extreme_stability_potion": "Arrow of Extreme Stability",
+
+  "item.minecraft.potion.effect.everlasting_stability_potion": "Potion of Everlasting Stability",
+  "item.minecraft.splash_potion.effect.everlasting_stability_potion": "Splash Potion of Everlasting Stability",
+  "item.minecraft.lingering_potion.effect.everlasting_stability_potion": "Lingering Potion of Everlasting Stability",
+  "item.minecraft.tipped_arrow.effect.everlasting_stability_potion": "Arrow of Everlasting Stability",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",

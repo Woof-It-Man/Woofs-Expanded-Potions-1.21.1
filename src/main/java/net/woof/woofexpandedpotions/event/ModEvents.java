@@ -24,6 +24,15 @@ public class ModEvents {
         builder.addMix(ModPotions.SPELUNKING_POTION, ModItems.MINING_TONIC.get(), ModPotions.EXTREME_SPELUNKING_POTION);
         builder.addMix(ModPotions.SPELUNKING_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_SPELUNKING_POTION);
 
+        builder.addMix(Potions.AWKWARD, Items.IRON_INGOT, ModPotions.STABILITY_POTION);
+        builder.addMix(ModPotions.STABILITY_POTION, Items.REDSTONE, ModPotions.LONG_STABILITY_POTION);
+        builder.addMix(ModPotions.STABILITY_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_STABILITY_POTION);
+        builder.addMix(ModPotions.LONG_STABILITY_POTION, Items.GLOWSTONE_DUST, ModPotions.FULL_STABILITY_POTION);
+        builder.addMix(ModPotions.STRONG_STABILITY_POTION, Items.REDSTONE, ModPotions.FULL_STABILITY_POTION);
+        builder.addMix(ModPotions.FULL_STABILITY_POTION, ModItems.BULWARK_POWDER.get(), ModPotions.POTENT_STABILITY_POTION);
+        builder.addMix(ModPotions.FULL_STABILITY_POTION, ModItems.BULWARK_TONIC.get(), ModPotions.EXTREME_STABILITY_POTION);
+        builder.addMix(ModPotions.FULL_STABILITY_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_STABILITY_POTION);
+
         // Normals
         builder.addMix(Potions.LONG_STRENGTH, Items.GLOWSTONE_DUST, ModPotions.FULL_STRENGTH_POTION);
         builder.addMix(Potions.STRONG_STRENGTH, Items.REDSTONE, ModPotions.FULL_STRENGTH_POTION);

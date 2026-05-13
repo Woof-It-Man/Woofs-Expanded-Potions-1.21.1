@@ -13,6 +13,8 @@ public class ModEffects {
 
     public static final Holder<MobEffect> SPELUNKING = MOB_EFFECTS.register("spelunking", () -> new SpelunkingEffect(MobEffectCategory.BENEFICIAL, 0x00BFFF));
 
+    public static final Holder<MobEffect> STABILITY = MOB_EFFECTS.register("stability", KnockbackResistanceEffect::new);
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }

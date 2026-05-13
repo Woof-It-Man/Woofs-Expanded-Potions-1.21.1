@@ -98,6 +98,14 @@ public class ModPotions {
     public static final Holder<Potion> DOLPHIN_GRACE_POTION = POTIONS.register("dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 36000)));
     public static final Holder<Potion> PERMANENT_DOLPHIN_GRACE_POTION = POTIONS.register("permanent_dolphin_grace_potion", () -> new Potion(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 180000)));
 
+    public static final Holder<Potion> STABILITY_POTION = POTIONS.register("stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 3600, 0)));
+    public static final Holder<Potion> LONG_STABILITY_POTION = POTIONS.register("long_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 9600, 0)));
+    public static final Holder<Potion> STRONG_STABILITY_POTION = POTIONS.register("strong_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 1800, 1)));
+    public static final Holder<Potion> FULL_STABILITY_POTION = POTIONS.register("full_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 3600, 1)));
+    public static final Holder<Potion> POTENT_STABILITY_POTION = POTIONS.register("potent_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 1800, 3)));
+    public static final Holder<Potion> EXTREME_STABILITY_POTION = POTIONS.register("extreme_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 5200, 3)));
+    public static final Holder<Potion> EVERLASTING_STABILITY_POTION = POTIONS.register("everlasting_stability_potion", () -> new Potion(new MobEffectInstance(ModEffects.STABILITY, 36000, 0)));
+
     //2 Combo Potions
     public static final Holder<Potion> COMBAT_POTION = POTIONS.register("combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2100, 1), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 2100, 1)));
     public static final Holder<Potion> EXTREME_COMBAT_POTION = POTIONS.register("extreme_combat_potion", () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 2), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000, 2)));
@@ -152,6 +160,7 @@ public class ModPotions {
     public static final Holder<Potion> SUPREME_OVERLOAD_POTION = POTIONS.register("supreme_overload_potion", () -> new Potion(
             new MobEffectInstance(MobEffects.DAMAGE_BOOST, 12000, 3),
             new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 12000, 3),
+            new MobEffectInstance(ModEffects.STABILITY, 12000, 3),
             new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 12000, 3),
             new MobEffectInstance(MobEffects.ABSORPTION, 12000, 7),
             new MobEffectInstance(MobEffects.SATURATION, 12000, 3),
