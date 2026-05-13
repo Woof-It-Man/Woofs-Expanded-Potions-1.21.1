@@ -599,6 +599,13 @@
   "item.minecraft.lingering_potion.effect.extreme_flight_potion": "Extreme Lingering Potion of Flight",
   "item.minecraft.tipped_arrow.effect.extreme_flight_potion": "Arrow of Extreme Flight",
 
+  "item.woofexpandedpotions.valkyrie_tonic": "Valkyrie Tonic",
+
+  "item.minecraft.potion.effect.valkyrie_potion": "Potion of the Valkyrie",
+  "item.minecraft.splash_potion.effect.valkyrie_potion": "Splash Potion of the Valkyrie",
+  "item.minecraft.lingering_potion.effect.valkyrie_potion": "Lingering Potion of the Valkyrie",
+  "item.minecraft.tipped_arrow.effect.valkyrie_potion": "Arrow of the Valkyrie",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",

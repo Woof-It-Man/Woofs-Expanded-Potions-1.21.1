@@ -208,5 +208,7 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_LEAPING_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_PROSPERITY_POTION);
         builder.addMix(ModPotions.FULL_REGENERATION_POTION, ModItems.PROSPERITY_TONIC.get(), ModPotions.SUPREME_PROSPERITY_POTION);
 
+        builder.addMix(ModPotions.FULL_FLIGHT_POTION, ModItems.VALKYRIE_TONIC.get(), ModPotions.VALKYRIE_POTION);
+
     }
 }

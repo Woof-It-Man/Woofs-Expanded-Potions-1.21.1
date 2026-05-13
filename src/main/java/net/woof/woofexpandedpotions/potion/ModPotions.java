@@ -185,6 +185,15 @@ public class ModPotions {
             new MobEffectInstance(MobEffects.REGENERATION, 2400, 2)
     ));
 
+    // Just 3 minutes of flight atm due to how op creative flight is.
+    public static final Holder<Potion> VALKYRIE_POTION = POTIONS.register("valkyrie_potion",
+            () -> new Potion(
+                    new MobEffectInstance(ModEffects.FLIGHT, 3600, 3),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 3),
+                    new MobEffectInstance(MobEffects.JUMP, 3600, 3),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 1)
+            ));
+
     public static void register(IEventBus eventBus){
         POTIONS.register(eventBus);
     }

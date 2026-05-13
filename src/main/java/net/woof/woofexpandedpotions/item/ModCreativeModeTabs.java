@@ -67,6 +67,7 @@ public class ModCreativeModeTabs {
                         //Super Tonics
                         output.accept(ModItems.OVERLOAD_TONIC);
                         output.accept(ModItems.PROSPERITY_TONIC);
+                        output.accept(ModItems.VALKYRIE_TONIC);
 
                         //Duration Mixes
                         output.accept(ModItems.DURATION_MIX);

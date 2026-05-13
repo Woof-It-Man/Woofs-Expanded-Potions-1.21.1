@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:supreme_stabilizing_enricher"
+    },
+    {
+      "item": "woofexpandedpotions:midnight_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:velocity_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:light_fall_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:vitality_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:ultra_duration_mix"
+    }
+  ],
+  "result": {
+    "id": "woofexpandedpotions:valkyrie_tonic"
+  }
+}

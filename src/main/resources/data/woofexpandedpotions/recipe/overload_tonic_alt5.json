@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "woofexpandedpotions:supreme_stabilizing_enricher"
+    },
+    {
+      "item": "woofexpandedpotions:vitality_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:flicker_bulwark_mix_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:rejuvenation_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:midnight_tonic"
+    },
+    {
+      "item": "woofexpandedpotions:ultra_duration_mix"
+    }
+  ],
+  "result": {
+    "id": "woofexpandedpotions:overload_tonic"
+  }
+}
