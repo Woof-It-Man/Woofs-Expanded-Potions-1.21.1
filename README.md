@@ -47,6 +47,8 @@ Tonics are crafted from a Tonic Base combined with their matching dust. Added to
 | Breathing Tonic | `breathing_tonic` | Permanent Water Breathing, Everlasting Neptune's Delight |
 | Tidal Tonic | `tidal_tonic` | Permanent Dolphin's Grace, Everlasting Neptune's Delight |
 | Withering Poison Tonic | `withering_poison_tonic` | Potent Decay |
+| Soaring Tonic | `soaring_tonic` | Extreme Flight |
+| Valkyrie Tonic | `valkyrie_tonic` | Potion of the Valkyrie |
 | Overload Tonic | `overload_tonic` | Potion of Supreme Overload |
 | Prosperity Tonic | `prosperity_tonic` | Potion of Supreme Prosperity |
 | Overload Tonic | `overload_tonic` | Potion of Supreme Overload |
@@ -65,6 +67,8 @@ Combo tonics are crafted by combining two or three tonics together. They are use
 | Juggernaut Tonic | `juggernaut_tonic` | Rejuvenation Tonic + Bulwark Tonic | Extreme Juggernaut |
 | Berserker Tonic | `berserker_tonic` | Vitality Tonic + Velocity Tonic + Rejuvenation Tonic, or Vitality and Velocity Tonic + Rejuvenation Tonic, or Rejuvenation and Velocity Tonic + Vitality Tonic | Extreme Berserker |
 | Phantom Tonic | `phantom_tonic` | Invisibility Tonic + Velocity Tonic | Extreme Phantom |
+| Soaring Tonic | `soaring_tonic` | Velocity Tonic + Light Fall Tonic | Extreme Flight |
+| Valkyrie Tonic | `valkyrie_tonic` | Vitality Tonic + Midnight Tonic + Soaring Tonic, or Vitality Tonic + Midnight Tonic + Velocity Tonic + Light Fall Tonic | Potion of the Valkyrie |
 
 ## 🔧 Other Ingredients
 
@@ -338,6 +342,19 @@ A supreme combination potion requiring any full mining, speed, leaping or utilit
 |---|---|---|
 | Potion of Supreme Prosperity | Haste IV (10m), Luck IV (10m), Conduit Power (10m), Dolphin's Grace (10m), Saturation III (10m), Speed IV (10m), Jump Boost IV (10m), Regeneration III (2m) | IV / IV / I / I / III / IV / IV / III |
 
+### 🛡️ Stability
+Grants Knockback Resistance. Each level adds 10% resistance, so level I = 10%, level II = 20%, level III = 30%.
+
+| Potion | Duration | Level | Knockback Resistance |
+|---|---|---|---|
+| Potion of Stability | 3m | I | 10% |
+| Potion of Stability + | 8m | I | 10% |
+| Potion of Stability II | 1m 30s | II | 20% |
+| Full Potion of Stability | 3m | II | 20% |
+| Potion of Potent Stability | 1m 30s | III | 30% |
+| Potion of Extreme Stability | 4m 20s | III | 30% |
+| Potion of Everlasting Stability | 30m | I | 10% |
+
 ### 🔦 Spelunking
 Highlights all ores within a radius through walls. Radius scales with amplifier: Level I = 15 blocks, II = 30 blocks, III = 45 blocks, etc. Brewed from a Mining Potion rather than Awkward, requiring underground exploration to craft.
 
@@ -347,6 +364,25 @@ Highlights all ores within a radius through walls. Radius scales with amplifier:
 | Potion of Potent Spelunking | 10s | II | 30 blocks |
 | Potion of Extreme Spelunking | 1m 30s | III | 45 blocks |
 | Potion of Everlasting Spelunking | 30m | I | 15 blocks |
+
+### 🪶 Flight
+Grants creative-style flight. Speed scales with amplifier: level I = slow glide (0.02), level II = moderate (0.04), level III = fast (0.06). Duration is intentionally short to keep it balanced.
+
+| Potion | Duration | Level |
+|---|---|---|
+| Potion of Flight | 3s | I |
+| Potion of Flight + | 8s | I |
+| Potion of Flight II | 2s | II |
+| Full Potion of Flight | 3s | II |
+| Potion of Everlasting Flight | 40s | I |
+| Extreme Potion of Flight | 12s | III |
+
+### 🌟 Valkyrie: Flight + Speed + Jump Boost + Strength
+Supreme tier. No Everlasting variant.
+
+| Potion | Duration | Levels |
+|---|---|---|
+| Potion of the Valkyrie | 3m | Flight IV, Speed IV, Jump Boost IV, Strength II |
 
 ### 🐢 Turtle Master (Extended)
 
@@ -412,6 +448,9 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Berserker Tonic (alt) | Vitality and Velocity Tonic + Rejuvenation Tonic |
 | Berserker Tonic (alt) | Rejuvenation and Velocity Tonic + Vitality Tonic |
 | Phantom Tonic | Invisibility Tonic + Velocity Tonic |
+| Soaring Tonic | Velocity Tonic + Light Fall Tonic |
+| Valkyrie Tonic | Vitality Tonic + Midnight Tonic + Soaring Tonic |
+| Valkyrie Tonic (alt) | Vitality Tonic + Midnight Tonic + Velocity Tonic + Light Fall Tonic |
 
 ### Brewing Recipes (Brewing Stand)
 
@@ -660,6 +699,17 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Potion of Full Leaping | Prosperity Tonic + Tidal Tonic | Potion of Supreme Prosperity |
 | Full Potion of Regeneration | Prosperity Tonic + Tidal Tonic | Potion of Supreme Prosperity |
 
+#### Stability
+| Input | Ingredient | Output |
+|---|---|---|
+| Awkward Potion | Iron Ingot | Potion of Stability |
+| Potion of Stability | Redstone | Potion of Stability + |
+| Potion of Stability | Glowstone | Potion of Stability II |
+| Potion of Stability +/II | Glowstone / Redstone | Full Potion of Stability |
+| Full Potion of Stability | Dust of Bulwark | Potion of Potent Stability |
+| Full Potion of Stability | Bulwark Tonic | Potion of Extreme Stability |
+| Full Potion of Stability | Fertile Ingredient Mix | Potion of Everlasting Stability |
+
 #### Spelunking
 | Input | Ingredient | Output |
 |---|---|---|
@@ -667,6 +717,21 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Potion of Spelunking | Dust of Mining | Potion of Potent Spelunking |
 | Potion of Spelunking | Miner's Tonic | Potion of Extreme Spelunking |
 | Potion of Spelunking | Fertile Ingredient Mix | Potion of Everlasting Spelunking |
+
+#### Flight
+| Input | Ingredient | Output |
+|---|---|---|
+| Awkward Potion | Feather | Potion of Flight |
+| Potion of Flight | Redstone | Potion of Flight + |
+| Potion of Flight | Glowstone | Potion of Flight II |
+| Potion of Flight +/II | Glowstone / Redstone | Full Potion of Flight |
+| Full Potion of Flight | Fertile Ingredient Mix | Potion of Everlasting Flight |
+| Full Potion of Flight | Soaring Tonic | Extreme Potion of Flight |
+
+#### Valkyrie
+| Input | Ingredient | Output |
+|---|---|---|
+| Full Potion of Flight | Valkyrie Tonic | Potion of the Valkyrie |
 
 #### Turtle Master
 | Input | Ingredient | Output |
