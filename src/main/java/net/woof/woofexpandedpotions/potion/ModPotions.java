@@ -37,7 +37,7 @@ public class ModPotions {
 
     // Runescape inspired! =D
     // I was torn between making the overall potion set lower duration and higher damage, or add this
-    public static final Holder<Potion> TRUE_VENGEANCE_POTION = POTIONS.register("true_vengeance_potion", () -> new Potion(new MobEffectInstance(ModEffects.VENGEANCE, 100, 10)));
+    public static final Holder<Potion> TRUE_VENGEANCE_POTION = POTIONS.register("true_vengeance_potion", () -> new Potion(new MobEffectInstance(ModEffects.VENGEANCE, 120, 10)));
 
     public static final Holder<Potion> MINING_POTION = POTIONS.register("mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 0)));
     public static final Holder<Potion> LONG_MINING_POTION = POTIONS.register("long_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 9600, 0)));
