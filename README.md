@@ -48,9 +48,8 @@ Tonics are crafted from a Tonic Base combined with their matching dust. Added to
 | Tidal Tonic | `tidal_tonic` | Permanent Dolphin's Grace, Everlasting Neptune's Delight |
 | Withering Poison Tonic | `withering_poison_tonic` | Potent Decay |
 | Soaring Tonic | `soaring_tonic` | Extreme Flight |
+| Vitality and Torpidity Tonic | `vitality_torpidity_mix_tonic` | Bloodlust |
 | Valkyrie Tonic | `valkyrie_tonic` | Potion of the Valkyrie |
-| Overload Tonic | `overload_tonic` | Potion of Supreme Overload |
-| Prosperity Tonic | `prosperity_tonic` | Potion of Supreme Prosperity |
 | Overload Tonic | `overload_tonic` | Potion of Supreme Overload |
 | Prosperity Tonic | `prosperity_tonic` | Potion of Supreme Prosperity |
 
@@ -68,6 +67,7 @@ Combo tonics are crafted by combining two or three tonics together. They are use
 | Berserker Tonic | `berserker_tonic` | Vitality Tonic + Velocity Tonic + Rejuvenation Tonic, or Vitality and Velocity Tonic + Rejuvenation Tonic, or Rejuvenation and Velocity Tonic + Vitality Tonic | Extreme Berserker |
 | Phantom Tonic | `phantom_tonic` | Invisibility Tonic + Velocity Tonic | Extreme Phantom |
 | Soaring Tonic | `soaring_tonic` | Velocity Tonic + Light Fall Tonic | Extreme Flight |
+| Vitality and Torpidity Tonic | `vitality_torpidity_mix_tonic` | Vitality Tonic + Torpidity Tonic | Bloodlust |
 | Valkyrie Tonic | `valkyrie_tonic` | Vitality Tonic + Midnight Tonic + Soaring Tonic, or Vitality Tonic + Midnight Tonic + Velocity Tonic + Light Fall Tonic | Potion of the Valkyrie |
 
 ## 🔧 Other Ingredients
@@ -383,6 +383,42 @@ Supreme tier. No Everlasting variant.
 | Potion | Duration | Levels |
 |---|---|---|
 | Potion of the Valkyrie | 3m | Flight IV, Speed IV, Jump Boost IV, Strength II |
+
+### 👁️ Awareness
+Applies Glowing to all nearby mobs. Each level increases the radius by 10 blocks. Mobs lose the glow within 3 seconds of leaving the radius.
+
+| Potion | Duration | Level | Radius |
+|---|---|---|---|
+| Potion of Awareness | 3m | I | 10 blocks |
+| Potion of Awareness + | 8m | I | 10 blocks |
+| Potion of Awareness II | 1m 30s | II | 20 blocks |
+| Full Potion of Awareness | 3m | II | 20 blocks |
+| Potion of Potent Awareness | 1m 30s | III | 30 blocks |
+| Potion of Extreme Awareness | 4m 20s | III | 30 blocks |
+| Potion of Everlasting Awareness | 30m | I | 10 blocks |
+
+### ⚔️ Vengeance
+Deals Thorns-type damage back to any attacker. Each level deals 1 extra heart of damage (level I = 1 heart, level II = 2 hearts, level III = 3 hearts). Armour and Resistance reduce the reflected damage exactly as they do with vanilla Thorns.
+
+| Potion | Duration | Level | Damage |
+|---|----------|---|---|
+| Potion of Vengeance | 3m       | I | 1 heart |
+| Potion of Vengeance + | 8m       | I | 1 heart |
+| Potion of Vengeance II | 1m 30s   | II | 2 hearts |
+| Full Potion of Vengeance | 3m       | II | 2 hearts |
+| Potion of Potent Vengeance | 1m 30s   | III | 3 hearts |
+| Potion of Extreme Vengeance | 4m 20s   | III | 3 hearts |
+| Potion of Everlasting Vengeance | 30m      | I | 1 heart |
+| Potion of True Vengeance | 6s       | XI | 11 hearts |
+
+The Potion of True Vengeance also broadcasts a chat message as the player when consumed — a nod to Runescape's Vengeance spell.
+
+### ⚔️☠️ Bloodlust: Strength + Hunger
+High strength at the cost of hunger. No Everlasting variant.
+
+| Potion | Duration | Levels |
+|---|---|---|
+| Potion of Bloodlust | Strength V (3m), Hunger II (5m) | V / II |
 
 ### 🐢 Turtle Master (Extended)
 
@@ -732,6 +768,35 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 | Input | Ingredient | Output |
 |---|---|---|
 | Full Potion of Flight | Valkyrie Tonic | Potion of the Valkyrie |
+
+#### Awareness
+| Input | Ingredient | Output |
+|---|---|---|
+| Awkward Potion | Eye of Ender | Potion of Awareness |
+| Potion of Awareness | Redstone | Potion of Awareness + |
+| Potion of Awareness | Glowstone | Potion of Awareness II |
+| Potion of Awareness +/II | Glowstone / Redstone | Full Potion of Awareness |
+| Full Potion of Awareness | Dust of Midnight | Potion of Potent Awareness |
+| Full Potion of Awareness | Midnight Tonic | Potion of Extreme Awareness |
+| Full Potion of Awareness | Fertile Ingredient Mix | Potion of Everlasting Awareness |
+
+#### Vengeance
+| Input | Ingredient | Output |
+|---|---|---|
+| Awkward Potion | Arrow | Potion of Vengeance |
+| Potion of Vengeance | Redstone | Potion of Vengeance + |
+| Potion of Vengeance | Glowstone | Potion of Vengeance II |
+| Potion of Vengeance +/II | Glowstone / Redstone | Full Potion of Vengeance |
+| Full Potion of Vengeance | Dust of Vitality | Potion of Potent Vengeance |
+| Full Potion of Vengeance | Vitality Tonic | Potion of Extreme Vengeance |
+| Full Potion of Vengeance | Fertile Ingredient Mix | Potion of Everlasting Vengeance |
+| Full Potion of Vengeance | Encrusted Carrot | Potion of True Vengeance |
+
+#### Bloodlust
+| Input | Ingredient | Output |
+|---|---|---|
+| Full Potion of Strength | Vitality and Torpidity Tonic | Potion of Bloodlust |
+| Long Weakness | Vitality and Torpidity Tonic | Potion of Bloodlust |
 
 #### Turtle Master
 | Input | Ingredient | Output |
