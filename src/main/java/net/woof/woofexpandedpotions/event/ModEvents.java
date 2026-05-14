@@ -60,6 +60,8 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.VITALITY_TONIC.get(), ModPotions.EXTREME_VENGEANCE_POTION);
         builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_VENGEANCE_POTION);
 
+        builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.ENCRUSTED_CARROT.get(), ModPotions.TRUE_VENGEANCE_POTION);
+
         // Normals
         builder.addMix(Potions.LONG_STRENGTH, Items.GLOWSTONE_DUST, ModPotions.FULL_STRENGTH_POTION);
         builder.addMix(Potions.STRONG_STRENGTH, Items.REDSTONE, ModPotions.FULL_STRENGTH_POTION);

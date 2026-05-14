@@ -683,6 +683,11 @@
   "item.minecraft.lingering_potion.effect.bloodlust_potion": "Lingering Potion of Bloodlust",
   "item.minecraft.tipped_arrow.effect.bloodlust_potion": "Arrow of Bloodlust",
 
+  "item.minecraft.potion.effect.true_vengeance_potion": "Potion of True Vengeance",
+  "item.minecraft.splash_potion.effect.true_vengeance_potion": "Splash Potion of True Vengeance",
+  "item.minecraft.lingering_potion.effect.true_vengeance_potion": "Lingering Potion of True Vengeance",
+  "item.minecraft.tipped_arrow.effect.true_vengeance_potion": "Arrow of True Vengeance",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",
