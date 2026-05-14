@@ -400,16 +400,16 @@ Applies Glowing to all nearby mobs. Each level increases the radius by 10 blocks
 ### ⚔️ Vengeance
 Deals Thorns-type damage back to any attacker. Each level deals 1 extra heart of damage (level I = 1 heart, level II = 2 hearts, level III = 3 hearts). Armour and Resistance reduce the reflected damage exactly as they do with vanilla Thorns.
 
-| Potion | Duration | Level | Damage |
-|---|----------|---|---|
-| Potion of Vengeance | 3m       | I | 1 heart |
-| Potion of Vengeance + | 8m       | I | 1 heart |
-| Potion of Vengeance II | 1m 30s   | II | 2 hearts |
-| Full Potion of Vengeance | 3m       | II | 2 hearts |
-| Potion of Potent Vengeance | 1m 30s   | III | 3 hearts |
-| Potion of Extreme Vengeance | 4m 20s   | III | 3 hearts |
-| Potion of Everlasting Vengeance | 30m      | I | 1 heart |
-| Potion of True Vengeance | 6s       | XI | 11 hearts |
+| Potion | Duration | Level | Damage    |
+|---|----------|---|-----------|
+| Potion of Vengeance | 3m       | I | 1 heart   |
+| Potion of Vengeance + | 8m       | I | 1 heart   |
+| Potion of Vengeance II | 1m 30s   | II | 2 hearts  |
+| Full Potion of Vengeance | 3m       | II | 2 hearts  |
+| Potion of Potent Vengeance | 1m 30s   | III | 3 hearts  |
+| Potion of Extreme Vengeance | 4m 20s   | III | 3 hearts  |
+| Potion of Everlasting Vengeance | 30m      | I | 1 heart   |
+| Potion of True Vengeance | 6s       | X | 10 hearts |
 
 The Potion of True Vengeance also broadcasts a chat message as the player when consumed — a nod to Runescape's Vengeance spell.
 
