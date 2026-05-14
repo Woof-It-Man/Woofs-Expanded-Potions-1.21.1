@@ -17,6 +17,10 @@ public class ModEffects {
 
     public static final Holder<MobEffect> FLIGHT = MOB_EFFECTS.register("flight", FlightEffect::new);
 
+    public static final Holder<MobEffect> AWARENESS = MOB_EFFECTS.register("awareness", AwarenessEffect::new);
+
+    public static final Holder<MobEffect> VENGEANCE = MOB_EFFECTS.register("vengeance", VengeanceEffect::new);
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }

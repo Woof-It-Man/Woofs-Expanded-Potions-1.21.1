@@ -42,6 +42,24 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_FLIGHT_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_FLIGHT_POTION);
         builder.addMix(ModPotions.FULL_FLIGHT_POTION, ModItems.SOARING_TONIC.get(), ModPotions.EXTREME_FLIGHT_POTION);
 
+        builder.addMix(Potions.AWKWARD, Items.ENDER_EYE, ModPotions.AWARENESS_POTION);
+        builder.addMix(ModPotions.AWARENESS_POTION, Items.REDSTONE, ModPotions.LONG_AWARENESS_POTION);
+        builder.addMix(ModPotions.AWARENESS_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_AWARENESS_POTION);
+        builder.addMix(ModPotions.LONG_AWARENESS_POTION, Items.GLOWSTONE_DUST, ModPotions.FULL_AWARENESS_POTION);
+        builder.addMix(ModPotions.STRONG_AWARENESS_POTION, Items.REDSTONE, ModPotions.FULL_AWARENESS_POTION);
+        builder.addMix(ModPotions.FULL_AWARENESS_POTION, ModItems.MIDNIGHT_POWDER.get(), ModPotions.POTENT_AWARENESS_POTION);
+        builder.addMix(ModPotions.FULL_AWARENESS_POTION, ModItems.MIDNIGHT_TONIC.get(), ModPotions.EXTREME_AWARENESS_POTION);
+        builder.addMix(ModPotions.FULL_AWARENESS_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_AWARENESS_POTION);
+
+        builder.addMix(Potions.AWKWARD, Items.ARROW, ModPotions.VENGEANCE_POTION);
+        builder.addMix(ModPotions.VENGEANCE_POTION, Items.REDSTONE, ModPotions.LONG_VENGEANCE_POTION);
+        builder.addMix(ModPotions.VENGEANCE_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_VENGEANCE_POTION);
+        builder.addMix(ModPotions.LONG_VENGEANCE_POTION, Items.GLOWSTONE_DUST, ModPotions.FULL_VENGEANCE_POTION);
+        builder.addMix(ModPotions.STRONG_VENGEANCE_POTION, Items.REDSTONE, ModPotions.FULL_VENGEANCE_POTION);
+        builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.VITALITY_POWDER.get(), ModPotions.POTENT_VENGEANCE_POTION);
+        builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.VITALITY_TONIC.get(), ModPotions.EXTREME_VENGEANCE_POTION);
+        builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_VENGEANCE_POTION);
+
         // Normals
         builder.addMix(Potions.LONG_STRENGTH, Items.GLOWSTONE_DUST, ModPotions.FULL_STRENGTH_POTION);
         builder.addMix(Potions.STRONG_STRENGTH, Items.REDSTONE, ModPotions.FULL_STRENGTH_POTION);
@@ -196,6 +214,9 @@ public class ModEvents {
         builder.addMix(ModPotions.EXTREME_SWIFTNESS_POTION, ModItems.INVISIBILITY_TONIC.get(), ModPotions.EXTREME_PHANTOM_POTION);
         builder.addMix(ModPotions.PHANTOM_POTION, ModItems.PHANTOM_TONIC.get(), ModPotions.EXTREME_PHANTOM_POTION);
         builder.addMix(ModPotions.PHANTOM_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_PHANTOM_POTION);
+
+        builder.addMix(ModPotions.FULL_STRENGTH_POTION, ModItems.VITALITY_TORPIDITY_MIX_TONIC.get(), ModPotions.BLOODLUST_POTION);
+        builder.addMix(Potions.LONG_WEAKNESS, ModItems.VITALITY_TORPIDITY_MIX_TONIC.get(), ModPotions.BLOODLUST_POTION);
 
         //Supremes
         builder.addMix(ModPotions.FULL_STRENGTH_POTION, ModItems.OVERLOAD_TONIC.get(), ModPotions.SUPREME_OVERLOAD_POTION);

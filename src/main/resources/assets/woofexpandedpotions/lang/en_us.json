@@ -606,6 +606,83 @@
   "item.minecraft.lingering_potion.effect.valkyrie_potion": "Lingering Potion of the Valkyrie",
   "item.minecraft.tipped_arrow.effect.valkyrie_potion": "Arrow of the Valkyrie",
 
+  "effect.woofexpandedpotions.awareness": "Awareness",
+  "effect.woofexpandedpotions.vengeance": "Vengeance",
+
+  "item.woofexpandedpotions.vitality_torpidity_mix_tonic": "Vitality and Torpidity Tonic",
+
+  "item.minecraft.potion.effect.awareness_potion": "Potion of Awareness",
+  "item.minecraft.splash_potion.effect.awareness_potion": "Splash Potion of Awareness",
+  "item.minecraft.lingering_potion.effect.awareness_potion": "Lingering Potion of Awareness",
+  "item.minecraft.tipped_arrow.effect.awareness_potion": "Arrow of Awareness",
+  "item.minecraft.potion.effect.long_awareness_potion": "Potion of Awareness +",
+  "item.minecraft.splash_potion.effect.long_awareness_potion": "Splash Potion of Awareness +",
+
+  "item.minecraft.lingering_potion.effect.long_awareness_potion": "Lingering Potion of Awareness +",
+  "item.minecraft.tipped_arrow.effect.long_awareness_potion": "Arrow of Awareness +",
+  "item.minecraft.potion.effect.strong_awareness_potion": "Potion of Awareness II",
+  "item.minecraft.splash_potion.effect.strong_awareness_potion": "Splash Potion of Awareness II",
+  "item.minecraft.lingering_potion.effect.strong_awareness_potion": "Lingering Potion of Awareness II",
+  "item.minecraft.tipped_arrow.effect.strong_awareness_potion": "Arrow of Awareness II",
+
+  "item.minecraft.potion.effect.full_awareness_potion": "Full Potion of Awareness",
+  "item.minecraft.splash_potion.effect.full_awareness_potion": "Full Splash Potion of Awareness",
+  "item.minecraft.lingering_potion.effect.full_awareness_potion": "Full Lingering Potion of Awareness",
+  "item.minecraft.tipped_arrow.effect.full_awareness_potion": "Arrow of Full Awareness",
+
+  "item.minecraft.potion.effect.potent_awareness_potion": "Potion of Potent Awareness",
+  "item.minecraft.splash_potion.effect.potent_awareness_potion": "Splash Potion of Potent Awareness",
+  "item.minecraft.lingering_potion.effect.potent_awareness_potion": "Lingering Potion of Potent Awareness",
+  "item.minecraft.tipped_arrow.effect.potent_awareness_potion": "Arrow of Potent Awareness",
+
+  "item.minecraft.potion.effect.extreme_awareness_potion": "Potion of Extreme Awareness",
+  "item.minecraft.splash_potion.effect.extreme_awareness_potion": "Splash Potion of Extreme Awareness",
+  "item.minecraft.lingering_potion.effect.extreme_awareness_potion": "Lingering Potion of Extreme Awareness",
+  "item.minecraft.tipped_arrow.effect.extreme_awareness_potion": "Arrow of Extreme Awareness",
+
+  "item.minecraft.potion.effect.everlasting_awareness_potion": "Potion of Everlasting Awareness",
+  "item.minecraft.splash_potion.effect.everlasting_awareness_potion": "Splash Potion of Everlasting Awareness",
+  "item.minecraft.lingering_potion.effect.everlasting_awareness_potion": "Lingering Potion of Everlasting Awareness",
+  "item.minecraft.tipped_arrow.effect.everlasting_awareness_potion": "Arrow of Everlasting Awareness",
+
+  "item.minecraft.potion.effect.vengeance_potion": "Potion of Vengeance",
+  "item.minecraft.splash_potion.effect.vengeance_potion": "Splash Potion of Vengeance",
+  "item.minecraft.lingering_potion.effect.vengeance_potion": "Lingering Potion of Vengeance",
+  "item.minecraft.tipped_arrow.effect.vengeance_potion": "Arrow of Vengeance",
+  "item.minecraft.potion.effect.long_vengeance_potion": "Potion of Vengeance +",
+  "item.minecraft.splash_potion.effect.long_vengeance_potion": "Splash Potion of Vengeance +",
+  "item.minecraft.lingering_potion.effect.long_vengeance_potion": "Lingering Potion of Vengeance +",
+  "item.minecraft.tipped_arrow.effect.long_vengeance_potion": "Arrow of Vengeance +",
+  "item.minecraft.potion.effect.strong_vengeance_potion": "Potion of Vengeance II",
+  "item.minecraft.splash_potion.effect.strong_vengeance_potion": "Splash Potion of Vengeance II",
+  "item.minecraft.lingering_potion.effect.strong_vengeance_potion": "Lingering Potion of Vengeance II",
+  "item.minecraft.tipped_arrow.effect.strong_vengeance_potion": "Arrow of Vengeance II",
+
+  "item.minecraft.potion.effect.full_vengeance_potion": "Full Potion of Vengeance",
+  "item.minecraft.splash_potion.effect.full_vengeance_potion": "Full Splash Potion of Vengeance",
+  "item.minecraft.lingering_potion.effect.full_vengeance_potion": "Full Lingering Potion of Vengeance",
+  "item.minecraft.tipped_arrow.effect.full_vengeance_potion": "Arrow of Full Vengeance",
+
+  "item.minecraft.potion.effect.potent_vengeance_potion": "Potion of Potent Vengeance",
+  "item.minecraft.splash_potion.effect.potent_vengeance_potion": "Splash Potion of Potent Vengeance",
+  "item.minecraft.lingering_potion.effect.potent_vengeance_potion": "Lingering Potion of Potent Vengeance",
+  "item.minecraft.tipped_arrow.effect.potent_vengeance_potion": "Arrow of Potent Vengeance",
+
+  "item.minecraft.potion.effect.extreme_vengeance_potion": "Potion of Extreme Vengeance",
+  "item.minecraft.splash_potion.effect.extreme_vengeance_potion": "Splash Potion of Extreme Vengeance",
+  "item.minecraft.lingering_potion.effect.extreme_vengeance_potion": "Lingering Potion of Extreme Vengeance",
+  "item.minecraft.tipped_arrow.effect.extreme_vengeance_potion": "Arrow of Extreme Vengeance",
+
+  "item.minecraft.potion.effect.everlasting_vengeance_potion": "Potion of Everlasting Vengeance",
+  "item.minecraft.splash_potion.effect.everlasting_vengeance_potion": "Splash Potion of Everlasting Vengeance",
+  "item.minecraft.lingering_potion.effect.everlasting_vengeance_potion": "Lingering Potion of Everlasting Vengeance",
+  "item.minecraft.tipped_arrow.effect.everlasting_vengeance_potion": "Arrow of Everlasting Vengeance",
+
+  "item.minecraft.potion.effect.bloodlust_potion": "Potion of Bloodlust",
+  "item.minecraft.splash_potion.effect.bloodlust_potion": "Splash Potion of Bloodlust",
+  "item.minecraft.lingering_potion.effect.bloodlust_potion": "Lingering Potion of Bloodlust",
+  "item.minecraft.tipped_arrow.effect.bloodlust_potion": "Arrow of Bloodlust",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",
