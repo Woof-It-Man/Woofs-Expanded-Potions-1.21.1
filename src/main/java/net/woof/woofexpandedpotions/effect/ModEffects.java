@@ -21,6 +21,8 @@ public class ModEffects {
 
     public static final Holder<MobEffect> VENGEANCE = MOB_EFFECTS.register("vengeance", VengeanceEffect::new);
 
+    public static final Holder<MobEffect> BRITTLE = MOB_EFFECTS.register("brittle", BrittleEffect::new);
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }

@@ -688,6 +688,43 @@
   "item.minecraft.lingering_potion.effect.true_vengeance_potion": "Lingering Potion of True Vengeance",
   "item.minecraft.tipped_arrow.effect.true_vengeance_potion": "Arrow of True Vengeance",
 
+  "effect.woofexpandedpotions.brittle": "Brittle",
+
+  "item.minecraft.potion.effect.brittle_potion": "Potion of Brittle",
+  "item.minecraft.splash_potion.effect.brittle_potion": "Splash Potion of Brittle",
+  "item.minecraft.lingering_potion.effect.brittle_potion": "Lingering Potion of Brittle",
+  "item.minecraft.tipped_arrow.effect.brittle_potion": "Arrow of Brittle",
+
+  "item.minecraft.potion.effect.long_brittle_potion": "Potion of Brittle +",
+  "item.minecraft.splash_potion.effect.long_brittle_potion": "Splash Potion of Brittle +",
+  "item.minecraft.lingering_potion.effect.long_brittle_potion": "Lingering Potion of Brittle +",
+  "item.minecraft.tipped_arrow.effect.long_brittle_potion": "Arrow of Brittle +",
+
+  "item.minecraft.potion.effect.strong_brittle_potion": "Potion of Brittle II",
+  "item.minecraft.splash_potion.effect.strong_brittle_potion": "Splash Potion of Brittle II",
+  "item.minecraft.lingering_potion.effect.strong_brittle_potion": "Lingering Potion of Brittle II",
+  "item.minecraft.tipped_arrow.effect.strong_brittle_potion": "Arrow of Brittle II",
+
+  "item.minecraft.potion.effect.full_brittle_potion": "Full Potion of Brittle",
+  "item.minecraft.splash_potion.effect.full_brittle_potion": "Full Splash Potion of Brittle",
+  "item.minecraft.lingering_potion.effect.full_brittle_potion": "Full Lingering Potion of Brittle",
+  "item.minecraft.tipped_arrow.effect.full_brittle_potion": "Arrow of Full Brittle",
+
+  "item.minecraft.potion.effect.potent_brittle_potion": "Potion of Potent Brittle",
+  "item.minecraft.splash_potion.effect.potent_brittle_potion": "Splash Potion of Potent Brittle",
+  "item.minecraft.lingering_potion.effect.potent_brittle_potion": "Lingering Potion of Potent Brittle",
+  "item.minecraft.tipped_arrow.effect.potent_brittle_potion": "Arrow of Potent Brittle",
+
+  "item.minecraft.potion.effect.extreme_brittle_potion": "Potion of Extreme Brittle",
+  "item.minecraft.splash_potion.effect.extreme_brittle_potion": "Splash Potion of Extreme Brittle",
+  "item.minecraft.lingering_potion.effect.extreme_brittle_potion": "Lingering Potion of Extreme Brittle",
+  "item.minecraft.tipped_arrow.effect.extreme_brittle_potion": "Arrow of Extreme Brittle",
+
+  "item.minecraft.potion.effect.everlasting_brittle_potion": "Potion of Everlasting Brittle",
+  "item.minecraft.splash_potion.effect.everlasting_brittle_potion": "Splash Potion of Everlasting Brittle",
+  "item.minecraft.lingering_potion.effect.everlasting_brittle_potion": "Lingering Potion of Everlasting Brittle",
+  "item.minecraft.tipped_arrow.effect.everlasting_brittle_potion": "Arrow of Everlasting Brittle",
+
   "potion.potency.6": "VI",
   "potion.potency.7": "VII",
   "potion.potency.8": "VIII",

@@ -6,6 +6,7 @@ import net.minecraft.world.item.alchemy.PotionBrewing;
 import net.minecraft.world.item.alchemy.Potions;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
 import net.woof.woofexpandedpotions.WoofExpandedPotions;
 import net.woof.woofexpandedpotions.item.ModItems;
@@ -61,6 +62,15 @@ public class ModEvents {
         builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_VENGEANCE_POTION);
 
         builder.addMix(ModPotions.FULL_VENGEANCE_POTION, ModItems.ENCRUSTED_CARROT.get(), ModPotions.TRUE_VENGEANCE_POTION);
+
+        builder.addMix(Potions.AWKWARD, Items.GLASS, ModPotions.BRITTLE_POTION);
+        builder.addMix(ModPotions.BRITTLE_POTION, Items.REDSTONE, ModPotions.LONG_BRITTLE_POTION);
+        builder.addMix(ModPotions.BRITTLE_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_BRITTLE_POTION);
+        builder.addMix(ModPotions.LONG_BRITTLE_POTION, Items.GLOWSTONE_DUST, ModPotions.FULL_BRITTLE_POTION);
+        builder.addMix(ModPotions.STRONG_BRITTLE_POTION, Items.REDSTONE, ModPotions.FULL_BRITTLE_POTION);
+        builder.addMix(ModPotions.FULL_BRITTLE_POTION, ModItems.CORRUPTED_POWDER.get(), ModPotions.POTENT_BRITTLE_POTION);
+        builder.addMix(ModPotions.FULL_BRITTLE_POTION, ModItems.TORPIDITY_TONIC.get(), ModPotions.EXTREME_BRITTLE_POTION);
+        builder.addMix(ModPotions.FULL_BRITTLE_POTION, ModItems.DURATION_MIX.get(), ModPotions.EVERLASTING_BRITTLE_POTION);
 
         // Normals
         builder.addMix(Potions.LONG_STRENGTH, Items.GLOWSTONE_DUST, ModPotions.FULL_STRENGTH_POTION);

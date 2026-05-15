@@ -34,10 +34,17 @@ public class ModPotions {
     public static final Holder<Potion> POTENT_VENGEANCE_POTION = POTIONS.register("potent_vengeance_potion", () -> new Potion(new MobEffectInstance(ModEffects.VENGEANCE, 1800, 2)));
     public static final Holder<Potion> EXTREME_VENGEANCE_POTION = POTIONS.register("extreme_vengeance_potion", () -> new Potion(new MobEffectInstance(ModEffects.VENGEANCE, 5200, 2)));
     public static final Holder<Potion> EVERLASTING_VENGEANCE_POTION = POTIONS.register("everlasting_vengeance_potion", () -> new Potion(new MobEffectInstance(ModEffects.VENGEANCE, 36000, 0)));
-
     // Runescape inspired! =D
     // I was torn between making the overall potion set lower duration and higher damage, or add this
     public static final Holder<Potion> TRUE_VENGEANCE_POTION = POTIONS.register("true_vengeance_potion", () -> new Potion(new MobEffectInstance(ModEffects.VENGEANCE, 120, 10)));
+
+    public static final Holder<Potion> BRITTLE_POTION = POTIONS.register("brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 3600, 0)));
+    public static final Holder<Potion> LONG_BRITTLE_POTION = POTIONS.register("long_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 9600, 0)));
+    public static final Holder<Potion> STRONG_BRITTLE_POTION = POTIONS.register("strong_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 1800, 1)));
+    public static final Holder<Potion> FULL_BRITTLE_POTION = POTIONS.register("full_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 3600, 1)));
+    public static final Holder<Potion> POTENT_BRITTLE_POTION = POTIONS.register("potent_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 1800, 2)));
+    public static final Holder<Potion> EXTREME_BRITTLE_POTION = POTIONS.register("extreme_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 5200, 2)));
+    public static final Holder<Potion> EVERLASTING_BRITTLE_POTION = POTIONS.register("everlasting_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 36000, 0)));
 
     public static final Holder<Potion> MINING_POTION = POTIONS.register("mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 0)));
     public static final Holder<Potion> LONG_MINING_POTION = POTIONS.register("long_mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 9600, 0)));
