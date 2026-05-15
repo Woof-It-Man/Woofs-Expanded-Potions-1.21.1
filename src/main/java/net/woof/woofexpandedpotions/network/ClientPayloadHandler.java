@@ -4,6 +4,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
+import net.woof.woofexpandedpotions.Config;
 import net.woof.woofexpandedpotions.effect.ModEffects;
 
 import java.util.Collections;
@@ -11,10 +12,6 @@ import java.util.Comparator;
 import java.util.List;
 
 public class ClientPayloadHandler {
-
-    // Limiting the rendered ore number for performance reasons
-    // Will be the closest, so shouldn't affect game balance itself
-    private static final int MAX_RENDERED_ORES = 1000;
 
     // Volatile so the renderer thread always sees the latest value
     public static volatile List<BlockPos> orePositions = Collections.emptyList();
@@ -26,7 +23,7 @@ public class ClientPayloadHandler {
                 BlockPos playerPos = player.blockPosition();
                 List<BlockPos> sorted = payload.positions().stream()
                         .sorted(Comparator.comparingDouble(pos -> pos.distSqr(playerPos)))
-                        .limit(MAX_RENDERED_ORES)
+                        .limit(Config.SPELUNKING_MAX_ORES.get())
                         .toList();
                 orePositions = sorted;
             } else {
