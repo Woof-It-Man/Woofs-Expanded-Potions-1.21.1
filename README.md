@@ -25,7 +25,7 @@ Dusts are crafted at a crafting table and added to a Full-tier potion in the bre
 | Dust of Invisibility | `invisibility_powder` | Long Lasting Invisibility |
 | Dust of Featherfall | `light_fall_powder` | Long Lasting Slow Falling |
 | Dust of Breathing | `breathing_powder` | Long Lasting Water Breathing, Neptune's Delight |
-| Dust of Corruption | `corrupted_powder` | Potent Slowness, Potent Poison, Potent Harming, Potent Wither, Long Lasting Weakness |
+| Dust of Corruption | `corrupted_powder` | Potent Slowness, Potent Poison, Potent Harming, Potent Wither, Long Lasting Weakness, Potent Brittle |
 | Dust of the Deep | `deep_powder` | Dolphin's Grace, Neptune's Delight |
 
 ## 🧪 Tonics
@@ -400,16 +400,16 @@ Applies Glowing to all nearby mobs. Each level increases the radius by 10 blocks
 ### ⚔️ Vengeance
 Deals Thorns-type damage back to any attacker. Each level deals 1 extra heart of damage (level I = 1 heart, level II = 2 hearts, level III = 3 hearts). Armour and Resistance reduce the reflected damage exactly as they do with vanilla Thorns.
 
-| Potion | Duration | Level | Damage    |
-|---|----------|---|-----------|
-| Potion of Vengeance | 3m       | I | 1 heart   |
-| Potion of Vengeance + | 8m       | I | 1 heart   |
-| Potion of Vengeance II | 1m 30s   | II | 2 hearts  |
-| Full Potion of Vengeance | 3m       | II | 2 hearts  |
-| Potion of Potent Vengeance | 1m 30s   | III | 3 hearts  |
-| Potion of Extreme Vengeance | 4m 20s   | III | 3 hearts  |
-| Potion of Everlasting Vengeance | 30m      | I | 1 heart   |
-| Potion of True Vengeance | 6s       | X | 10 hearts |
+| Potion | Duration | Level | Damage |
+|---|---|---|---|
+| Potion of Vengeance | 3m | I | 1 heart |
+| Potion of Vengeance + | 8m | I | 1 heart |
+| Potion of Vengeance II | 1m 30s | II | 2 hearts |
+| Full Potion of Vengeance | 3m | II | 2 hearts |
+| Potion of Potent Vengeance | 1m 30s | III | 3 hearts |
+| Potion of Extreme Vengeance | 4m 20s | III | 3 hearts |
+| Potion of Everlasting Vengeance | 30m | I | 1 heart |
+| Potion of True Vengeance | 5s | XI | 11 hearts |
 
 The Potion of True Vengeance also broadcasts a chat message as the player when consumed — a nod to Runescape's Vengeance spell.
 
@@ -419,6 +419,19 @@ High strength at the cost of hunger. No Everlasting variant.
 | Potion | Duration | Levels |
 |---|---|---|
 | Potion of Bloodlust | Strength V (3m), Hunger II (5m) | V / II |
+
+### 🔮 Brittle
+Makes the afflicted entity take more damage from all sources. Works on both players and mobs. Each level adds 10% more incoming damage, applied before armour and resistance calculations.
+
+| Potion | Duration | Level | Damage Increase |
+|---|---|---|---|
+| Potion of Brittle | 3m | I | 10% |
+| Potion of Brittle + | 8m | I | 10% |
+| Potion of Brittle II | 1m 30s | II | 20% |
+| Full Potion of Brittle | 3m | II | 20% |
+| Potion of Potent Brittle | 1m 30s | III | 30% |
+| Potion of Extreme Brittle | 4m 20s | III | 30% |
+| Potion of Everlasting Brittle | 30m | I | 10% |
 
 ### 🐢 Turtle Master (Extended)
 
@@ -797,6 +810,17 @@ All standard tonics are crafted the same way: Tonic Base + matching Dust.
 |---|---|---|
 | Full Potion of Strength | Vitality and Torpidity Tonic | Potion of Bloodlust |
 | Long Weakness | Vitality and Torpidity Tonic | Potion of Bloodlust |
+
+#### Brittle
+| Input | Ingredient | Output |
+|---|---|---|
+| Awkward Potion | Glass | Potion of Brittle |
+| Potion of Brittle | Redstone | Potion of Brittle + |
+| Potion of Brittle | Glowstone | Potion of Brittle II |
+| Potion of Brittle +/II | Glowstone / Redstone | Full Potion of Brittle |
+| Full Potion of Brittle | Dust of Corruption | Potion of Potent Brittle |
+| Full Potion of Brittle | Torpidity Tonic | Potion of Extreme Brittle |
+| Full Potion of Brittle | Fertile Ingredient Mix | Potion of Everlasting Brittle |
 
 #### Turtle Master
 | Input | Ingredient | Output |
