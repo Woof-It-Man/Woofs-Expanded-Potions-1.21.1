@@ -42,8 +42,8 @@ public class ModPotions {
     public static final Holder<Potion> LONG_BRITTLE_POTION = POTIONS.register("long_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 9600, 0)));
     public static final Holder<Potion> STRONG_BRITTLE_POTION = POTIONS.register("strong_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 1800, 1)));
     public static final Holder<Potion> FULL_BRITTLE_POTION = POTIONS.register("full_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 3600, 1)));
-    public static final Holder<Potion> POTENT_BRITTLE_POTION = POTIONS.register("potent_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 1800, 4)));
-    public static final Holder<Potion> EXTREME_BRITTLE_POTION = POTIONS.register("extreme_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 5200, 4)));
+    public static final Holder<Potion> POTENT_BRITTLE_POTION = POTIONS.register("potent_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 1800, 3)));
+    public static final Holder<Potion> EXTREME_BRITTLE_POTION = POTIONS.register("extreme_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 5200, 3)));
     public static final Holder<Potion> EVERLASTING_BRITTLE_POTION = POTIONS.register("everlasting_brittle_potion", () -> new Potion(new MobEffectInstance(ModEffects.BRITTLE, 36000, 0)));
 
     public static final Holder<Potion> MINING_POTION = POTIONS.register("mining_potion", () -> new Potion(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 0)));
